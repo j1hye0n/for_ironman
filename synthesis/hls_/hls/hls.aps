@@ -1,0 +1,12 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="hls"/>
+    </name>
+    <project>
+        <value string="hls_"/>
+    </project>
+    <flowTarget value="vivado"/>
+    <writeConfigIni value="1"/>
+    <isComponent value="1"/>
+</AutoPilot:solution>
+

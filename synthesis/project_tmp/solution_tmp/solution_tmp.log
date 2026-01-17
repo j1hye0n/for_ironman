@@ -1,0 +1,115 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n2_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n3_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n12_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n12_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n13_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n13_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_s3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_s4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n14_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n15_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n16_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n16_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n17_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n17_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s7_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m29 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m33 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m34 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m36 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m37 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m38 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m40 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m41 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m43 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m44 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m48 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m50 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m52 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m54 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m55 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m56 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m57 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m58 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m59 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m60 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m62 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m65 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m66 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m67 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m68 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m70 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m72 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m73 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m74 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m76 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m80 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m83 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m86 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m91 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m93 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m94 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m97 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m99 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m100 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m101 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m102 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m103 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m104 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m105 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m106 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m107 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m109 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m112 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m113 

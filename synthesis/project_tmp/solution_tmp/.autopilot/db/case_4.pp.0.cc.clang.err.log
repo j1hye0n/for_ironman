@@ -1,0 +1,481 @@
+/home/jjh/RL_test/for_ironman/synthesis/script_tmp.tcl:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=name=case_4_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=case_4
+        ^
+case_4.cc:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=variable=in_data complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=in_data complete dim=1
+        ^
+case_4.cc:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=variable=out_data complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=out_data complete
+        ^
+case_4.cc:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=ap_none port=in_data_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=in_data
+        ^
+case_4.cc:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=ap_none port=in_scalar_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=in_scalar
+        ^
+case_4.cc:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=ap_none port=out_data_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=out_data
+        ^
+case_4.cc:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=ap_ctrl_hs port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_hs port=return
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:54:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m29_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m29
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:55:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m33_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m33
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:56:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m34_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m34
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:57:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m36_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m36
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:58:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m37_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m37
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:59:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m38_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m38
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:61:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m40_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m40
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m41_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m41
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:64:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m43_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m43
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:65:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m44_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m44
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:66:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m48_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m48
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:68:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m50_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m50
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:70:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m52_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m52
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m54_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m54
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:73:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m55_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m55
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:74:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m56_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m56
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:75:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m57_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m57
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:76:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m58_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m58
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:77:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m59_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m59
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:78:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m60_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m60
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:80:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m62_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m62
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m65_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m65
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:82:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m66_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m66
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:83:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m67_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m67
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:84:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m68_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:86:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m70_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m70
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:88:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m72_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m72
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:89:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m73_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m73
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:90:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m74_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m74
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:92:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m76_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:94:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m80_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m80
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:97:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m83_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:98:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m86_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m86
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:100:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m91_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m91
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:102:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m93_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m93
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:103:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m94_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m94
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:105:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m97_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:107:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m99_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m99
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:108:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m100_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:109:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m101_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:110:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m102_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:111:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m103_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m103
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:112:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m104_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m104
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:113:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m105_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m105
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:114:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m106_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:115:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m107_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m107
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:117:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m109_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:120:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m112_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m112
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:121:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m113_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m113
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:122:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m114_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m114
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:123:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m117_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m117
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:124:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m118_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m118
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:126:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m120_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m120
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:130:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m126_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m126
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:131:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m129_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m129
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:132:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m130_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m130
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:137:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m138_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:138:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m139_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:140:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m141_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:141:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m142_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m142
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:143:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m146_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m146
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:145:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m148_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m148
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:146:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m151_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m151
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:147:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m153_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m153
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:149:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m155_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m155
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:150:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m156_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m156
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:151:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m157_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m157
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:152:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m158_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m158
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:153:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m159_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m159
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:154:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m160_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m160
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:156:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m162_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m162
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:157:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m163_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m163
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:158:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m164_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m164
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:159:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m165_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m165
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:162:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m169_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m169
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:163:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m170_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m170
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:165:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m172_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m172
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:166:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m173_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m173
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:167:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m174_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m174
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:168:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m175_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m175
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:170:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m180_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m180
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:173:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m186_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m186
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:175:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m190_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m190
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:176:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m191_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m191
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:177:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m192_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m192
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:179:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m194_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m194
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:180:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m195_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m195
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:182:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m197_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m197
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:184:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m200_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m200
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:185:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m201_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m201
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:186:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m202_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m202
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:187:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m203_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m203
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:188:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m204_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m204
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:190:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m207_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m207
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:191:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m210_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m210
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:192:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m211_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m211
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:193:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m215_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m215
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:194:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m219_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m219
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:195:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=mul variable=m221_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m221
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:196:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=bind_op_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=impl=fabric op=add variable=m222_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m222
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:2:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:3:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:4:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:5:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:6:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:7:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:8:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:10:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:11:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:12:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:20:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:21:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:22:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:23:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:24:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:29:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:30:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:32:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:33:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:34:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:35:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:36:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:37:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:38:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:39:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:40:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:41:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:42:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:43:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:44:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:45:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:46:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=off=true_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE off=true
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:47:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:49:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:50:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:51:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:52:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:53:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_4_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE PIPELINE
+        ^
+160 warnings generated.

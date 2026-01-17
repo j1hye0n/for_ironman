@@ -1,0 +1,540 @@
+---
+MainSourceFile:  /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc
+        Offset:          302065
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc
+        Offset:          302531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc
+        Offset:          302998
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc
+        Offset:          597576
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      54
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      55
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      56
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      57
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      58
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      59
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      61
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      62
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      64
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      65
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      66
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      68
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      70
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      72
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      73
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      74
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      75
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      76
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      77
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      78
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      80
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      81
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      82
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      83
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      84
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      86
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      88
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      89
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      90
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      92
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      94
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      97
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      98
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      100
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      102
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      103
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      105
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      107
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      108
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      109
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      110
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      111
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      112
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      113
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      114
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      115
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      117
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      120
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      121
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      122
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      123
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      124
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      126
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      130
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      131
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      132
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      137
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      138
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      140
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      141
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      143
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      145
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      146
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      147
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      149
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      150
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      151
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      152
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      153
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      154
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      156
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      157
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      158
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      159
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      162
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      163
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      165
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      166
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      167
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      168
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      170
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      173
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      175
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      176
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      177
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      179
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      180
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      182
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      184
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      185
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      186
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      187
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      188
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      190
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      191
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      192
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      193
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      194
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      195
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      196
+    FilePath:        /home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl
+    Replacements:    
+...

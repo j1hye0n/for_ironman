@@ -1,0 +1,418 @@
+Execute       source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute         source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp opened at Sat Jan 17 21:53:33 KST 2026
+Execute       send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+Execute       create_platform xc7z020clg484-1 -board  
+DBG:HLSDevice: Trying to load device library: /tools/Xilinx/2025.1/Vitis/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/2025.1/Vivado/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+Command       create_platform done; 0.7 sec.
+Execute       source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.12 sec.
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.15 sec.
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.87 sec.
+Execute     create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+Execute       ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute     source ./directive_tmp.tcl 
+INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+Execute       set_directive_pipeline case_4/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n1_1 
+Execute       set_directive_pipeline -off case_4/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n1_2 
+Execute       set_directive_pipeline -off case_4/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n2_1 
+Execute       set_directive_pipeline case_4/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n2_2 
+Execute       set_directive_pipeline -off case_4/L_n2_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n2_3 
+Execute       set_directive_pipeline case_4/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s1_1 
+Execute       set_directive_pipeline case_4/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_1 
+Execute       set_directive_pipeline case_4/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_2 
+Execute       set_directive_pipeline -off case_4/L_n3_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n3_3 
+Execute       set_directive_pipeline -off case_4/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n4_1 
+Execute       set_directive_pipeline case_4/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n4_2 
+Execute       set_directive_pipeline case_4/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n5_1 
+Execute       set_directive_pipeline case_4/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n5_2 
+Execute       set_directive_pipeline -off case_4/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n6_1 
+Execute       set_directive_pipeline -off case_4/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n6_2 
+Execute       set_directive_pipeline case_4/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_1 
+Execute       set_directive_pipeline -off case_4/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n7_2 
+Execute       set_directive_pipeline case_4/L_n7_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_3 
+Execute       set_directive_pipeline case_4/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s2_1 
+Execute       set_directive_pipeline -off case_4/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n8_1 
+Execute       set_directive_pipeline case_4/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n8_2 
+Execute       set_directive_pipeline case_4/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n9_1 
+Execute       set_directive_pipeline case_4/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n9_2 
+Execute       set_directive_pipeline case_4/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_1 
+Execute       set_directive_pipeline case_4/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_2 
+Execute       set_directive_pipeline case_4/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_1 
+Execute       set_directive_pipeline case_4/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_2 
+Execute       set_directive_pipeline case_4/L_n11_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_3 
+Execute       set_directive_pipeline -off case_4/L_n12_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n12_1 
+Execute       set_directive_pipeline case_4/L_n12_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n12_2 
+Execute       set_directive_pipeline -off case_4/L_n13_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n13_1 
+Execute       set_directive_pipeline case_4/L_n13_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n13_2 
+Execute       set_directive_pipeline -off case_4/L_s3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_s3_1 
+Execute       set_directive_pipeline -off case_4/L_s4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_s4_1 
+Execute       set_directive_pipeline case_4/L_n14_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_1 
+Execute       set_directive_pipeline case_4/L_n14_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_2 
+Execute       set_directive_pipeline -off case_4/L_n14_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n14_3 
+Execute       set_directive_pipeline case_4/L_n15_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_1 
+Execute       set_directive_pipeline case_4/L_n15_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_2 
+Execute       set_directive_pipeline -off case_4/L_n15_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n15_3 
+Execute       set_directive_pipeline case_4/L_n16_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n16_1 
+Execute       set_directive_pipeline -off case_4/L_n16_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n16_2 
+Execute       set_directive_pipeline case_4/L_s5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s5_1 
+Execute       set_directive_pipeline case_4/L_s6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s6_1 
+Execute       set_directive_pipeline case_4/L_n17_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n17_1 
+Execute       set_directive_pipeline -off case_4/L_n17_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n17_2 
+Execute       set_directive_pipeline case_4/L_n18_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_1 
+Execute       set_directive_pipeline case_4/L_n18_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_2 
+Execute       set_directive_pipeline case_4/L_n18_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_3 
+Execute       set_directive_pipeline case_4/L_n19_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_1 
+Execute       set_directive_pipeline case_4/L_n19_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_2 
+Execute       set_directive_pipeline case_4/L_n19_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_3 
+Execute       set_directive_pipeline case_4/L_s7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s7_1 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m29 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m29 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m33 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m33 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m34 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m34 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m36 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m36 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m37 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m37 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m38 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m38 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m40 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m40 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m41 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m41 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m43 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m43 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m44 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m44 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m48 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m48 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m50 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m50 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m52 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m52 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m54 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m54 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m55 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m55 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m56 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m56 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m57 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m57 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m58 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m58 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m59 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m59 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m60 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m60 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m62 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m62 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m65 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m65 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m66 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m66 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m67 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m67 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m68 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m68 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m70 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m70 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m72 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m72 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m73 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m73 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m74 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m74 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m76 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m76 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m80 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m80 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m83 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m83 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m86 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m86 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m91 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m91 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m93 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m93 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m94 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m94 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m97 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m97 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m99 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m99 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m100 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m100 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m101 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m101 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m102 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m102 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m103 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m103 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m104 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m104 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m105 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m105 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m106 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m106 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m107 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m107 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m109 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m109 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m112 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m112 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m113 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m113 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m114 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m114 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m117 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m117 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m118 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m118 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m120 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m120 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m126 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m126 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m129 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m129 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m130 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m130 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m138 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m138 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m139 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m139 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m141 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m141 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m142 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m142 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m146 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m146 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m148 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m148 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m151 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m151 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m153 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m153 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m155 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m155 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m156 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m156 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m157 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m157 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m158 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m158 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m159 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m159 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m160 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m160 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m162 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m162 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m163 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m163 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m164 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m164 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m165 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m165 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m169 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m169 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m170 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m170 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m172 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m172 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m173 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m173 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m174 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m174 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m175 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m175 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m180 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m180 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m186 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m186 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m190 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m190 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m191 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m191 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m192 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m192 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m194 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m194 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m195 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m195 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m197 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m197 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m200 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m200 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m201 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m201 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m202 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m202 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m203 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m203 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m204 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m204 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m207 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m207 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m210 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m210 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m211 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m211 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m215 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m215 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m219 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m219 
+Execute       set_directive_bind_op -op mul -impl fabric case_4 m221 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m221 
+Execute       set_directive_bind_op -op add -impl fabric case_4 m222 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m222 
+Command     ap_source done; 1.01 sec.
+Execute     csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute       ::AP::init_summary_file csynth 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/xilinx-performance-pragma-detector case_4.cc -- -fhls -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.cc.xilinx-performance-pragma-detector.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.cc.xilinx-performance-pragma-detector.err.log
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1.17 seconds. CPU system time: 0.1 seconds. Elapsed time: 1.28 seconds; current allocated memory: 267.320 MB.
+Execute         set_directive_top case_4 -name=case_4 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+INFO: [HLS 200-10] Analyzing design file 'case_4.cc' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling case_4.cc as C++
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang case_4.cc -foptimization-record-file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.cc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --gcc-toolchain=/tools/Xilinx/2025.1/Vitis/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.cc.clang.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.cc.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/clang.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/clang.err.log
+Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc  -target fpga  -directive=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/.systemc_flag -fix-errors /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -- - -target fpga -fhls -ferror-limit=0
+Command         clang_tidy done; 0.93 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc  -target fpga  -directive=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/all.directive.json -fix-errors /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -- - -target fpga -fhls -ferror-limit=0
+Command         clang_tidy done; 2.57 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2.6 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc  -target fpga  
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -- - -target fpga -fhls -ferror-limit=0 > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang-tidy.loop-label.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang-tidy.loop-label.err.log
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/yaml.tcl 
+Command         clang_tidy done; 1.88 sec.
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.xilinx-dataflow-lawyer.diag.yml /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -- - -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.xilinx-dataflow-lawyer.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.xilinx-dataflow-lawyer.err.log
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.bc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.pp.0.cc.clang.err.log
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9 seconds. CPU system time: 0.64 seconds. Elapsed time: 9.64 seconds; current allocated memory: 273.863 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute         run_link_or_opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc -args  "/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.g.bc"  
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_4.g.bc -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+Execute         run_link_or_opt -opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc -args /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Linking math bc lib
+Execute         run_link_or_opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc -args /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsm_39.bc /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsm_39.bc /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsmc++_39.bc -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+Command         run_link_or_opt done; 2.31 sec.
+Execute         run_link_or_opt -opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc -args /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=case_4 -reflow-float-conversion 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=case_4 -reflow-float-conversion -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command         run_link_or_opt done; 1 sec.
+Execute         run_link_or_opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc -args /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libfloatconversion_39.bc -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+Execute         run_link_or_opt -opt -out /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc -args /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=case_4 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=case_4 -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc > /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute         send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute         is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang (background poll_ms 5000) exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=case_4 -mllvm -hls-db-dir -mllvm /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -reflow-unroll-size-threshold=10000 -mllvm -reflow-unroll-cost-threshold=1000000 -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -reflow-force-aggressive-unroll=0 -mllvm -reflow-aggressive-unroll-adjust-factor=1.000000 -mllvm -reflow-complete-threshold=4 -mllvm -reflow-array-promotion-threshold=64 -mllvm -reflow-enable-critical-path-for-performance=1 -mllvm -assume-maxi-align=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-small-array-partition=true -mllvm -reflow-enable-auto-array-promotion=true -mllvm -reflow-enable-auto-array-partition-for-flatten=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -auto-unroll-tripcount-threshold=0 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -reflow-enable-codegen-with-if=true -mllvm -reflow-enable-dataflow-canon=true -mllvm -reflow-enable-dataflow-canon2=true -mllvm -reflow-dump-extra-complexity-metric=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -mllvm -use_read_first_ram_in_loop=1 -mllvm -default-clock-uncertainty=2.7 -x ir /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.5.gdce.bc -o /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 2> /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute         send_msg_by_id INFO @200-1995@%s%s%s 47,331 Compile/Link (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2) 
+INFO: [HLS 200-1995] There were 47,331 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+Execute         send_msg_by_id WARNING @200-1995@%s%s%s 328,346 Unroll/Inline (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2) 
+WARNING: [HLS 200-1995] There were 328,346 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+Execute         send_msg_by_id WARNING @200-1995@%s%s%s 263,569 Unroll/Inline (step 2) (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2) 

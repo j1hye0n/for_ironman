@@ -1,0 +1,57 @@
+  **** HLS Build v2025.1 6135595
+Sourcing Tcl script '/home/jjh/RL_test/for_ironman/synthesis/./script_tmp.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project_tmp 
+WARNING: [HLS 200-2182] The 'project_tmp' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Opening and resetting solution '/home/jjh/RL_test/for_ironman/synthesis/project_tmp'.
+INFO: [HLS 200-1510] Running: open_component hls_ -reset -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening component '/home/jjh/RL_test/for_ironman/synthesis/hls_'.
+INFO: [HLS 200-10] Cleaning up the component database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/synthesis/hls_/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/synthesis/hls_/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top ./CASE/case_1/case_1 
+INFO: [HLS 200-1510] Running: add_files ./CASE/case_1/case_1.cc 
+INFO: [HLS 200-10] Adding design file './CASE/case_1/case_1.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution_tmp -flow_target vivado 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg
+INFO: [HLS 200-10] Opening solution '/home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying solution config ini file /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../CASE/case_1/case_1.cc' from /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg(6)
+INFO: [HLS 200-10] Adding design file 'CASE/case_1/case_1.cc' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=./CASE/case_1/case_1' from /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg(5)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020-clg484-1' from /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg(4)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/synthesis/hls_solution_tmp/hls_config.cfg
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.87 seconds. CPU system time: 0.09 seconds. Elapsed time: 3.48 seconds; current allocated memory: 381.230 MB.
+INFO: [HLS 200-10] Analyzing design file 'CASE/case_1/case_1.cc' ... 
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/synthesis/script_tmp.tcl:10)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.15 seconds. CPU system time: 0.56 seconds. Elapsed time: 5.71 seconds; current allocated memory: 381.543 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named './CASE/case_1/case_1'
+error: Top function not found: there is no function named './CASE/case_1/case_1'
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:12; Allocated memory: 16.648 MB.
+Error in opt
+    while executing
+"source /home/jjh/RL_test/for_ironman/synthesis/./script_tmp.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 11.45 seconds. Total CPU system time: 1.43 seconds. Total elapsed time: 15.26 seconds; peak allocated memory: 381.879 MB.
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.
