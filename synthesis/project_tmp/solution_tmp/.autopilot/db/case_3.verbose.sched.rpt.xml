@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'case_3'" level="0">
-<item name = "Date">Tue Jan 20 09:52:11 2026
+<item name = "Date">Tue Jan 20 10:11:46 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">project_tmp</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">12.00 ns, 8.319 ns, 3.24 ns</column>
+<column name="ap_clk">12.00 ns, 8.757 ns, 3.24 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">3157, 3157, 37.884 us, 37.884 us, 3158, 3158, no</column>
+<column name="">1412, 1412, 16.944 us, 16.944 us, 1413, 1413, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,6 +35,17 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- L_n1_1">144, 144, 18, -, -, 8, no</column>
+<column name=" + L_n1_2">16, 16, 2, -, -, 8, no</column>
+<column name="- L_n2_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n2_2">24, 24, 3, -, -, 8, no</column>
+<column name="- L_n3_1">552, 552, 69, -, -, 8, no</column>
+<column name=" + L_n3_2_L_n3_3">66, 66, 4, 1, 1, 64, yes</column>
+<column name="- L_n7_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n7_2">24, 24, 3, -, -, 8, no</column>
+<column name="- L_n8_1_L_n8_2">66, 66, 3, 1, 1, 64, yes</column>
+<column name="- L_n9_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n9_2">24, 24, 3, -, -, 8, no</column>
 </table>
 </item>
 </section>

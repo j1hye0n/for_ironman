@@ -376,10 +376,10 @@ __xlx_in_data_15__tmp_vec.push_back(((Byte<1>*)__xlx_apatb_param_in_data_15)[i])
   int __xlx_offset_byte_param_in_data_15 = 0*1;
   // Collect __xlx_in_scalar__tmp_vec
 std::vector<Byte<1>> __xlx_in_scalar__tmp_vec;
-for (size_t i = 0; i < 26; ++i){
+for (size_t i = 0; i < 28; ++i){
 __xlx_in_scalar__tmp_vec.push_back(((Byte<1>*)__xlx_apatb_param_in_scalar)[i]);
 }
-  int __xlx_size_param_in_scalar = 26;
+  int __xlx_size_param_in_scalar = 28;
   int __xlx_offset_param_in_scalar = 0;
   int __xlx_offset_byte_param_in_scalar = 0*1;
   // DUT call

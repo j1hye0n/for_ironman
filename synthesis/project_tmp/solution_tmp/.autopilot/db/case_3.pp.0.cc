@@ -7115,8 +7115,8 @@ operator/(const complex<ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>> &__x, cons
 
 
 __attribute__((sdx_kernel("case_3", 0))) void case_3(
-    ap_int<8> in_data[16][16],
-    ap_int<4> in_scalar[26],
+    ap_int<2> in_data[16][16],
+    ap_int<4> in_scalar[28],
     ap_int<8> out_data[4]
 )
 {
@@ -7133,255 +7133,475 @@ __attribute__((sdx_kernel("case_3", 0))) void case_3(
 
 
 
- ap_int<16> m27 = 0;
-    ap_int<11> m30;
-    ap_int<13> m34;
-    ap_int<11> m37;
-    ap_int<10> m38;
-    ap_int<11> m39;
-    ap_int<12> m40;
-    ap_int<11> m41;
-    ap_int<8> m42;
-    ap_int<14> m43;
-    ap_int<3> m44;
-    ap_int<13> m45;
-    ap_int<5> m46;
-    ap_int<8> m47;
+ ap_int<32> m29 = 0;
+    ap_int<6> m32;
+#line 35 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m32
+# 23 "case_3.cc"
+
+    ap_int<14> m33;
+#line 36 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m33
+# 24 "case_3.cc"
+
+    ap_int<5> m36;
+#line 37 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m36
+# 25 "case_3.cc"
+
+    ap_int<16> m37;
+#line 38 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m37
+# 26 "case_3.cc"
+
+    ap_int<12> m41;
+    ap_int<16> m42;
+    ap_int<5> m43;
+    ap_int<8> m44;
+    ap_int<6> m45;
+#line 43 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m45
+# 31 "case_3.cc"
+
+    ap_int<14> m46;
+    ap_int<4> m47;
+#line 45 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m47
+# 33 "case_3.cc"
+
     ap_int<2> m48;
-    ap_int<3> m49;
-    ap_int<13> m53;
-    ap_int<9> m54;
-    ap_int<4> m55;
-    ap_int<12> m56;
-    ap_int<7> m59;
-    ap_int<3> m60;
-    ap_int<7> m61;
-    ap_int<32> m64[8][8];
-    ap_int<11> temp_1_0;
-    ap_int<11> temp_1_1;
-    ap_int<11> temp_1_2;
-    ap_int<11> temp_1_3;
-    ap_int<15> m71;
+    ap_int<5> m49;
+    ap_int<6> m50;
+    ap_int<8> m51;
+    ap_int<7> m55;
+#line 50 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m55
+# 38 "case_3.cc"
+
+    ap_int<8> m56;
+#line 51 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m56
+# 39 "case_3.cc"
+
+    ap_int<6> m57;
+    ap_int<5> m58;
+#line 53 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m58
+# 41 "case_3.cc"
+
+    ap_int<7> m62;
+#line 54 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m62
+# 42 "case_3.cc"
+
+    ap_int<3> m63;
+    ap_int<8> m64;
+#line 56 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m64
+# 44 "case_3.cc"
+
+    ap_int<14> m68;
+#line 57 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+# 45 "case_3.cc"
+
+    ap_int<3> m69;
+    ap_int<3> m70;
+    ap_int<6> m73;
+    ap_int<10> m74;
     ap_int<5> m75;
-    ap_int<10> m79;
-    ap_int<7> m81;
-    ap_int<11> m82;
-    ap_int<6> m83;
+    ap_int<6> m76;
+#line 63 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m76
+# 51 "case_3.cc"
+
+    ap_int<5> m77;
+    ap_int<4> m78;
+    ap_int<14> m79;
+    ap_int<15> m82;
+#line 67 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m82
+# 55 "case_3.cc"
+
+    ap_int<16> m83;
     ap_int<11> m84;
-    ap_int<6> m85;
-    ap_int<4> m89;
-    ap_int<5> m90;
-    ap_int<5> m91;
-    ap_int<15> m92;
-    ap_int<13> m93;
-    ap_int<7> m94;
-    ap_int<11> m95;
-    ap_int<13> m96;
-    ap_int<12> m97;
-    ap_int<7> m98;
-    ap_int<13> m99;
-    ap_int<9> m100;
-    ap_int<6> m101;
-    ap_int<11> m102;
-    ap_int<10> m105;
-    ap_int<4> m106;
-    ap_int<15> m110;
-    ap_int<15> m111;
-    ap_int<7> m114;
-    ap_int<15> m115;
-    ap_int<5> m119;
-    ap_int<5> m120;
-    ap_int<6> m121;
-    ap_int<9> m122;
-    ap_int<14> m123;
-    ap_int<11> m124;
-    ap_int<9> m125;
-    ap_int<11> m126;
-    ap_int<12> m127;
-    ap_int<3> m128;
-    ap_int<3> m129;
-    ap_int<12> m130;
-    ap_int<14> m131;
-    ap_int<3> m132;
+    ap_int<7> m85;
+    ap_int<11> m86;
+    ap_int<9> m87;
+#line 72 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m87
+# 60 "case_3.cc"
+
+    ap_int<8> m88;
+#line 73 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+# 61 "case_3.cc"
+
+    ap_int<10> m89;
+#line 74 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m89
+# 62 "case_3.cc"
+
+    ap_int<4> m92;
+#line 75 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m92
+# 63 "case_3.cc"
+
+    ap_int<4> m93;
+#line 76 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m93
+# 64 "case_3.cc"
+
+    ap_int<14> m97;
+    ap_int<8> m98;
+#line 78 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m98
+# 66 "case_3.cc"
+
+    ap_int<9> m99;
+#line 79 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m99
+# 67 "case_3.cc"
+
+    ap_int<4> m101;
+#line 80 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+# 68 "case_3.cc"
+
+    ap_int<7> m102;
+    ap_int<11> m103;
+#line 82 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m103
+# 70 "case_3.cc"
+
+    ap_int<7> m104;
+#line 83 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m104
+# 71 "case_3.cc"
+
+    ap_int<9> m107;
+    ap_int<4> m108;
+    ap_int<10> m109;
+#line 86 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m109
+# 74 "case_3.cc"
+
+    ap_int<10> m110;
+#line 87 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+# 75 "case_3.cc"
+
+    ap_int<11> m111;
+    ap_int<12> m112;
+#line 89 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m112
+# 77 "case_3.cc"
+
+    ap_int<12> m115;
+    ap_int<10> m116;
+    ap_int<5> m118;
+    ap_int<5> m122;
 
 
     L_n1_1: for(int i_n1_0=0; i_n1_0<8; i_n1_0++) {
+#line 1 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 84 "case_3.cc"
+
         L_n1_2: for(int i_n1_1=0; i_n1_1<8; i_n1_1++) {
-            m30 = (ap_int<11>)in_data[24][i_n1_1] + (ap_int<11>)in_scalar[11];
-            m27 += ((ap_int<32>)m30);
+#line 2 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 85 "case_3.cc"
+
+            m32 = (ap_int<6>)in_data[4][i_n1_1] + (ap_int<6>)in_scalar[13];
+            m33 = (ap_int<14>)in_data[10][i_n1_1] * (ap_int<14>)in_data[18][i_n1_1];
+            m29 += ((ap_int<32>)m32 + (ap_int<32>)m33);
         }
     }
     L_n2_1: for(int i_n2_0=0; i_n2_0<8; i_n2_0++) {
+#line 3 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 91 "case_3.cc"
+
         L_n2_2: for(int i_n2_1=0; i_n2_1<8; i_n2_1++) {
-            L_n2_3: for(int i_n2_2=0; i_n2_2<8; i_n2_2++) {
-                m34 = (ap_int<13>)in_scalar[1] * (ap_int<13>)in_data[8][i_n2_2];
-                m27 += ((ap_int<32>)m34);
-            }
+#line 4 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 92 "case_3.cc"
+
+            m36 = (ap_int<5>)in_scalar[23] + (ap_int<5>)m33;
+            m37 = (ap_int<16>)in_data[0][i_n2_1] + (ap_int<16>)in_data[4][i_n2_1];
+            m29 += ((ap_int<32>)m36 + (ap_int<32>)m37);
         }
     }
     L_n3_1: for(int i_n3_0=0; i_n3_0<8; i_n3_0++) {
+#line 5 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 98 "case_3.cc"
+
         L_n3_2: for(int i_n3_1=0; i_n3_1<8; i_n3_1++) {
-            m37 = (ap_int<11>)in_data[0][i_n3_1] + (ap_int<11>)in_data[6][i_n3_1];
-            m38 = (ap_int<10>)in_scalar[19] * (ap_int<10>)in_scalar[5];
-            m39 = (ap_int<11>)in_data[22][i_n3_1] + (ap_int<11>)in_data[0][i_n3_1];
-            m40 = (ap_int<12>)in_data[10][i_n3_1] + (ap_int<12>)in_data[2][i_n3_1];
-            m27 += ((ap_int<32>)m37 + (ap_int<32>)m38 + (ap_int<32>)m39 + (ap_int<32>)m40);
-            m41 = (ap_int<11>)in_data[20][i_n3_1] * (ap_int<11>)in_data[20][i_n3_1];
-            m42 = (ap_int<8>)in_data[12][i_n3_1] + (ap_int<8>)in_data[24][i_n3_1];
-            m27 += ((ap_int<32>)m41 + (ap_int<32>)m42);
-            m43 = (ap_int<14>)in_scalar[17] + (ap_int<14>)in_scalar[7];
-            m27 += ((ap_int<32>)m43);
-            m44 = (ap_int<3>)in_data[0][i_n3_1] * (ap_int<3>)in_data[16][i_n3_1];
-            m45 = (ap_int<13>)in_data[18][i_n3_1] + (ap_int<13>)in_scalar[23];
-            m46 = (ap_int<5>)in_data[0][i_n3_1] * (ap_int<5>)in_data[10][i_n3_1];
-            m27 += ((ap_int<32>)m44 + (ap_int<32>)m45 + (ap_int<32>)m46);
-            m47 = (ap_int<8>)in_data[14][i_n3_1] + (ap_int<8>)in_scalar[19];
-            m27 += ((ap_int<32>)m47);
-            m48 = (ap_int<2>)in_data[8][i_n3_1] + (ap_int<2>)in_data[24][i_n3_1];
-            m49 = (ap_int<3>)in_data[4][i_n3_1] + (ap_int<3>)in_data[24][i_n3_1];
-            m27 += ((ap_int<32>)m48 + (ap_int<32>)m49);
+#line 6 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 99 "case_3.cc"
+
+            L_n3_3: for(int i_n3_2=0; i_n3_2<8; i_n3_2++) {
+#line 7 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 100 "case_3.cc"
+
+                m41 = (ap_int<12>)m36 + (ap_int<12>)m37;
+                m42 = (ap_int<16>)in_scalar[17] * (ap_int<16>)m32;
+                m43 = (ap_int<5>)in_data[6][i_n3_2] + (ap_int<5>)m36;
+                m44 = (ap_int<8>)in_data[18][i_n3_2] + (ap_int<8>)in_data[26][i_n3_2];
+                m29 += ((ap_int<32>)m41 + (ap_int<32>)m42 + (ap_int<32>)m43 + (ap_int<32>)m44);
+                m45 = (ap_int<6>)m37 * (ap_int<6>)in_data[12][i_n3_2];
+                m29 += ((ap_int<32>)m45);
+                m46 = (ap_int<14>)in_data[0][i_n3_2] + (ap_int<14>)in_scalar[17];
+                m47 = (ap_int<4>)in_scalar[25] + (ap_int<4>)in_data[18][i_n3_2];
+                m29 += ((ap_int<32>)m46 + (ap_int<32>)m47);
+                m48 = (ap_int<2>)in_data[16][i_n3_2] + (ap_int<2>)in_scalar[9];
+                m49 = (ap_int<5>)in_scalar[1] + (ap_int<5>)in_data[26][i_n3_2];
+                m50 = (ap_int<6>)in_scalar[15] + (ap_int<6>)m36;
+                m51 = (ap_int<8>)m44 + (ap_int<8>)in_scalar[19];
+                m29 += ((ap_int<32>)m48 + (ap_int<32>)m49 + (ap_int<32>)m50 + (ap_int<32>)m51);
+            }
         }
     }
     L_n4_1: for(int i_n4_0=0; i_n4_0<8; i_n4_0++) {
+#line 8 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 119 "case_3.cc"
+
         L_n4_2: for(int i_n4_1=0; i_n4_1<8; i_n4_1++) {
+#line 9 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 120 "case_3.cc"
+
             L_n4_3: for(int i_n4_2=0; i_n4_2<8; i_n4_2++) {
-                m53 = (ap_int<13>)in_scalar[25] + (ap_int<13>)in_data[18][i_n4_2];
-                m54 = (ap_int<9>)in_data[18][i_n4_2] * (ap_int<9>)m49;
-                m27 += ((ap_int<32>)m53 + (ap_int<32>)m54);
-                m55 = (ap_int<4>)in_scalar[17] + (ap_int<4>)m47;
-                m56 = (ap_int<12>)in_data[12][i_n4_2] + (ap_int<12>)m43;
-                m27 += ((ap_int<32>)m55 + (ap_int<32>)m56);
+#line 10 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 121 "case_3.cc"
+
+                m55 = (ap_int<7>)in_data[14][i_n4_2] * (ap_int<7>)in_data[18][i_n4_2];
+                m29 += ((ap_int<32>)m55);
+                m56 = (ap_int<8>)in_data[26][i_n4_2] * (ap_int<8>)in_scalar[9];
+                m29 += ((ap_int<32>)m56);
+                m57 = (ap_int<6>)in_scalar[21] + (ap_int<6>)m56;
+                m58 = (ap_int<5>)m37 * (ap_int<5>)m45;
+                m29 += ((ap_int<32>)m57 + (ap_int<32>)m58);
             }
         }
     }
     L_n5_1: for(int i_n5_0=0; i_n5_0<8; i_n5_0++) {
+#line 11 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 132 "case_3.cc"
+
         L_n5_2: for(int i_n5_1=0; i_n5_1<8; i_n5_1++) {
-            m59 = (ap_int<7>)in_data[18][i_n5_1] * (ap_int<7>)in_scalar[23];
-            m60 = (ap_int<3>)in_data[0][i_n5_1] + (ap_int<3>)m44;
-            m61 = (ap_int<7>)in_scalar[7] * (ap_int<7>)in_data[24][i_n5_1];
-            m27 += ((ap_int<32>)m59 + (ap_int<32>)m60 + (ap_int<32>)m61);
-        }
-    }
-    L_m1_1: for(int i=0; i<8; i++) {
-        L_m1_2: for(int j=0; j<8; j++) {
-            m64[i][j] = 0;
-            L_m1_3: for(int k=0; k<8; k++) {
-                temp_1_0 = (ap_int<11>)in_data[0][(i + k + 0) % 8] * (ap_int<11>)in_data[2][(k + j + 0) % 8];
-                temp_1_1 = (ap_int<11>)in_data[0][(i + k + 1) % 8] * (ap_int<11>)in_data[2][(k + j + 1) % 8];
-                temp_1_2 = (ap_int<11>)in_data[0][(i + k + 2) % 8] * (ap_int<11>)in_data[2][(k + j + 2) % 8];
-                temp_1_3 = (ap_int<11>)in_data[0][(i + k + 3) % 8] * (ap_int<11>)in_data[2][(k + j + 3) % 8];
-                m64[i][j] += (ap_int<11>)temp_1_0 + (ap_int<11>)temp_1_1 + (ap_int<11>)temp_1_2 + (ap_int<11>)temp_1_3;
+#line 12 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 133 "case_3.cc"
+
+            L_n5_3: for(int i_n5_2=0; i_n5_2<8; i_n5_2++) {
+#line 13 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 134 "case_3.cc"
+
+                m62 = (ap_int<7>)m36 * (ap_int<7>)in_scalar[23];
+                m63 = (ap_int<3>)m62 * (ap_int<3>)in_data[12][i_n5_2];
+                m29 += ((ap_int<32>)m62 + (ap_int<32>)m63);
+                m64 = (ap_int<8>)in_scalar[13] + (ap_int<8>)m37;
+                m29 += ((ap_int<32>)m64);
             }
         }
     }
-    L_s1_1: for(int i_s1_0=0; i_s1_0<8; i_s1_0++) {
-        m71 = (ap_int<15>)in_data[2][i_s1_0] + (ap_int<15>)in_scalar[11];
-        m27 += ((ap_int<32>)m64 + (ap_int<32>)m71);
-    }
     L_n6_1: for(int i_n6_0=0; i_n6_0<8; i_n6_0++) {
+#line 14 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 143 "case_3.cc"
+
         L_n6_2: for(int i_n6_1=0; i_n6_1<8; i_n6_1++) {
+#line 15 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 144 "case_3.cc"
+
             L_n6_3: for(int i_n6_2=0; i_n6_2<8; i_n6_2++) {
-                m75 = (ap_int<5>)m37 * (ap_int<5>)m49;
-                m27 += ((ap_int<32>)m75);
+#line 16 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 145 "case_3.cc"
+
+                m68 = (ap_int<14>)in_data[6][i_n6_2] + (ap_int<14>)in_data[26][i_n6_2];
+                m29 += ((ap_int<32>)m68);
+                m69 = (ap_int<3>)m63 + (ap_int<3>)in_data[12][i_n6_2];
+                m29 += ((ap_int<32>)m69);
+                m70 = (ap_int<3>)m49 * (ap_int<3>)in_data[12][i_n6_2];
+                m29 += ((ap_int<32>)m70);
             }
         }
     }
     L_n7_1: for(int i_n7_0=0; i_n7_0<8; i_n7_0++) {
+#line 17 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 155 "case_3.cc"
+
         L_n7_2: for(int i_n7_1=0; i_n7_1<8; i_n7_1++) {
-            L_n7_3: for(int i_n7_2=0; i_n7_2<8; i_n7_2++) {
-                m79 = (ap_int<10>)in_data[16][i_n7_2] * (ap_int<10>)m53;
-                m27 += ((ap_int<32>)m79);
-            }
+#line 18 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 156 "case_3.cc"
+
+            m73 = (ap_int<6>)in_scalar[23] * (ap_int<6>)in_scalar[23];
+            m74 = (ap_int<10>)in_scalar[9] * (ap_int<10>)in_data[0][i_n7_1];
+            m75 = (ap_int<5>)m44 * (ap_int<5>)in_data[6][i_n7_1];
+            m29 += ((ap_int<32>)m73 + (ap_int<32>)m74 + (ap_int<32>)m75);
+            m76 = (ap_int<6>)m32 + (ap_int<6>)m36;
+            m77 = (ap_int<5>)m62 * (ap_int<5>)in_data[14][i_n7_1];
+            m29 += ((ap_int<32>)m76 + (ap_int<32>)m77);
+            m78 = (ap_int<4>)in_data[22][i_n7_1] + (ap_int<4>)in_data[24][i_n7_1];
+            m79 = (ap_int<14>)in_data[26][i_n7_1] + (ap_int<14>)m44;
+            m29 += ((ap_int<32>)m78 + (ap_int<32>)m79);
         }
     }
-    L_s2_1: for(int i_s2_0=0; i_s2_0<8; i_s2_0++) {
-        m81 = (ap_int<7>)m45 * (ap_int<7>)in_data[8][i_s2_0];
-        m82 = (ap_int<11>)in_scalar[25] * (ap_int<11>)in_data[18][i_s2_0];
-        m83 = (ap_int<6>)in_data[22][i_s2_0] + (ap_int<6>)m59;
-        m84 = (ap_int<11>)in_data[6][i_s2_0] * (ap_int<11>)in_data[20][i_s2_0];
-        m27 += ((ap_int<32>)m81 + (ap_int<32>)m82 + (ap_int<32>)m83 + (ap_int<32>)m84);
-        m85 = (ap_int<6>)in_data[18][i_s2_0] * (ap_int<6>)m41;
-        m27 += ((ap_int<32>)m85);
-    }
     L_n8_1: for(int i_n8_0=0; i_n8_0<8; i_n8_0++) {
+#line 19 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 169 "case_3.cc"
+
         L_n8_2: for(int i_n8_1=0; i_n8_1<8; i_n8_1++) {
-            L_n8_3: for(int i_n8_2=0; i_n8_2<8; i_n8_2++) {
-                m89 = (ap_int<4>)in_data[16][i_n8_2] * (ap_int<4>)in_scalar[21];
-                m27 += ((ap_int<32>)m89);
-                m90 = (ap_int<5>)in_data[4][i_n8_2] * (ap_int<5>)in_data[14][i_n8_2];
-                m91 = (ap_int<5>)in_data[16][i_n8_2] + (ap_int<5>)in_data[18][i_n8_2];
-                m92 = (ap_int<15>)in_data[6][i_n8_2] + (ap_int<15>)m59;
-                m93 = (ap_int<13>)m60 + (ap_int<13>)m40;
-                m27 += ((ap_int<32>)m90 + (ap_int<32>)m91 + (ap_int<32>)m92 + (ap_int<32>)m93);
-                m94 = (ap_int<7>)in_data[2][i_n8_2] * (ap_int<7>)in_scalar[19];
-                m27 += ((ap_int<32>)m94);
-                m95 = (ap_int<11>)in_data[18][i_n8_2] + (ap_int<11>)m37;
-                m96 = (ap_int<13>)m92 * (ap_int<13>)m95;
-                m27 += ((ap_int<32>)m95 + (ap_int<32>)m96);
-                m97 = (ap_int<12>)in_scalar[25] * (ap_int<12>)in_data[16][i_n8_2];
-                m98 = (ap_int<7>)m92 * (ap_int<7>)in_data[16][i_n8_2];
-                m99 = (ap_int<13>)m30 + (ap_int<13>)m34;
-                m100 = (ap_int<9>)in_data[2][i_n8_2] + (ap_int<9>)m89;
-                m27 += ((ap_int<32>)m97 + (ap_int<32>)m98 + (ap_int<32>)m99 + (ap_int<32>)m100);
-                m101 = (ap_int<6>)m94 + (ap_int<6>)m38;
-                m102 = (ap_int<11>)m53 * (ap_int<11>)m101;
-                m27 += ((ap_int<32>)m101 + (ap_int<32>)m102);
-            }
+#line 20 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 170 "case_3.cc"
+
+            m82 = (ap_int<15>)m77 * (ap_int<15>)in_scalar[27];
+            m83 = (ap_int<16>)in_data[26][i_n8_1] + (ap_int<16>)in_data[4][i_n8_1];
+            m84 = (ap_int<11>)in_data[20][i_n8_1] * (ap_int<11>)in_data[16][i_n8_1];
+            m85 = (ap_int<7>)m63 + (ap_int<7>)in_data[12][i_n8_1];
+            m29 += ((ap_int<32>)m82 + (ap_int<32>)m83 + (ap_int<32>)m84 + (ap_int<32>)m85);
+            m86 = (ap_int<11>)in_data[26][i_n8_1] * (ap_int<11>)in_data[8][i_n8_1];
+            m87 = (ap_int<9>)m57 * (ap_int<9>)m50;
+            m88 = (ap_int<8>)m45 + (ap_int<8>)m69;
+            m89 = (ap_int<10>)in_data[22][i_n8_1] * (ap_int<10>)in_data[6][i_n8_1];
+            m29 += ((ap_int<32>)m86 + (ap_int<32>)m87 + (ap_int<32>)m88 + (ap_int<32>)m89);
         }
     }
     L_n9_1: for(int i_n9_0=0; i_n9_0<8; i_n9_0++) {
+#line 21 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 183 "case_3.cc"
+
         L_n9_2: for(int i_n9_1=0; i_n9_1<8; i_n9_1++) {
-            m105 = (ap_int<10>)in_data[2][i_n9_1] * (ap_int<10>)in_scalar[17];
-            m106 = (ap_int<4>)in_data[12][i_n9_1] * (ap_int<4>)m41;
-            m27 += ((ap_int<32>)m105 + (ap_int<32>)m106);
+#line 22 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 184 "case_3.cc"
+
+            m92 = (ap_int<4>)in_data[2][i_n9_1] + (ap_int<4>)m77;
+            m93 = (ap_int<4>)m73 + (ap_int<4>)in_data[20][i_n9_1];
+            m29 += ((ap_int<32>)m92 + (ap_int<32>)m93);
         }
     }
     L_n10_1: for(int i_n10_0=0; i_n10_0<8; i_n10_0++) {
+#line 23 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 190 "case_3.cc"
+
         L_n10_2: for(int i_n10_1=0; i_n10_1<8; i_n10_1++) {
+#line 24 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 191 "case_3.cc"
+
             L_n10_3: for(int i_n10_2=0; i_n10_2<8; i_n10_2++) {
-                m110 = (ap_int<15>)m64[i_n10_1][i_n10_2] * (ap_int<15>)m38;
-                m111 = (ap_int<15>)m47 + (ap_int<15>)in_data[20][i_n10_2];
-                m27 += ((ap_int<32>)m110 + (ap_int<32>)m111);
+#line 25 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 192 "case_3.cc"
+
+                m97 = (ap_int<14>)in_data[26][i_n10_2] + (ap_int<14>)m89;
+                m98 = (ap_int<8>)in_data[14][i_n10_2] + (ap_int<8>)m46;
+                m29 += ((ap_int<32>)m97 + (ap_int<32>)m98);
+                m99 = (ap_int<9>)in_scalar[23] + (ap_int<9>)m85;
+                m29 += ((ap_int<32>)m99);
             }
         }
     }
+    L_s1_1: for(int i_s1_0=0; i_s1_0<8; i_s1_0++) {
+#line 26 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 201 "case_3.cc"
+
+        m101 = (ap_int<4>)m78 * (ap_int<4>)in_data[18][i_s1_0];
+        m102 = (ap_int<7>)in_data[16][i_s1_0] * (ap_int<7>)m83;
+        m29 += ((ap_int<32>)m101 + (ap_int<32>)m102);
+        m103 = (ap_int<11>)m97 + (ap_int<11>)m78;
+        m29 += ((ap_int<32>)m103);
+        m104 = (ap_int<7>)in_data[16][i_s1_0] * (ap_int<7>)m79;
+        m29 += ((ap_int<32>)m104);
+    }
     L_n11_1: for(int i_n11_0=0; i_n11_0<8; i_n11_0++) {
+#line 27 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 210 "case_3.cc"
+
         L_n11_2: for(int i_n11_1=0; i_n11_1<8; i_n11_1++) {
-            m114 = (ap_int<7>)m55 + (ap_int<7>)m95;
-            m115 = (ap_int<15>)m45 * (ap_int<15>)in_data[8][i_n11_1];
-            m27 += ((ap_int<32>)m114 + (ap_int<32>)m115);
+#line 28 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 211 "case_3.cc"
+
+            m107 = (ap_int<9>)m93 + (ap_int<9>)m55;
+            m29 += ((ap_int<32>)m107);
+            m108 = (ap_int<4>)in_data[24][i_n11_1] + (ap_int<4>)m64;
+            m29 += ((ap_int<32>)m108);
+            m109 = (ap_int<10>)m83 + (ap_int<10>)in_scalar[21];
+            m110 = (ap_int<10>)m79 * (ap_int<10>)in_data[20][i_n11_1];
+            m111 = (ap_int<11>)in_data[12][i_n11_1] + (ap_int<11>)m74;
+            m112 = (ap_int<12>)in_data[20][i_n11_1] + (ap_int<12>)m47;
+            m29 += ((ap_int<32>)m109 + (ap_int<32>)m110 + (ap_int<32>)m111 + (ap_int<32>)m112);
         }
     }
     L_n12_1: for(int i_n12_0=0; i_n12_0<8; i_n12_0++) {
+#line 29 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 223 "case_3.cc"
+
         L_n12_2: for(int i_n12_1=0; i_n12_1<8; i_n12_1++) {
-            L_n12_3: for(int i_n12_2=0; i_n12_2<8; i_n12_2++) {
-                m119 = (ap_int<5>)in_data[8][i_n12_2] * (ap_int<5>)m106;
-                m120 = (ap_int<5>)m94 + (ap_int<5>)m40;
-                m121 = (ap_int<6>)in_data[16][i_n12_2] * (ap_int<6>)in_data[16][i_n12_2];
-                m122 = (ap_int<9>)m94 * (ap_int<9>)in_data[0][i_n12_2];
-                m27 += ((ap_int<32>)m119 + (ap_int<32>)m120 + (ap_int<32>)m121 + (ap_int<32>)m122);
-                m123 = (ap_int<14>)m61 * (ap_int<14>)m47;
-                m124 = (ap_int<11>)in_data[20][i_n12_2] + (ap_int<11>)m56;
-                m27 += ((ap_int<32>)m123 + (ap_int<32>)m124);
-                m125 = (ap_int<9>)in_data[16][i_n12_2] * (ap_int<9>)m38;
-                m27 += ((ap_int<32>)m125);
-                m126 = (ap_int<11>)m92 + (ap_int<11>)in_data[12][i_n12_2];
-                m127 = (ap_int<12>)in_data[20][i_n12_2] + (ap_int<12>)m42;
-                m128 = (ap_int<3>)in_data[22][i_n12_2] + (ap_int<3>)m49;
-                m129 = (ap_int<3>)m122 * (ap_int<3>)in_data[16][i_n12_2];
-                m27 += ((ap_int<32>)m126 + (ap_int<32>)m127 + (ap_int<32>)m128 + (ap_int<32>)m129);
-                m130 = (ap_int<12>)m123 * (ap_int<12>)in_data[10][i_n12_2];
-                m131 = (ap_int<14>)m45 + (ap_int<14>)m83;
-                m132 = (ap_int<3>)in_data[22][i_n12_2] * (ap_int<3>)in_data[12][i_n12_2];
-                m27 += ((ap_int<32>)m130 + (ap_int<32>)m131 + (ap_int<32>)m132);
+#line 30 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE off=true
+# 224 "case_3.cc"
+
+            m115 = (ap_int<12>)in_data[10][i_n12_1] * (ap_int<12>)m99;
+            m116 = (ap_int<10>)in_data[20][i_n12_1] + (ap_int<10>)m115;
+            m29 += ((ap_int<32>)m115 + (ap_int<32>)m116);
+        }
+    }
+    L_s2_1: for(int i_s2_0=0; i_s2_0<8; i_s2_0++) {
+#line 31 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 230 "case_3.cc"
+
+        m118 = (ap_int<5>)in_data[24][i_s2_0] * (ap_int<5>)m103;
+        m29 += ((ap_int<32>)m118);
+    }
+    L_n13_1: for(int i_n13_0=0; i_n13_0<8; i_n13_0++) {
+#line 32 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 234 "case_3.cc"
+
+        L_n13_2: for(int i_n13_1=0; i_n13_1<8; i_n13_1++) {
+#line 33 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 235 "case_3.cc"
+
+            L_n13_3: for(int i_n13_2=0; i_n13_2<8; i_n13_2++) {
+#line 34 "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl"
+#pragma HLSDIRECTIVE PIPELINE
+# 236 "case_3.cc"
+
+                m122 = (ap_int<5>)in_data[16][i_n13_2] + (ap_int<5>)in_data[24][i_n13_2];
+                m29 += ((ap_int<32>)m122);
             }
         }
     }
 
 
-    out_data[0] = m27.range(7, 0);
-    out_data[1] = m27.range(15, 8);
-    out_data[2] = m27.range(23, 16);
-    out_data[3] = m27.range(31, 24);
+    out_data[0] = m29.range(7, 0);
+    out_data[1] = m29.range(15, 8);
+    out_data[2] = m29.range(23, 16);
+    out_data[3] = m29.range(31, 24);
 
 }

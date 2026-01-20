@@ -1,2 +1,29 @@
-address of array 'm64' will always evaluate to 'true'
-1 warning generated.
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+Invalid Directive: for current device, mul + fabric is invalid combination for bind_op
+Invalid Directive: for current device, add + fabric is invalid combination for bind_op
+27 errors generated.
+Error while processing /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/.autopilot/db/case_3.pp.0.cc.

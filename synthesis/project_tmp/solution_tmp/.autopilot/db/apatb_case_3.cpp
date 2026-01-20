@@ -1331,7 +1331,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port4 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_0" },
@@ -1356,7 +1356,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port5 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_1" },
@@ -1381,7 +1381,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port6 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_2" },
@@ -1406,7 +1406,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port7 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_3" },
@@ -1431,7 +1431,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port8 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_4" },
@@ -1456,7 +1456,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port9 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_5" },
@@ -1481,7 +1481,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port10 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_6" },
@@ -1506,7 +1506,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port11 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_7" },
@@ -1531,7 +1531,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port12 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_8" },
@@ -1556,7 +1556,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port13 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_9" },
@@ -1581,7 +1581,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port14 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_10" },
@@ -1606,7 +1606,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port15 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_11" },
@@ -1631,7 +1631,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port16 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_12" },
@@ -1656,7 +1656,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port17 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_13" },
@@ -1681,7 +1681,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port18 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_14" },
@@ -1706,7 +1706,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port19 {
 #endif
-    .width = 8,
+    .width = 2,
     .asize = 1,
     .hbm = false,
     .name = { "in_data_15" },
@@ -1749,7 +1749,7 @@ void apatb_case_3_hw(void* __xlx_apatb_param_in_data_0, void* __xlx_apatb_param_
   };
   port20.param = { __xlx_apatb_param_in_scalar };
   port20.mname = { "in_scalar" };
-  port20.nbytes = { 26 };
+  port20.nbytes = { 28 };
 
   try {
 #ifdef POST_CHECK

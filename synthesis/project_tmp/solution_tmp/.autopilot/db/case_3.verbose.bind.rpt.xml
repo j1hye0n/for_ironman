@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'case_3'" level="0">
-<item name = "Date">Tue Jan 20 09:52:11 2026
+<item name = "Date">Tue Jan 20 10:11:46 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">project_tmp</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">12.00 ns, 8.319 ns, 3.24 ns</column>
+<column name="ap_clk">12.00 ns, 8.757 ns, 3.24 ns</column>
 </table>
 </item>
 </section>
@@ -24,29 +24,28 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">3157, 3157, 37.884 us, 37.884 us, 3158, 3158, no</column>
+<column name="">1412, 1412, 16.944 us, 16.944 us, 1413, 1413, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3_fu_321">case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3, 515, 515, 6.180 us, 6.180 us, 513, 513, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n3_1_L_n3_2_fu_332">case_3_Pipeline_L_n3_1_L_n3_2, 68, 68, 0.816 us, 0.816 us, 65, 65, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3_fu_363">case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3, 515, 515, 6.180 us, 6.180 us, 513, 513, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n5_1_L_n5_2_fu_376">case_3_Pipeline_L_n5_1_L_n5_2, 66, 66, 0.792 us, 0.792 us, 65, 65, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_m1_1_L_m1_2_fu_385">case_3_Pipeline_L_m1_1_L_m1_2, 260, 260, 3.120 us, 3.120 us, 259, 259, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_s1_1_fu_394">case_3_Pipeline_L_s1_1, 10, 10, 0.120 us, 0.120 us, 9, 9, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_s2_1_fu_403">case_3_Pipeline_L_s2_1, 11, 11, 0.132 us, 0.132 us, 9, 9, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3_fu_412">case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3, 519, 519, 6.228 us, 6.228 us, 513, 513, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n9_1_L_n9_2_fu_435">case_3_Pipeline_L_n9_1_L_n9_2, 67, 67, 0.804 us, 0.804 us, 65, 65, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3_fu_444">case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3, 516, 516, 6.192 us, 6.192 us, 513, 513, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n11_1_L_n11_2_fu_453">case_3_Pipeline_L_n11_1_L_n11_2, 69, 69, 0.828 us, 0.828 us, 65, 65, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3_fu_463">case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3, 515, 515, 6.180 us, 6.180 us, 513, 513, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- L_n1_1">144, 144, 18, -, -, 8, no</column>
+<column name=" + L_n1_2">16, 16, 2, -, -, 8, no</column>
+<column name="- L_n2_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n2_2">24, 24, 3, -, -, 8, no</column>
+<column name="- L_n3_1">552, 552, 69, -, -, 8, no</column>
+<column name=" + L_n3_2_L_n3_3">66, 66, 4, 1, 1, 64, yes</column>
+<column name="- L_n7_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n7_2">24, 24, 3, -, -, 8, no</column>
+<column name="- L_n8_1_L_n8_2">66, 66, 3, 1, 1, 64, yes</column>
+<column name="- L_n9_1">208, 208, 26, -, -, 8, no</column>
+<column name=" + L_n9_2">24, 24, 3, -, -, 8, no</column>
 </table>
 </item>
 </section>

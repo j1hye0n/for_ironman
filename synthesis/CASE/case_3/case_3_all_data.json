@@ -1,1 +1,11 @@
-{}
+{
+    "solution_1": {
+        "directives": [],
+        "LUT_op": [],
+        "SLICE": 307,
+        "LUT": 926,
+        "FF": 920,
+        "DSP": 0,
+        "CP": 6.514
+    }
+}

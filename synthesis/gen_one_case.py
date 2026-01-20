@@ -146,7 +146,7 @@ def gen_for_loop(case_id, prim_in_cnt, prim_out_cnt, max_op_cnt):
     global_acc_id = curr_id
     curr_id += 1
     
-    declarations.append(f"ap_int<16> m{global_acc_id} = 0;")
+    declarations.append(f"ap_int<32> m{global_acc_id} = 0;")
     
     dfg_nodes.append({'id': global_acc_id, 'type': 'accum_reg', 'prec': 32, 'parent_loop': None})
 

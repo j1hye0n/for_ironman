@@ -1,0 +1,92 @@
+  **** HLS Build v2025.1 6135595
+Sourcing Tcl script '/home/jjh/RL_test/for_ironman/synthesis/./script_tmp.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project_tmp 
+WARNING: [HLS 200-2182] The 'project_tmp' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/synthesis/project_tmp'.
+INFO: [HLS 200-1510] Running: set_top case_3 
+INFO: [HLS 200-1510] Running: add_files case_3.cc 
+INFO: [HLS 200-10] Adding design file 'case_3.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution_tmp -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1510] Running: create_clock -period 12 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 12ns.
+INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n2_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_m1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_m1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_m1_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n6_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n7_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n8_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n10_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n12_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n12_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n12_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m39 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m42 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m45 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m53 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m54 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m55 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m60 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m64 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m81 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m82 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m84 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m90 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m91 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m92 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m93 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m94 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m99 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m100 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m101 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m102 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m105 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m106 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m111 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m114 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m115 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m121 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m122 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m123 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m124 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m125 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m126 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m128 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.95 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.03 seconds; current allocated memory: 250.949 MB.
+INFO: [HLS 200-10] Analyzing design file 'case_3.cc' ... 
+WARNING: [HLS 207-4905] address of array 'm64' will always evaluate to 'true' (case_3.cc:165:29)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.56 seconds. CPU system time: 0.63 seconds. Elapsed time: 7.2 seconds; current allocated memory: 254.754 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.

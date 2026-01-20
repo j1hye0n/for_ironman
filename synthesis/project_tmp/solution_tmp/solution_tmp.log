@@ -11,60 +11,123 @@ INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
 INFO: [HLS 200-1510] Running: create_clock -period 12 -name default 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 12ns.
 INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n3_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n4_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n5_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n6_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n10_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n12_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_3/L_n12_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n13_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n13_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_3/L_n13_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m32 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m33 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m36 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m37 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m45 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m47 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m55 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m56 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m58 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m62 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m64 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m68 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m76 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m82 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m87 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m88 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m89 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m92 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m93 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m98 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m99 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m101 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m103 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m104 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m109 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_3 m110 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_3 m112 
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.88 seconds. CPU system time: 0.07 seconds. Elapsed time: 0.95 seconds; current allocated memory: 247.770 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.93 seconds. CPU system time: 0.09 seconds. Elapsed time: 1.01 seconds; current allocated memory: 250.469 MB.
 INFO: [HLS 200-10] Analyzing design file 'case_3.cc' ... 
-WARNING: [HLS 207-4905] address of array 'm64' will always evaluate to 'true' (case_3.cc:165:29)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.53 seconds. CPU system time: 0.61 seconds. Elapsed time: 6.16 seconds; current allocated memory: 249.594 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 6.34 seconds. CPU system time: 0.62 seconds. Elapsed time: 6.96 seconds; current allocated memory: 254.117 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 22,967 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 1,314 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 1,050 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 1,019 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 1,019 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 1,795 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 667 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 695 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 723 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 762 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 705 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 847 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 847 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 847 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 857 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 975 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 19,705 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,045 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,023 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,836 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,836 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,257 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,182 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,226 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,270 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,304 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,216 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,170 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,170 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,151 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,108 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,230 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'L_n13_2' is marked as complete unroll implied by the pipeline pragma (case_3.cc:235:18)
+INFO: [HLS 214-291] Loop 'L_n13_3' is marked as complete unroll implied by the pipeline pragma (case_3.cc:236:22)
+INFO: [HLS 214-291] Loop 'L_n12_2' is marked as complete unroll implied by the pipeline pragma (case_3.cc:224:18)
+INFO: [HLS 214-291] Loop 'L_n11_2' is marked as complete unroll implied by the pipeline pragma (case_3.cc:211:18)
+INFO: [HLS 214-291] Loop 'L_n10_3' is marked as complete unroll implied by the pipeline pragma (case_3.cc:192:22)
+INFO: [HLS 214-291] Loop 'L_n6_3' is marked as complete unroll implied by the pipeline pragma (case_3.cc:145:21)
+INFO: [HLS 214-291] Loop 'L_n5_3' is marked as complete unroll implied by the pipeline pragma (case_3.cc:134:21)
+INFO: [HLS 214-186] Unrolling loop 'L_n13_2' (case_3.cc:235:18) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n13_2' (case_3.cc:235:18) in function 'case_3' has been removed because the loop is unrolled completely (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n13_3' (case_3.cc:236:22) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n13_3' (case_3.cc:236:22) in function 'case_3' has been removed because the loop is unrolled completely (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n12_2' (case_3.cc:224:18) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n11_2' (case_3.cc:211:18) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n10_3' (case_3.cc:192:22) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n10_3' (case_3.cc:192:22) in function 'case_3' has been removed because the loop is unrolled completely (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n6_3' (case_3.cc:145:21) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n5_3' (case_3.cc:134:21) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
 INFO: [HLS 214-248] Applying array_partition to 'in_data': Complete partitioning on dimension 1. (case_3.cc:12:0)
 INFO: [HLS 214-248] Applying array_partition to 'out_data': Complete partitioning on dimension 1. (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_15' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_14' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_13' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_12' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_11' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_10' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_9' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_8' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_7' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_6' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_5' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_4' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_3' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_2' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_1' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-241] Aggregating scalar variable 'in_data_0' with compact=bit mode in 8-bits (case_3.cc:12:0)
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n2_3> at case_3.cc:102:21 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n3_2> at case_3.cc:109:17 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n4_3> at case_3.cc:133:21 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n5_2> at case_3.cc:144:17 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_m1_2> at case_3.cc:152:17 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_s1_1> at case_3.cc:163:13 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_s2_1> at case_3.cc:183:13 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n8_3> at case_3.cc:194:21 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n9_2> at case_3.cc:219:17 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n10_3> at case_3.cc:227:22 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n11_2> at case_3.cc:235:18 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< L_n12_3> at case_3.cc:243:22 
-INFO: [HLS 214-291] Loop 'L_m1_3' is marked as complete unroll implied by the pipeline pragma (case_3.cc:154:21)
-INFO: [HLS 214-186] Unrolling loop 'L_m1_3' (case_3.cc:154:21) in function 'case_3' completely with a factor of 8 (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_15' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_14' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_13' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_12' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_11' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_10' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_9' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_8' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_7' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_6' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_5' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_4' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_3' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_2' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_1' with compact=bit mode in 2-bits (case_3.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_0' with compact=bit mode in 2-bits (case_3.cc:12:0)
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_15' since this interface mode only supports scalar types (case_3.cc:12:0)
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_14' since this interface mode only supports scalar types (case_3.cc:12:0)
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_13' since this interface mode only supports scalar types (case_3.cc:12:0)
@@ -82,318 +145,41 @@ WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argumen
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_1' since this interface mode only supports scalar types (case_3.cc:12:0)
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_0' since this interface mode only supports scalar types (case_3.cc:12:0)
 WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_scalar' since this interface mode only supports scalar types (case_3.cc:12:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 6 seconds. CPU system time: 0.56 seconds. Elapsed time: 8.99 seconds; current allocated memory: 259.520 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 259.520 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 6.64 seconds. CPU system time: 0.54 seconds. Elapsed time: 9.19 seconds; current allocated memory: 263.719 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0 seconds; current allocated memory: 263.719 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 261.215 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 266.246 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-WARNING: [SYNCHK 200-24] case_3.cc:270: Index for bit vector operation is out of bound.
-INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 261.926 MB.
-INFO: [XFORM 203-11] Balancing expressions in function 'case_3' (case_3.cc:7:22)...36 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.25 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.26 seconds; current allocated memory: 287.488 MB.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n2_2'(case_3.cc:101:17) and 'L_n2_3'(case_3.cc:102:21) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n2_1'(case_3.cc:100:13) and 'L_n2_2'(case_3.cc:101:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n3_1'(case_3.cc:108:13) and 'L_n3_2'(case_3.cc:109:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n4_2'(case_3.cc:132:17) and 'L_n4_3'(case_3.cc:133:21) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n4_1'(case_3.cc:131:13) and 'L_n4_2'(case_3.cc:132:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n5_1'(case_3.cc:143:13) and 'L_n5_2'(case_3.cc:144:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_m1_1'(case_3.cc:151:13) and 'L_m1_2'(case_3.cc:152:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n8_2'(case_3.cc:193:17) and 'L_n8_3'(case_3.cc:194:21) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n8_1'(case_3.cc:192:13) and 'L_n8_2'(case_3.cc:193:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n9_1'(case_3.cc:218:13) and 'L_n9_2'(case_3.cc:219:17) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n10_2'(case_3.cc:226:18) and 'L_n10_3'(case_3.cc:227:22) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n10_1'(case_3.cc:225:14) and 'L_n10_2'(case_3.cc:226:18) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n11_1'(case_3.cc:234:14) and 'L_n11_2'(case_3.cc:235:18) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n12_2'(case_3.cc:242:18) and 'L_n12_3'(case_3.cc:243:22) in function 'case_3' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'L_n12_1'(case_3.cc:241:14) and 'L_n12_2'(case_3.cc:242:18) in function 'case_3' into perfectly nested loops.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n2_2' (case_3.cc:101:17) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n2_1' (case_3.cc:100:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n3_1' (case_3.cc:108:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n4_2' (case_3.cc:132:17) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n4_1' (case_3.cc:131:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n5_1' (case_3.cc:143:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_m1_1' (case_3.cc:151:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n8_2' (case_3.cc:193:17) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n8_1' (case_3.cc:192:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n9_1' (case_3.cc:218:13) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n10_2' (case_3.cc:226:18) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n10_1' (case_3.cc:225:14) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n11_1' (case_3.cc:234:14) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n12_2' (case_3.cc:242:18) in function 'case_3'.
-INFO: [XFORM 203-541] Flattening a loop nest 'L_n12_1' (case_3.cc:241:14) in function 'case_3'.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.26 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.29 seconds; current allocated memory: 392.992 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 266.602 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'case_3' (case_3.cc:1:17)...89 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.22 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.23 seconds; current allocated memory: 291.133 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L_n3_2'(case_3.cc:99:17) and 'L_n3_3'(case_3.cc:100:21) in function 'case_3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L_n3_1'(case_3.cc:98:13) and 'L_n3_2'(case_3.cc:99:17) in function 'case_3' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L_n8_1'(case_3.cc:169:13) and 'L_n8_2'(case_3.cc:170:17) in function 'case_3' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'L_n3_2' (case_3.cc:99:17) in function 'case_3'.
+INFO: [XFORM 203-541] Flattening a loop nest 'L_n8_1' (case_3.cc:169:13) in function 'case_3'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.19 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 290.008 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'case_3' ...
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n2_1_L_n2_2_L_n2_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_n2_1_L_n2_2_L_n2_3'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.13 seconds; current allocated memory: 393.980 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 393.980 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n3_1_L_n3_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n3_1_L_n3_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'L_n3_1_L_n3_2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 394.012 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 394.012 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n4_1_L_n4_2_L_n4_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_n4_1_L_n4_2_L_n4_3'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 394.305 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 394.305 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n5_1_L_n5_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n5_1_L_n5_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'L_n5_1_L_n5_2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 394.609 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 394.609 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_m1_1_L_m1_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_m1_1_L_m1_2'.
-WARNING: [HLS 200-885] The II Violation in module 'case_3_Pipeline_L_m1_1_L_m1_2' (loop 'L_m1_1_L_m1_2'): Unable to schedule 'load' operation 8 bit ('in_data_0_load_1', case_3.cc:153) on array 'in_data_0' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'in_data_0'.
-WARNING: [HLS 200-885] The II Violation in module 'case_3_Pipeline_L_m1_1_L_m1_2' (loop 'L_m1_1_L_m1_2'): Unable to schedule 'load' operation 8 bit ('in_data_0_load_3', case_3.cc:153) on array 'in_data_0' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'in_data_0'.
-WARNING: [HLS 200-885] The II Violation in module 'case_3_Pipeline_L_m1_1_L_m1_2' (loop 'L_m1_1_L_m1_2'): Unable to schedule 'load' operation 8 bit ('in_data_0_load_5', case_3.cc:153) on array 'in_data_0' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'in_data_0'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 4, Depth = 7, loop 'L_m1_1_L_m1_2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 396.520 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 396.520 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_s1_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_s1_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'L_s1_1'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 396.520 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 396.520 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_s2_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_s2_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_s2_1'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 396.520 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 396.520 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [HLS 200-486] Changing DSP latency (root=add_ln214_1) to 3 in order to utilize available DSP registers.
-INFO: [SCHED 204-61] Pipelining loop 'L_n8_1_L_n8_2_L_n8_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 7, loop 'L_n8_1_L_n8_2_L_n8_3'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 397.285 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 397.285 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n9_1_L_n9_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n9_1_L_n9_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_n9_1_L_n9_2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 397.590 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 397.590 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n10_1_L_n10_2_L_n10_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'L_n10_1_L_n10_2_L_n10_3'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 398.117 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 398.117 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n11_1_L_n11_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [HLS 200-486] Changing DSP latency (root=add_ln238) to 3 in order to utilize available DSP registers.
-INFO: [SCHED 204-61] Pipelining loop 'L_n11_1_L_n11_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 5, loop 'L_n11_1_L_n11_2'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 398.402 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 398.402 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'L_n12_1_L_n12_2_L_n12_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_n12_1_L_n12_2_L_n12_3'
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 399.012 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 399.012 MB.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Mul_LUT' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:36): 'return' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Mul_LUT' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:74): 'return' does not exist or is optimized away.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'case_3' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=tmp70) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'L_n3_2_L_n3_3'.
+INFO: [SCHED 204-61] Pipelining loop 'L_n8_1_L_n8_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'L_n3_2_L_n3_3'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_n8_1_L_n8_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 399.977 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.55 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.58 seconds; current allocated memory: 290.008 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 399.977 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3' pipeline 'L_n2_1_L_n2_2_L_n2_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_8s_4s_12_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n2_1_L_n2_2_L_n2_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 399.977 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n3_1_L_n3_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n3_1_L_n3_2' pipeline 'L_n3_1_L_n3_2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_5s_5s_5_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n3_1_L_n3_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 401.285 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3' pipeline 'L_n4_1_L_n4_2_L_n4_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n4_1_L_n4_2_L_n4_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 403.730 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n5_1_L_n5_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n5_1_L_n5_2' pipeline 'L_n5_1_L_n5_2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n5_1_L_n5_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 405.012 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_m1_1_L_m1_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_m1_1_L_m1_2' pipeline 'L_m1_1_L_m1_2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_8s_8s_11_1_1': 8 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_m1_1_L_m1_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 406.629 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_s1_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_s1_1' pipeline 'L_s1_1' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_s1_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 411.246 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_s2_1' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_s2_1' pipeline 'L_s2_1' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_7s_4s_7_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_s2_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 411.246 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3' pipeline 'L_n8_1_L_n8_2_L_n8_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mac_muladd_6s_4s_13s_14_4_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_5s_5s_5_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_7s_4s_11_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_9s_8s_13_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n8_1_L_n8_2_L_n8_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 411.984 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n9_1_L_n9_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n9_1_L_n9_2' pipeline 'L_n9_1_L_n9_2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_8s_4s_10_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n9_1_L_n9_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 414.441 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3' pipeline 'L_n10_1_L_n10_2_L_n10_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_15s_8s_15_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n10_1_L_n10_2_L_n10_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 415.426 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n11_1_L_n11_2' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n11_1_L_n11_2' pipeline 'L_n11_1_L_n11_2' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8s_4s_7s_12_4_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n11_1_L_n11_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 416.941 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3' 
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3' pipeline 'L_n12_1_L_n12_2_L_n12_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'mul_8s_7s_9_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3_Pipeline_L_n12_1_L_n12_2_L_n12_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 418.121 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.23 seconds; current allocated memory: 290.008 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'case_3' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -535,6 +321,34 @@ WARNING: [RTGEN 206-101] Port 'case_3/in_data_7_d1' has no fanin or fanout and i
 WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_7_d1' to 0.
 WARNING: [RTGEN 206-101] Port 'case_3/in_data_7_q1' has no fanin or fanout and is left dangling.
                Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_8_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_3/in_data_8_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
 WARNING: [RTGEN 206-101] Port 'case_3/in_data_9_address0' has no fanin or fanout and is left dangling.
                Please use C simulation to confirm this function argument can be read from or written to.
 WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_9_address0' to 0.
@@ -647,5 +461,21 @@ WARNING: [RTGEN 206-101] Port 'case_3/in_data_15_d1' has no fanin or fanout and 
 WARNING: [RTGEN 206-101] Setting dangling out port 'case_3/in_data_15_d1' to 0.
 WARNING: [RTGEN 206-101] Port 'case_3/in_data_15_q1' has no fanin or fanout and is left dangling.
                Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_5s_2s_7s_8_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_3s_2s_3_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_4s_2s_6_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_4s_4s_8_1_1': 1 instance(s).
-INFO: 
+INFO: [RTGEN 206-100] Generating core module 'mul_5s_2s_7_1_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5s_4s_9_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5s_5s_5_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_2s_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_4s_10_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 290.375 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.64 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.67 seconds; current allocated memory: 307.812 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1.27 seconds. CPU system time: 0.06 seconds. Elapsed time: 1.33 seconds; current allocated memory: 310.840 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for case_3.
+INFO: [VLOG 209-307] Generating Verilog RTL for case_3.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 114.19 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:20; Allocated memory: 61.324 MB.

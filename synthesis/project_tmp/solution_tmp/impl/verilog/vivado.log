@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jan 20 10:12:22 2026
+# Process ID         : 3568691
+# Current directory  : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog
+# Command line       : vivado -mode batch -source run_vivado.tcl
+# Log file           : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/vivado.log
+# Journal file       : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/vivado.jou
+# Running On         : woong-Super-Server
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
+# CPU Frequency      : 3740.208 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 201168 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 217169 MB
+# Available Virtual  : 126736 MB
+#-----------------------------------------------------------
+source run_vivado.tcl
+# source ./settings.tcl
+## set top_module case_3
+## set language verilog
+## set family zynq
+## set device xc7z020
+## set package -clg484
+## set speed -1
+## set clock ap_clk
+## set fsm_ext "off"
+## set add_io_buffers false 
+# source -notrace ./extraction.tcl
+# set vivado_proj_name project
+# set vivado_proj_dir .
+# set target_device "${device}${package}${speed}"
+# set target_clk_period_ns "12.000"
+# set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
+# set other_clks_freq_hz {}
+# set ip_vlnv xilinx.com:hls:case_3:1.0
+# set ip_repo_path ../ip
+# set bd_design_name bd_0
+# set bd_inst_name hls_inst
+# set bd_props {}
+# set has_synth true
+# set synth_design_args {-directive sdx_optimization_effort_high}
+# set synth_dcp ""
+# set synth_props {}
+# set has_impl 1
+# set impl_props {}
+# set has_subcore 0
+# set report_options [dict create]
+# dict set report_options report_level 2
+# dict set report_options report_max_paths 10
+# dict set report_options stdout_hls_reports 1
+# dict set report_options stdout_vivado_reports 0
+# dict set report_options hls_project project_tmp
+# dict set report_options hls_solution solution_tmp
+# dict set report_options has_synth $has_synth
+# dict set report_options has_impl $has_impl
+# dict set report_options vivado_reportbasename $top_module
+# dict set report_options vivado_reportdir ./report
+# dict set report_options hls_impl_dir ..
+# dict set report_options hls_reportdir ../report/$language
+# dict set report_options target_clk_period $target_clk_period_ns
+# dict set report_options target_device $target_device
+# dict set report_options language $language
+# dict set report_options clock_name $clock
+# dict set report_options error_if_impl_timing_fails false
+# dict set report_options topmodule "case_3"
+# dict set report_options funcmodules {}
+# dict set report_options bindmodules {case_3_mul_6s_4s_10_1_1 case_3_mul_6s_2s_8_1_1 case_3_mul_5s_5s_5_1_1 case_3_mul_4s_4s_8_1_1 case_3_mul_3s_2s_3_1_1 case_3_mul_5s_4s_9_1_1 case_3_mul_4s_2s_6_1_1 case_3_mul_5s_2s_7_1_1 case_3_mac_muladd_5s_2s_7s_8_4_1}
+# dict set report_options max_module_depth 5
+# create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force

@@ -5,7 +5,7 @@ set rawDecl ""
 set globalVariable ""
 set PortList ""
 set PortName "in_data_0"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -17,7 +17,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_1"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -29,7 +29,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_2"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -41,7 +41,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_3"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -53,7 +53,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_4"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -65,7 +65,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_5"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -77,7 +77,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_6"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -89,7 +89,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_7"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -101,7 +101,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_8"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -113,7 +113,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_9"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -125,7 +125,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_10"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -137,7 +137,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_11"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -149,7 +149,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_12"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -161,7 +161,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_13"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -173,7 +173,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_14"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"
@@ -185,7 +185,7 @@ set DataType "void"
 set Port [list $PortName $Interface $DataType $Pointer $Dims $Const    $Volatile $ArrayOpt]
 lappend PortList $Port
 set PortName "in_data_15"
-set BitWidth "8"
+set BitWidth "2"
 set ArrayOpt ""
 set Const "0"
 set Volatile "1"

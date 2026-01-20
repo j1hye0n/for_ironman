@@ -1,4 +1,0 @@
-case_3.cc:165:29: warning: address of array 'm64' will always evaluate to 'true' [-Wpointer-bool-conversion]
-        m27 += ((ap_int<32>)m64 + (ap_int<32>)m71);
-                ~           ^~~
-1 warning generated.
