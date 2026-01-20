@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jan 20 09:52:18 2026
+# Process ID         : 3533295
+# Current directory  : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/vivado.log
+# Journal file       : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/vivado.jou
+# Running On         : woong-Super-Server
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
+# CPU Frequency      : 3800.005 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 201168 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 217169 MB
+# Available Virtual  : 126564 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

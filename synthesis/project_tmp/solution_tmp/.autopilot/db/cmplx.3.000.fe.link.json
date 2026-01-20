@@ -1,22 +1,22 @@
 {
   "0": {
-    "basicblocks": 319,
+    "basicblocks": 217,
     "calls": "",
     "control_depth": 1,
-    "def_use_depth": 2,
-    "file": "case_4.cc",
+    "def_use_depth": 4,
+    "file": "case_3.cc",
     "fileloc": 7,
-    "instructions": 7629,
+    "instructions": 3726,
     "loads": {
-      "L": 157,
-      "T": 13
+      "L": 77,
+      "T": 5
     },
-    "memory_accesses": 821,
-    "name": "case_4",
+    "memory_accesses": 551,
+    "name": "case_3",
     "stores": {
-      "L": 166,
+      "L": 78,
       "T": 4
     },
-    "total_instructions": 47331
+    "total_instructions": 22967
   }
 }

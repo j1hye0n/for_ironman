@@ -1,0 +1,25 @@
+/home/jjh/RL_test/for_ironman/synthesis/script_tmp.tcl:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=name=case_3_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=case_3
+        ^
+case_3.cc:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=variable=in_data complete dim=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=in_data complete dim=1
+        ^
+case_3.cc:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=variable=out_data complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS array_partition variable=out_data complete
+        ^
+case_3.cc:15:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=ap_none port=in_data_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=in_data
+        ^
+case_3.cc:16:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=ap_none port=in_scalar_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=in_scalar
+        ^
+case_3.cc:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=ap_none port=out_data_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_none port=out_data
+        ^
+case_3.cc:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=case_3_XLX_SEP_ PragmaOptions=ap_ctrl_hs port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_hs port=return
+        ^
+case_3.cc:165:29: warning: address of array 'm64' will always evaluate to 'true' [-Wpointer-bool-conversion]
+        m27 += ((ap_int<32>)m64 + (ap_int<32>)m71);
+                ~           ^~~
+8 warnings generated.

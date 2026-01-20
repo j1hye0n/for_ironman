@@ -142,7 +142,7 @@ def run_one_case(case_id, path, samp_num=5, sol=1):
         sol = sol + 1
 
 def main():
-    run_one_case(4, "./CASE/case_4/", samp_num=50)
+    run_one_case(3, "./CASE/case_3/", samp_num=50)
 
 if __name__ == "__main__":
     main()

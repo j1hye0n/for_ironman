@@ -146,7 +146,7 @@ def gen_for_loop(case_id, prim_in_cnt, prim_out_cnt, max_op_cnt):
     global_acc_id = curr_id
     curr_id += 1
     
-    declarations.append(f"ap_int<32> m{global_acc_id} = 0;")
+    declarations.append(f"ap_int<16> m{global_acc_id} = 0;")
     
     dfg_nodes.append({'id': global_acc_id, 'type': 'accum_reg', 'prec': 32, 'parent_loop': None})
 
@@ -351,14 +351,14 @@ def gen_for_loop(case_id, prim_in_cnt, prim_out_cnt, max_op_cnt):
 # [Function 3] Main Generator
 # ---------------------------------------------------------
 def Gen_one_case(case_id, max_prim_in, max_op_cnt):
-    LOOP_SIZE = 32
+    LOOP_SIZE = random.choice([4,8])
     
     prim_in_cnt  = random.randint(5, max_prim_in)
     op_cnt = random.randint(prim_in_cnt * 2, max(max_op_cnt, prim_in_cnt * 4))
     prim_out_cnt = 4
     
-    width_in_mat = random.randint(2, 16)
-    width_in_scal = random.randint(2, 16)
+    width_in_mat = random.randint(2, 8)
+    width_in_scal = random.randint(2, 8)
     width_out = 8
     
     file_head = """
@@ -368,7 +368,7 @@ def Gen_one_case(case_id, max_prim_in, max_op_cnt):
 #define SIZE %d
 
 void case_%d(
-    ap_int<%d> in_data[SIZE][SIZE],
+    ap_int<%d> in_data[16][16],
     ap_int<%d> in_scalar[%d],
     ap_int<%d> out_data[%d]
 )
@@ -499,7 +499,7 @@ set_top case_
 add_files case_.cc
 open_solution "solution_" -flow_target vivado
 set_part {{xc7z020clg484-1}}
-create_clock -period 10 -name default
+create_clock -period 12 -name default
 source "./directive.tcl"
 csynth_design
 export_design -evaluate verilog -format ip_catalog

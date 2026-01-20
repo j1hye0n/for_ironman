@@ -1,32 +1,40 @@
 <design_size title="Design Size Report">
-    <item name="C-Synthesis has not completed!">
-        <item name="Array/Struct"/>
-        <item name="Performance"/>
-        <item name="HW Transforms"/>
-    </item>
     <item name="Total Instructions per Compilation Phase">
         <table>
             <keys size="4">Phase, Step, Instructions, Description</keys>
-            <column name="Compile/Link">,  47331, After all functions are compiled and linked into a single design</column>
+            <column name="Compile/Link">, 22967, After all functions are compiled and linked into a single design</column>
             <column name="">, , </column>
             <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
-            <column name="">(1) unroll, 328346 *, user unroll pragmas are applied</column>
-            <column name="">(2) simplification, 263569 *, simplification of applied user unroll pragmas</column>
+            <column name="">(1) unroll,  1314, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  1050, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  1019, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  1019, simplification of applied user inline pragmas</column>
             <column name="">, , </column>
-            <column name="Array/Struct">, pending, After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,  1795, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,    667, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,    695, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,    723, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,    762, array access pattern optmizations</column>
+            <column name="">, , </column>
             <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
+            <column name="">(1) loop simplification,    705, loop and instruction simplification</column>
+            <column name="">(2) parallelization,    847, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,    847, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,    847, simplification of design after performance transformations</column>
+            <column name="">, , </column>
             <column name="HW Transforms">, , After hardware transfomations</column>
+            <column name="">(1) lowering,    857, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,    975, high level synthesis optimizations</column>
         </table>
     </item>
     <item name="Instructions per Function for each Compilation Phase">
         <hiertable>
-            <header size="4" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline"/>
+            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="case_4" col1="case_4.cc:7" col2="47331" col3="263569" col3_note="*"/>
+                <row id="0" col0="case_3" col1="case_3.cc:7" col2="22967" col3="1019" col4="762" col5="847" col6="975"/>
             </rows>
-            <notes>
-                <note name="*" desc="Exceeded design size warning message threshold"/>
-            </notes>
+            <notes/>
         </hiertable>
     </item>
     <item name="Design Size Message Settings">

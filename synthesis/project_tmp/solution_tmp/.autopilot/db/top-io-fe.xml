@@ -1,0 +1,78 @@
+<root versionMajor = "1" versionMinor = "5">
+  <kernel src_name="case_3" language="c" hwCtrl="ap_ctrl_hs" mem_layout="fpga64-xilinx-none">
+    <args>
+      <arg id="0" access_type="r" src_name="in_data" src_type="ap_int&lt;8&gt;*" src_isptr="1" src_bitwidth="8" src_size_or_depth="256">
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_0" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_1" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_2" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_3" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_4" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_5" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_6" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_7" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_8" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_9" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_10" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_11" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_12" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_13" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_14" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_data_15" hw_bitwidth="8" hw_size_or_depth="16" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="1" access_type="r" src_name="in_scalar" src_type="ap_int&lt;4&gt;*" src_isptr="1" src_bitwidth="8" src_size_or_depth="26">
+        <hw hw_usage="data" hw_interface="BRAM" hw_name="in_scalar" hw_bitwidth="4" hw_size_or_depth="26" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_memory" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="2" access_type="w" src_name="out_data" src_type="ap_int&lt;8&gt;*" src_isptr="1" src_bitwidth="8" src_size_or_depth="4">
+        <hw hw_usage="data" hw_interface="Register" hw_name="out_data_0" hw_bitwidth="8" hw_size_or_depth="1" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="Register" hw_name="out_data_1" hw_bitwidth="8" hw_size_or_depth="1" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="Register" hw_name="out_data_2" hw_bitwidth="8" hw_size_or_depth="1" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+        <hw hw_usage="data" hw_interface="Register" hw_name="out_data_3" hw_bitwidth="8" hw_size_or_depth="1" hw_kernel_support="false">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+    </args>
+    <return src_type="void" src_bitwidth="0" offset="0x0">
+      <hw hw_usage="data" hw_interface="" hw_name="" hw_bitwidth="0" hw_kernel_support="true"/>
+    </return>
+  </kernel>
+</root>

@@ -1,0 +1,2190 @@
+  **** HLS Build v2025.1 6135595
+Sourcing Tcl script '/home/jjh/RL_test/for_ironman/synthesis/./script_tmp.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project_tmp 
+WARNING: [HLS 200-2182] The 'project_tmp' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/synthesis/project_tmp'.
+INFO: [HLS 200-1510] Running: set_top case_4 
+INFO: [HLS 200-1510] Running: add_files case_4.cc 
+INFO: [HLS 200-10] Adding design file 'case_4.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution_tmp -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: source ./directive_tmp.tcl
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n2_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n3_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n7_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_4/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n11_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n12_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n12_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n13_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n13_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n14_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n15_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n16_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n16_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n17_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n17_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n18_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_n19_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_4/L_s7_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m29 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m34 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m36 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m37 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m38 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m40 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m41 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m42 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m43 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m44 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m48 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m49 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m50 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m51 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m52 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m54 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m55 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m56 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m58 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m59 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m60 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m61 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m62 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m65 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m66 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m67 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m68 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m69 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m70 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m72 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m73 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m74 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m76 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m79 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m81 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m82 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m86 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m87 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m91 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m93 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m94 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m96 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m97 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m98 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m99 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m100 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m102 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m103 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m104 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m105 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m106 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m108 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m109 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m110 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m111 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m112 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m113 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m114 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m118 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m120 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m121 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m122 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m125 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m126 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m129 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m130 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m134 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m136 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m137 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m138 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m139 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m140 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m141 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m142 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m143 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m146 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m147 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m148 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m151 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m153 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m155 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m156 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m157 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m158 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m159 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m160 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m161 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m162 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m164 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m165 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m168 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m169 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m171 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m172 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m173 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m174 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m175 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m176 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m180 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m181 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m182 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m186 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m190 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m191 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m192 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m193 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m194 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m197 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m199 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m201 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_4 m202 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m204 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m206 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m210 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m211 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m222 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_4 m223 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1.2 seconds. CPU system time: 0.09 seconds. Elapsed time: 1.3 seconds; current allocated memory: 272.367 MB.
+INFO: [HLS 200-10] Analyzing design file 'case_4.cc' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9.16 seconds. CPU system time: 0.7 seconds. Elapsed time: 9.87 seconds; current allocated memory: 279.578 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 47,365 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 185,889 instructions in the design after the 'Unroll/Inline' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 142,041 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 119,659 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 119,647 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+WARNING: [HLS 200-1995] There were 128,728 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 85,638 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 86,901 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 88,164 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 87,648 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 85,396 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,930 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,930 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,930 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 73,915 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 74,046 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'L_n19_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:481:18)
+INFO: [HLS 214-291] Loop 'L_n19_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:482:22)
+INFO: [HLS 214-291] Loop 'L_n18_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:473:18)
+INFO: [HLS 214-291] Loop 'L_n18_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:474:22)
+INFO: [HLS 214-291] Loop 'L_n17_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:466:18)
+INFO: [HLS 214-291] Loop 'L_n16_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:434:18)
+INFO: [HLS 214-291] Loop 'L_n15_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:426:18)
+INFO: [HLS 214-291] Loop 'L_n15_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:427:22)
+INFO: [HLS 214-291] Loop 'L_n14_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:416:18)
+INFO: [HLS 214-291] Loop 'L_n14_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:417:22)
+INFO: [HLS 214-291] Loop 'L_n13_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:372:18)
+INFO: [HLS 214-291] Loop 'L_n12_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:363:18)
+INFO: [HLS 214-291] Loop 'L_n11_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:341:18)
+INFO: [HLS 214-291] Loop 'L_n11_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:342:22)
+INFO: [HLS 214-291] Loop 'L_n10_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:334:18)
+INFO: [HLS 214-291] Loop 'L_n8_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:314:17)
+INFO: [HLS 214-291] Loop 'L_n7_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:271:17)
+INFO: [HLS 214-291] Loop 'L_n7_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:272:21)
+INFO: [HLS 214-291] Loop 'L_n6_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:263:17)
+INFO: [HLS 214-291] Loop 'L_n5_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:251:17)
+INFO: [HLS 214-291] Loop 'L_n4_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:230:17)
+INFO: [HLS 214-291] Loop 'L_n3_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:203:21)
+INFO: [HLS 214-291] Loop 'L_n2_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:176:17)
+INFO: [HLS 214-291] Loop 'L_n2_3' is marked as complete unroll implied by the pipeline pragma (case_4.cc:177:21)
+INFO: [HLS 214-291] Loop 'L_n1_2' is marked as complete unroll implied by the pipeline pragma (case_4.cc:170:17)
+INFO: [HLS 214-186] Unrolling loop 'L_n19_2' (case_4.cc:481:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n19_2' (case_4.cc:481:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n19_3' (case_4.cc:482:22) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n19_3' (case_4.cc:482:22) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n18_2' (case_4.cc:473:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n18_2' (case_4.cc:473:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n18_3' (case_4.cc:474:22) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n18_3' (case_4.cc:474:22) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n17_2' (case_4.cc:466:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n17_2' (case_4.cc:466:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n16_2' (case_4.cc:434:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n16_2' (case_4.cc:434:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n15_2' (case_4.cc:426:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n15_2' (case_4.cc:426:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n15_3' (case_4.cc:427:22) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n15_3' (case_4.cc:427:22) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n14_2' (case_4.cc:416:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n14_2' (case_4.cc:416:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n14_3' (case_4.cc:417:22) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n14_3' (case_4.cc:417:22) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n13_2' (case_4.cc:372:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n13_2' (case_4.cc:372:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n12_2' (case_4.cc:363:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n12_2' (case_4.cc:363:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n11_2' (case_4.cc:341:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n11_2' (case_4.cc:341:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n11_3' (case_4.cc:342:22) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n11_3' (case_4.cc:342:22) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n10_2' (case_4.cc:334:18) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n10_2' (case_4.cc:334:18) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n8_2' (case_4.cc:314:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n8_2' (case_4.cc:314:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n7_2' (case_4.cc:271:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n7_2' (case_4.cc:271:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n7_3' (case_4.cc:272:21) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n7_3' (case_4.cc:272:21) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n6_2' (case_4.cc:263:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n6_2' (case_4.cc:263:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n5_2' (case_4.cc:251:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n4_2' (case_4.cc:230:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n4_2' (case_4.cc:230:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n3_3' (case_4.cc:203:21) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n3_3' (case_4.cc:203:21) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n2_2' (case_4.cc:176:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n2_2' (case_4.cc:176:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n2_3' (case_4.cc:177:21) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n2_3' (case_4.cc:177:21) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-186] Unrolling loop 'L_n1_2' (case_4.cc:170:17) in function 'case_4' completely with a factor of 32 (case_4.cc:12:0)
+WARNING: [HLS 214-189] Pipeline directive for loop 'L_n1_2' (case_4.cc:170:17) in function 'case_4' has been removed because the loop is unrolled completely (case_4.cc:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'in_data': Complete partitioning on dimension 1. (case_4.cc:12:0)
+INFO: [HLS 214-248] Applying array_partition to 'out_data': Complete partitioning on dimension 1. (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_31' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_30' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_29' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_28' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_27' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_26' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_25' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_24' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_23' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_22' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_21' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_20' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_19' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_18' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_17' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_16' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_15' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_14' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_13' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_12' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_11' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_10' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_9' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_8' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_7' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_6' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_5' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_4' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_3' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_2' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_1' with compact=bit mode in 11-bits (case_4.cc:12:0)
+INFO: [HLS 214-241] Aggregating scalar variable 'in_data_0' with compact=bit mode in 11-bits (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_31' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_30' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_29' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_28' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_27' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_26' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_25' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_24' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_23' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_22' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_21' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_20' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_19' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_18' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_17' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_16' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_15' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_14' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_13' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_12' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_11' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_10' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_9' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_8' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_7' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_6' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_5' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_4' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_3' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_2' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_1' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_data_0' since this interface mode only supports scalar types (case_4.cc:12:0)
+WARNING: [HLS 214-414] Cannot apply interface mode 'ap_none' on function argument 'in_scalar' since this interface mode only supports scalar types (case_4.cc:12:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2411.19 seconds. CPU system time: 1.06 seconds. Elapsed time: 2413.71 seconds; current allocated memory: 296.293 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 296.293 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 226.62 seconds. CPU system time: 0.06 seconds. Elapsed time: 226.71 seconds; current allocated memory: 410.738 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 7.04 seconds. CPU system time: 0 seconds. Elapsed time: 7.04 seconds; current allocated memory: 410.738 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'case_4' (case_4.cc:6:13)...2570 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 11.78 seconds. CPU system time: 0 seconds. Elapsed time: 11.79 seconds; current allocated memory: 410.738 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'L_n9_1'(case_4.cc:326:13) and 'L_n9_2'(case_4.cc:327:17) in function 'case_4' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'L_n9_1' (case_4.cc:326:13) in function 'case_4'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 4.49 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.5 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'case_4' ...
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:57): '' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Mul_LUT' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:59) on 'm38', which is not an operation.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:106) on 'shl' operation 10 bit ('m98', case_4.cc:286) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:121): '' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:150): '' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:153): '' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:159) on 'shl' operation 10 bit ('m165', case_4.cc:395) due to incompatible operation sets.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:167): '' does not exist or is optimized away.
+WARNING: [SYN 201-303] Cannot apply functional unit assignment of 'Adder' (/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:168): '' does not exist or is optimized away.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s1_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s1_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'L_s1_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.52 seconds. CPU system time: 0.06 seconds. Elapsed time: 0.58 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s2_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s2_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 7, loop 'L_s2_1'
+WARNING: [HLS 200-871] Estimated clock period (7.494 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'case_4_Pipeline_L_s2_1' consists of the following:
+	'mul' operation 22 bit ('mul_ln303', case_4.cc:303) [205]  (7.494 ns)
+
+Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s3_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s3_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 7, loop 'L_s3_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.13 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s4_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s4_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, loop 'L_s4_1'
+WARNING: [HLS 200-871] Estimated clock period (8.563 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'case_4_Pipeline_L_s4_1' consists of the following:
+	'mul' operation 25 bit ('mul_ln412', case_4.cc:412) [118]  (8.563 ns)
+
+Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s5_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s5_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 5, loop 'L_s5_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s6_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s6_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'L_s6_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4_Pipeline_L_s7_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'L_s7_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'L_s7_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 452.645 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 452.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'case_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln371) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln340_26) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln340_25) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'L_n9_1_L_n9_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'L_n9_1_L_n9_2'
+WARNING: [HLS 200-871] Estimated clock period (7.494 ns) exceeds the target (target clock period: 10.000 ns, clock uncertainty: 2.700 ns, effective delay budget: 7.300 ns).
+Resolution: For help on HLS 200-871 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-871.html
+WARNING: [HLS 200-1016] The critical path in module 'case_4' consists of the following:
+	'mul' operation 18 bit ('mul_ln328', case_4.cc:328) [7274]  (7.494 ns)
+
+Resolution: For help on HLS 200-1016 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1016.html
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 15.72 seconds. CPU system time: 0.07 seconds. Elapsed time: 15.79 seconds; current allocated memory: 554.438 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 98.88 seconds. CPU system time: 0.02 seconds. Elapsed time: 98.91 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s1_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s1_1' pipeline 'L_s1_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_5s_5s_10_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_6s_12_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_7s_15_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_8s_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_8s_8_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s1_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.42 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.45 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s2_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s2_1' pipeline 'L_s2_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_6s_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_7s_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_22_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_2s_2s_2_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_3s_3s_6_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_6s_12_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_7s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_8s_16_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s2_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.17 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s3_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s3_1' pipeline 'L_s3_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_10s_20_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_7s_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_6s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s3_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.18 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s4_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s4_1' pipeline 'L_s4_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_22_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_9s_20_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_13s_11s_24_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_14s_11s_25_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_7s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s4_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s5_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s5_1' pipeline 'L_s5_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_5s_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s5_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s6_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s6_1' pipeline 'L_s6_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_6s_6_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s6_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4_Pipeline_L_s7_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'case_4_Pipeline_L_s7_1' pipeline 'L_s7_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_7s_7_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4_Pipeline_L_s7_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 554.438 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'case_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_0' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_2' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_3' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_4' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_5' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_6' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_7' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_8' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_9' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_10' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_11' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_12' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_13' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_14' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_15' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_16' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_17' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_18' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_19' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_20' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_21' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_22' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_23' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_24' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_25' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_26' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_27' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_28' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_29' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_30' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_data_31' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/in_scalar' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/out_data_0' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out_data_0' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/out_data_1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out_data_1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/out_data_2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out_data_2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'case_4/out_data_3' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out_data_3' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'case_4' to 'ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_1_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_1_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_3_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_3_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_5_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_5_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_7_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_7_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_9_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_9_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_11_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_11_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_13_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_13_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_15_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_15_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_17_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_17_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_19_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_19_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_21_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_21_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_23_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_23_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_25_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_25_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_26_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_26_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_27_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_27_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_28_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_28_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_29_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_29_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_30_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_30_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_address0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_address0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_ce0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_ce0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_we0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_we0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_d0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_d0' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_q0' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_address1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_address1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_ce1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_ce1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_we1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_we1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_d1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+WARNING: [RTGEN 206-101] Setting dangling out port 'case_4/in_data_31_d1' to 0.
+WARNING: [RTGEN 206-101] Port 'case_4/in_data_31_q1' has no fanin or fanout and is left dangling.
+               Please use C simulation to confirm this function argument can be read from or written to.
+INFO: [RTGEN 206-100] Generating core module 'ama_addmuladd_11s_14s_15ns_21s_29_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_14s_7ns_14s_21_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_7ns_6s_21s_21_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_10s_10s_10_1_1': 96 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_10s_12_1_1': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_11_1_1': 56 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_15_1_1': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_16_1_1': 63 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_11s_22_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_5s_13_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_5s_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_7s_11_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_7s_15_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_7s_18_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_8s_16_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_11s_8s_19_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_12s_12s_12_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_12s_8s_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_14s_10s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_2s_2s_2_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_3s_3s_3_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_4s_4s_4_1_1': 33 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5s_5s_5_1_1': 64 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_6s_6s_6_1_1': 97 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_6s_9_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_7s_14_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_7s_7s_7_1_1': 96 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_7s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_7s_8_1_1': 32 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_8s_14_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_9s_17_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_9s_9_1_1': 31 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9s_7s_16_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_9s_9s_9_1_1': 32 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'case_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.59 seconds. CPU system time: 0.05 seconds. Elapsed time: 3.66 seconds; current allocated memory: 614.402 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 11 seconds. CPU system time: 0.36 seconds. Elapsed time: 11.36 seconds; current allocated memory: 791.289 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 4.33 seconds. CPU system time: 0.08 seconds. Elapsed time: 4.42 seconds; current allocated memory: 853.133 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for case_4.
+INFO: [VLOG 209-307] Generating Verilog RTL for case_4.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 116.78 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:46:52; Allocated memory: 581.785 MB.
+INFO: [HLS 200-1510] Running: export_design -evaluate verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Jan 19 12:47:20 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/solution_tmp_data.json outdir=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip srcdir=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/misc
+INFO: Copied 57 verilog file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/verilog
+INFO: Copied 57 vhdl file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl
+INFO: Import ports from HDL: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl/case_4.vhd (case_4)
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst
+INFO: Add ap_ctrl interface ap_ctrl
+INFO: Add data interface in_data_0_address0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+INFO: Add data interface in_data_0_q0
+INFO: Add data interface in_data_0_address1
+INFO: Add data interface in_data_0_q1
+INFO: Add data interface in_data_1_address0
+INFO: Add data interface in_data_1_d0
+INFO: Add data interface in_data_1_q0
+INFO: Add data interface in_data_1_address1
+INFO: Add data interface in_data_1_d1
+INFO: Add data interface in_data_1_q1
+INFO: Add data interface in_data_2_address0
+INFO: Add data interface in_data_2_q0
+INFO: Add data interface in_data_2_address1
+INFO: Add data interface in_data_2_q1
+INFO: Add data interface in_data_3_address0
+INFO: Add data interface in_data_3_d0
+INFO: Add data interface in_data_3_q0
+INFO: Add data interface in_data_3_address1
+INFO: Add data interface in_data_3_d1
+INFO: Add data interface in_data_3_q1
+INFO: Add data interface in_data_4_address0
+INFO: Add data interface in_data_4_q0
+INFO: Add data interface in_data_4_address1
+INFO: Add data interface in_data_4_q1
+INFO: Add data interface in_data_5_address0
+INFO: Add data interface in_data_5_d0
+INFO: Add data interface in_data_5_q0
+INFO: Add data interface in_data_5_address1
+INFO: Add data interface in_data_5_d1
+INFO: Add data interface in_data_5_q1
+INFO: Add data interface in_data_6_address0
+INFO: Add data interface in_data_6_q0
+INFO: Add data interface in_data_6_address1
+INFO: Add data interface in_data_6_q1
+INFO: Add data interface in_data_7_address0
+INFO: Add data interface in_data_7_d0
+INFO: Add data interface in_data_7_q0
+INFO: Add data interface in_data_7_address1
+INFO: Add data interface in_data_7_d1
+INFO: Add data interface in_data_7_q1
+INFO: Add data interface in_data_8_address0
+INFO: Add data interface in_data_8_q0
+INFO: Add data interface in_data_8_address1
+INFO: Add data interface in_data_8_q1
+INFO: Add data interface in_data_9_address0
+INFO: Add data interface in_data_9_d0
+INFO: Add data interface in_data_9_q0
+INFO: Add data interface in_data_9_address1
+INFO: Add data interface in_data_9_d1
+INFO: Add data interface in_data_9_q1
+INFO: Add data interface in_data_10_address0
+INFO: Add data interface in_data_10_q0
+INFO: Add data interface in_data_10_address1
+INFO: Add data interface in_data_10_q1
+INFO: Add data interface in_data_11_address0
+INFO: Add data interface in_data_11_d0
+INFO: Add data interface in_data_11_q0
+INFO: Add data interface in_data_11_address1
+INFO: Add data interface in_data_11_d1
+INFO: Add data interface in_data_11_q1
+INFO: Add data interface in_data_12_address0
+INFO: Add data interface in_data_12_q0
+INFO: Add data interface in_data_12_address1
+INFO: Add data interface in_data_12_q1
+INFO: Add data interface in_data_13_address0
+INFO: Add data interface in_data_13_d0
+INFO: Add data interface in_data_13_q0
+INFO: Add data interface in_data_13_address1
+INFO: Add data interface in_data_13_d1
+INFO: Add data interface in_data_13_q1
+INFO: Add data interface in_data_14_address0
+INFO: Add data interface in_data_14_q0
+INFO: Add data interface in_data_14_address1
+INFO: Add data interface in_data_14_q1
+INFO: Add data interface in_data_15_address0
+INFO: Add data interface in_data_15_d0
+INFO: Add data interface in_data_15_q0
+INFO: Add data interface in_data_15_address1
+INFO: Add data interface in_data_15_d1
+INFO: Add data interface in_data_15_q1
+INFO: Add data interface in_data_16_address0
+INFO: Add data interface in_data_16_q0
+INFO: Add data interface in_data_16_address1
+INFO: Add data interface in_data_16_q1
+INFO: Add data interface in_data_17_address0
+INFO: Add data interface in_data_17_d0
+INFO: Add data interface in_data_17_q0
+INFO: Add data interface in_data_17_address1
+INFO: Add data interface in_data_17_d1
+INFO: Add data interface in_data_17_q1
+INFO: Add data interface in_data_18_address0
+INFO: Add data interface in_data_18_q0
+INFO: Add data interface in_data_18_address1
+INFO: Add data interface in_data_18_q1
+INFO: Add data interface in_data_19_address0
+INFO: Add data interface in_data_19_d0
+INFO: Add data interface in_data_19_q0
+INFO: Add data interface in_data_19_address1
+INFO: Add data interface in_data_19_d1
+INFO: Add data interface in_data_19_q1
+INFO: Add data interface in_data_20_address0
+INFO: Add data interface in_data_20_q0
+INFO: Add data interface in_data_20_address1
+INFO: Add data interface in_data_20_q1
+INFO: Add data interface in_data_21_address0
+INFO: Add data interface in_data_21_d0
+INFO: Add data interface in_data_21_q0
+INFO: Add data interface in_data_21_address1
+INFO: Add data interface in_data_21_d1
+INFO: Add data interface in_data_21_q1
+INFO: Add data interface in_data_22_address0
+INFO: Add data interface in_data_22_q0
+INFO: Add data interface in_data_22_address1
+INFO: Add data interface in_data_22_q1
+INFO: Add data interface in_data_23_address0
+INFO: Add data interface in_data_23_d0
+INFO: Add data interface in_data_23_q0
+INFO: Add data interface in_data_23_address1
+INFO: Add data interface in_data_23_d1
+INFO: Add data interface in_data_23_q1
+INFO: Add data interface in_data_24_address0
+INFO: Add data interface in_data_24_q0
+INFO: Add data interface in_data_24_address1
+INFO: Add data interface in_data_24_q1
+INFO: Add data interface in_data_25_address0
+INFO: Add data interface in_data_25_d0
+INFO: Add data interface in_data_25_q0
+INFO: Add data interface in_data_25_address1
+INFO: Add data interface in_data_25_d1
+INFO: Add data interface in_data_25_q1
+INFO: Add data interface in_data_26_address0
+INFO: Add data interface in_data_26_d0
+INFO: Add data interface in_data_26_q0
+INFO: Add data interface in_data_26_address1
+INFO: Add data interface in_data_26_d1
+INFO: Add data interface in_data_26_q1
+INFO: Add data interface in_data_27_address0
+INFO: Add data interface in_data_27_d0
+INFO: Add data interface in_data_27_q0
+INFO: Add data interface in_data_27_address1
+INFO: Add data interface in_data_27_d1
+INFO: Add data interface in_data_27_q1
+INFO: Add data interface in_data_28_address0
+INFO: Add data interface in_data_28_d0
+INFO: Add data interface in_data_28_q0
+INFO: Add data interface in_data_28_address1
+INFO: Add data interface in_data_28_d1
+INFO: Add data interface in_data_28_q1
+INFO: Add data interface in_data_29_address0
+INFO: Add data interface in_data_29_d0
+INFO: Add data interface in_data_29_q0
+INFO: Add data interface in_data_29_address1
+INFO: Add data interface in_data_29_d1
+INFO: Add data interface in_data_29_q1
+INFO: Add data interface in_data_30_address0
+INFO: Add data interface in_data_30_d0
+INFO: Add data interface in_data_30_q0
+INFO: Add data interface in_data_30_address1
+INFO: Add data interface in_data_30_d1
+INFO: Add data interface in_data_30_q1
+INFO: Add data interface in_data_31_address0
+INFO: Add data interface in_data_31_d0
+INFO: Add data interface in_data_31_q0
+INFO: Add data interface in_data_31_address1
+INFO: Add data interface in_data_31_d1
+INFO: Add data interface in_data_31_q1
+INFO: Add data interface in_scalar_address0
+INFO: Add data interface in_scalar_q0
+INFO: Add data interface in_scalar_address1
+INFO: Add data interface in_scalar_q1
+INFO: Add data interface out_data_0
+INFO: Add data interface out_data_1
+INFO: Add data interface out_data_2
+INFO: Add data interface out_data_3
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/component.xml
+INFO: Created IP archive /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/xilinx_com_hls_case_4_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 19 12:47:39 2026...
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Jan 19 12:48:02 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_vivado.tcl
+# source ./settings.tcl
+## set top_module case_4
+## set language verilog
+## set family zynq
+## set device xc7z020
+## set package -clg484
+## set speed -1
+## set clock ap_clk
+## set fsm_ext "off"
+## set add_io_buffers false 
+# source -notrace ./extraction.tcl
+# set vivado_proj_name project
+# set vivado_proj_dir .
+# set target_device "${device}${package}${speed}"
+# set target_clk_period_ns "10.000"
+# set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
+# set other_clks_freq_hz {}
+# set ip_vlnv xilinx.com:hls:case_4:1.0
+# set ip_repo_path ../ip
+# set bd_design_name bd_0
+# set bd_inst_name hls_inst
+# set bd_props {}
+# set has_synth true
+# set synth_design_args {-directive sdx_optimization_effort_high}
+# set synth_dcp ""
+# set synth_props {}
+# set has_impl 1
+# set impl_props {}
+# set has_subcore 0
+# set report_options [dict create]
+# dict set report_options report_level 2
+# dict set report_options report_max_paths 10
+# dict set report_options stdout_hls_reports 1
+# dict set report_options stdout_vivado_reports 0
+# dict set report_options hls_project project_tmp
+# dict set report_options hls_solution solution_tmp
+# dict set report_options has_synth $has_synth
+# dict set report_options has_impl $has_impl
+# dict set report_options vivado_reportbasename $top_module
+# dict set report_options vivado_reportdir ./report
+# dict set report_options hls_impl_dir ..
+# dict set report_options hls_reportdir ../report/$language
+# dict set report_options target_clk_period $target_clk_period_ns
+# dict set report_options target_device $target_device
+# dict set report_options language $language
+# dict set report_options clock_name $clock
+# dict set report_options error_if_impl_timing_fails false
+# dict set report_options topmodule "case_4"
+# dict set report_options funcmodules {case_4_case_4_Pipeline_L_s1_1 case_4_case_4_Pipeline_L_s2_1 case_4_case_4_Pipeline_L_s3_1 case_4_case_4_Pipeline_L_s4_1 case_4_case_4_Pipeline_L_s5_1 case_4_case_4_Pipeline_L_s6_1 case_4_case_4_Pipeline_L_s7_1}
+# dict set report_options bindmodules {case_4_mul_6s_6s_12_1_1 case_4_mul_8s_7s_15_1_1 case_4_mul_8s_8s_16_1_1 case_4_mul_5s_5s_10_1_1 case_4_mul_8s_8s_8_1_1 case_4_flow_control_loop_pipe_sequential_init case_4_mul_3s_3s_6_1_1 case_4_mul_2s_2s_2_1_1 case_4_mul_7s_7s_14_1_1 case_4_mul_10s_6s_16_1_1 case_4_mul_11s_11s_22_1_1 case_4_mul_10s_7s_17_1_1 case_4_mul_8s_6s_14_1_1 case_4_mul_10s_10s_20_1_1 case_4_mul_14s_11s_25_1_1 case_4_mul_13s_11s_24_1_1 case_4_mul_11s_9s_20_1_1 case_4_mul_6s_5s_11_1_1 case_4_mul_6s_6s_6_1_1 case_4_mul_7s_7s_7_1_1 case_4_mul_11s_11s_11_1_1 case_4_mul_8s_7s_8_1_1 case_4_mul_5s_5s_5_1_1 case_4_mul_8s_9s_9_1_1 case_4_mul_8s_9s_17_1_1 case_4_mul_10s_10s_10_1_1 case_4_mul_9s_9s_9_1_1 case_4_mul_11s_7s_15_1_1 case_4_mul_8s_7s_14_1_1 case_4_mul_11s_8s_16_1_1 case_4_mul_11s_5s_13_1_1 case_4_mul_11s_5s_16_1_1 case_4_mul_11s_7s_18_1_1 case_4_mul_11s_8s_19_1_1 case_4_mul_4s_4s_4_1_1 case_4_mul_12s_8s_16_1_1 case_4_mul_11s_11s_15_1_1 case_4_mul_11s_7s_11_1_1 case_4_mul_11s_11s_16_1_1 case_4_mul_9s_7s_16_1_1 case_4_mul_12s_12s_12_1_1 case_4_mul_7s_6s_9_1_1 case_4_mul_14s_10s_14_1_1 case_4_mul_8s_8s_14_1_1 case_4_mul_11s_10s_12_1_1 case_4_mul_3s_3s_3_1_1 case_4_mac_muladd_7ns_6s_21s_21_4_1 case_4_mac_muladd_14s_7ns_14s_21_4_1 case_4_ama_addmuladd_11s_14s_15ns_21s_29_4_1}
+# dict set report_options max_module_depth 6
+# create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force
+# set_property target_language $language [current_project]
+# if { ![file exists $ip_repo_path] } {
+#   error "Cannot find packaged HLS IP"
+# }
+# set_property ip_repo_paths [file normalize $ip_repo_path] [current_project]
+# update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+# create_bd_design bd_0
+Wrote  : </home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.srcs/sources_1/bd/bd_0/bd_0.bd> 
+# set cell_inst [create_bd_cell -type ip -vlnv $ip_vlnv $bd_inst_name]
+# if { [llength $bd_props] } { 
+#   set_property -dict $bd_props $cell_inst 
+# }
+# make_bd_pins_external $cell_inst
+# make_bd_intf_pins_external $cell_inst
+# set bd_clk_ports [get_bd_ports -filter {TYPE==clk}]
+# if { $target_clk_freq_hz ne "" } { 
+#   foreach bd_clk_port $bd_clk_ports {
+#     # Remove "_0" suffix from BD ports & interfaces so they match IP ports 
+#     set clk_name [regsub {_0$} [get_property name $bd_clk_port] {}]
+#     set port_freq_hz $target_clk_freq_hz
+#     if { [dict exists $other_clks_freq_hz $clk_name] } {
+#         set port_freq_hz [dict get $other_clks_freq_hz $clk_name]
+#     }
+#     set_property CONFIG.FREQ_HZ $port_freq_hz $bd_clk_port
+#   }
+# }
+# foreach bd_port [get_bd_intf_ports] {
+#   set_property name [regsub {_0$} [get_property name $bd_port] {}] $bd_port
+# }
+# foreach bd_port [get_bd_ports -filter {INTF!=TRUE}] {
+#   set_property name [regsub {_0$} [get_property name $bd_port] {}] $bd_port
+# }
+# set s_axi_addr_width_min 32
+WARNING: [BD 5-233] No interface ports matched 'get_bd_intf_ports -filter {MODE == "Slave" && VLNV =~ "xilinx.com:interface:aximm_rtl:*"}'
+# foreach bd_port [get_bd_intf_ports -filter {MODE == "Slave" && VLNV =~ "xilinx.com:interface:aximm_rtl:*"}] {
+#   set bd_port_addr_width [get_property CONFIG.ADDR_WIDTH $bd_port]
+#   if { $bd_port_addr_width < $s_axi_addr_width_min } {
+#     puts "INFO: Updating $bd_port CONFIG.ADDR_WIDTH to $s_axi_addr_width_min"
+#     set_property CONFIG.ADDR_WIDTH $s_axi_addr_width_min $bd_port
+#   }
+# }
+# set_msg_config -id {[BD 41-1265]} -severity {CRITICAL WARNING} -new_severity {INFO}
+# assign_bd_address
+INFO: [BD 41-3093] Triggering Legacy Auto Assign Algorithm
+Wrote  : </home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.srcs/sources_1/bd/bd_0/bd_0.bd> 
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/synth/bd_0.v
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/sim/bd_0.v
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.v
+# set toprtl [make_wrapper -files [get_files ${bd_design_name}.bd] -top]
+# add_files -norecurse $toprtl
+# set top_inst_name [file root [file tail $toprtl]]
+# puts "Using BD top: $top_inst_name"
+Using BD top: bd_0_wrapper
+# set xdc_files [glob -nocomplain ./*.xdc]
+# if { [llength $xdc_files] } {
+#     add_files -fileset constrs_1 -norecurse $xdc_files
+# }
+# launch_runs synth_1 -scripts_only
+INFO: [BD 41-1662] The design 'bd_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/synth/bd_0.v
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/sim/bd_0.v
+Verilog Output written to : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hls_inst .
+Exporting to file /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/hw_handoff/bd_0.hwh
+Generated Hardware Definition File /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/synth/bd_0.hwdef
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+launch_runs: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1682.043 ; gain = 48.023 ; free physical = 104521 ; free virtual = 119759
+# foreach run [get_runs -filter {IS_SYNTHESIS == 1}] {
+#   reset_run [get_runs $run]
+# }
+# set_property XPM_LIBRARIES {XPM_MEMORY XPM_FIFO} [current_project]
+# hls_vivado_reports_setup $report_options
+TIMESTAMP: HLS-REPORT: initialize report directories: 2026-01-19 12:48:19 KST
+# if { $has_subcore } { report_ip_status }
+# if { $has_synth || $has_impl } {
+#   # synth properties setting
+#   set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode out_of_context} -objects [get_runs synth_1]
+#   set ip_inst [get_ips -quiet ${bd_design_name}*${bd_inst_name}*]
+#   if { ![llength $ip_inst] } {
+#       error "Cannot find HLS IP instance: ${bd_design_name}*${bd_inst_name}*"
+#   }
+#   set synth_run [get_runs -filter {IS_SYNTHESIS == 1} ${ip_inst}*]
+#   if { ![llength $synth_run] } {
+#       error "Cannot find synth run for HLS IP: ${ip_inst}*"
+#   }
+# 
+#   if { [llength $synth_design_args] } {
+#       set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value $synth_design_args -objects $synth_run
+#   }
+# 
+#   if { [llength $synth_props] } {
+#     set_property -dict $synth_props $synth_run
+#   }
+# 
+#   # launch run synth
+#   launch_runs synth_1
+#   wait_on_run synth_1
+#   # synth reports
+#   hls_vivado_reports_synth synth_1 $report_options
+#   if { $synth_dcp ne "" } {
+#     file mkdir [file dirname $synth_dcp]
+#     set run_dcp [glob -nocomplain [get_property DIRECTORY $synth_run]/*.dcp]
+#     if { [llength $run_dcp] != 1 } { error "Cannot find single dcp file for run $synth_run" }
+#     file copy -force $run_dcp $synth_dcp
+#   }
+# }
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Jan 19 12:48:19 2026] Launched bd_0_hls_inst_0_synth_1...
+Run output will be captured here: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/runme.log
+[Mon Jan 19 12:48:19 2026] Launched synth_1...
+Run output will be captured here: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/runme.log
+[Mon Jan 19 12:48:19 2026] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log bd_0_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Jan 19 12:53:33 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_0_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top bd_0_wrapper -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3476126
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2146.609 ; gain = 441.797 ; free physical = 103015 ; free virtual = 118408
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_0_wrapper' [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bd_0' [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/synth/bd_0.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/.Xil/Vivado-3475992-woong-Super-Server/realtime/bd_0_hls_inst_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/.Xil/Vivado-3475992-woong-Super-Server/realtime/bd_0_hls_inst_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0' (0#1) [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/synth/bd_0.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_wrapper' (0#1) [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/hdl/bd_0_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2229.547 ; gain = 524.734 ; free physical = 102942 ; free virtual = 118337
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2247.359 ; gain = 542.547 ; free physical = 102939 ; free virtual = 118334
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2247.359 ; gain = 542.547 ; free physical = 102939 ; free virtual = 118334
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2247.359 ; gain = 0.000 ; free physical = 102938 ; free virtual = 118333
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Finished Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/case_4.xdc]
+Finished Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/case_4.xdc]
+Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2296.285 ; gain = 0.000 ; free physical = 102955 ; free virtual = 118350
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2296.320 ; gain = 0.000 ; free physical = 102962 ; free virtual = 118357
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2296.320 ; gain = 591.508 ; free physical = 103007 ; free virtual = 118401
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2304.289 ; gain = 599.477 ; free physical = 103007 ; free virtual = 118401
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2304.289 ; gain = 599.477 ; free physical = 103007 ; free virtual = 118401
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 2304.289 ; gain = 599.477 ; free physical = 103003 ; free virtual = 118399
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2304.289 ; gain = 599.477 ; free physical = 103009 ; free virtual = 118404
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2390.289 ; gain = 685.477 ; free physical = 102915 ; free virtual = 118311
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2391.289 ; gain = 686.477 ; free physical = 102915 ; free virtual = 118311
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2401.305 ; gain = 696.492 ; free physical = 102907 ; free virtual = 118303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |bd_0_hls_inst_0 |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |bd_0_hls_inst |     1|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.117 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 2575.117 ; gain = 821.344 ; free physical = 102758 ; free virtual = 118153
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2575.125 ; gain = 870.305 ; free physical = 102758 ; free virtual = 118153
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2575.125 ; gain = 0.000 ; free physical = 102930 ; free virtual = 118326
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2575.125 ; gain = 0.000 ; free physical = 102929 ; free virtual = 118324
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 57f5d5d7
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:50 ; elapsed = 00:00:48 . Memory (MB): peak = 2575.152 ; gain = 1048.043 ; free physical = 102929 ; free virtual = 118324
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1752.734; main = 1752.734; forked = 274.747
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3285.402; main = 2575.121; forked = 960.109
+INFO: [Common 17-1381] The checkpoint '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/synth_1/bd_0_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_wrapper_utilization_synth.rpt -pb bd_0_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 19 12:54:28 2026...
+[Mon Jan 19 12:54:48 2026] synth_1 finished
+wait_on_runs: Time (s): cpu = 00:06:52 ; elapsed = 00:06:29 . Memory (MB): peak = 1682.043 ; gain = 0.000 ; free physical = 104414 ; free virtual = 119808
+TIMESTAMP: HLS-REPORT: synthesis open_run: 2026-01-19 12:54:48 KST
+INFO: HLS-REPORT: Opening synthesis design database: open_run synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-5699] Read binary netlist with skipMacroContent - 1
+INFO: [Project 1-454] Reading design checkpoint '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0.dcp' for cell 'bd_0_i/hls_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.56 . Memory (MB): peak = 1906.051 ; gain = 0.000 ; free physical = 104133 ; free virtual = 119527
+INFO: [Netlist 29-17] Analyzing 10141 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/case_4.xdc]
+Finished Parsing XDC File [/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/case_4.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2079.062 ; gain = 0.000 ; free physical = 103997 ; free virtual = 119391
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2079.098 ; gain = 397.055 ; free physical = 103997 ; free virtual = 119391
+TIMESTAMP: HLS-REPORT: synthesis generate_reports_vivado: 2026-01-19 12:55:10 KST
+INFO: HLS-REPORT: Running report: report_utilization -file ./report/case_4_utilization_synth.rpt
+INFO: HLS-REPORT: Running report: report_utilization -hierarchical -hierarchical_depth 6 -file ./report/case_4_utilization_hierarchical_synth.rpt
+INFO: HLS-REPORT: Running report: report_timing_summary -file ./report/case_4_timing_synth.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:40 ; elapsed = 00:00:19 . Memory (MB): peak = 2806.359 ; gain = 727.262 ; free physical = 103395 ; free virtual = 118789
+INFO: HLS-REPORT: Running report: report_power -file ./report/case_4_power_synth.rpt -xpe ./case_4_power.xpe
+Command: report_power -file ./report/case_4_power_synth.rpt -xpe ./case_4_power.xpe
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+12 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:23 ; elapsed = 00:00:10 . Memory (MB): peak = 3051.246 ; gain = 244.887 ; free physical = 103242 ; free virtual = 118636
+INFO: HLS-REPORT: Running report: report_timing -max_paths 10 -file ./report/case_4_timing_paths_synth.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 10 -nworst 1 -delay_type max -sort_by slack.
+INFO: HLS-REPORT: Running report: report_design_analysis -file ./report/case_4_design_analysis_synth.rpt
+INFO: [Implflow 30-839]  
+INFO: HLS-REPORT: Running report: ::tclapp::xilinx::designutils::report_failfast -detailed_report synth -file ./report/case_4_failfast_synth.rpt
+ -I- design metrics completed in 4 seconds
+ -I- DONT_TOUCH metric completed in 1 seconds
+ -I- MARK_DEBUG metric completed in 1 seconds
+ -I- utilization metrics completed in 3 seconds
+ -I- control set metrics completed in 0 seconds
+ -I- methodology check metrics completed in 4 seconds
+ -I- average fanout metrics completed in 11 seconds (0 modules)
+ -I- non-FD high fanout nets completed in 4 seconds
+ -I- path budgeting metrics completed in 3 seconds
+#  +------------------------------------------------------------------------------------------+
+#  | Design Summary                                                                           |
+#  | design_1                                                                                 |
+#  | xc7z020clg484-1                                                                          |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | Criteria                                                  | Guideline | Actual  | Status |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | LUT                                                       | 70%       | 76.37%  | REVIEW |
+#  | FD                                                        | 50%       | 23.92%  | OK     |
+#  | LUTRAM+SRL                                                | 25%       | 0.03%   | OK     |
+#  | MUXF7                                                     | 15%       | 0.01%   | OK     |
+#  | LUT Combining                                             | 20%       | 15.99%  | OK     |
+#  | DSP                                                       | 80%       | 104.09% | REVIEW |
+#  | RAMB/FIFO                                                 | 80%       | 0.00%   | OK     |
+#  | DSP+RAMB+URAM (Avg)                                       | 70%       | 104.09% | REVIEW |
+#  | BUFGCE* + BUFGCTRL                                        | 24        | 0       | OK     |
+#  | DONT_TOUCH (cells/nets)                                   | 0         | 0       | OK     |
+#  | MARK_DEBUG (nets)                                         | 0         | 0       | OK     |
+#  | Control Sets                                              | 998       | 197     | OK     |
+#  | Average Fanout for modules > 100k cells                   | 4         | 2.17    | OK     |
+#  | Max Average Fanout for modules > 100k cells               | 4         | 0       | OK     |
+#  | Non-FD high fanout nets > 10k loads                       | 0         | 0       | OK     |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | TIMING-6 (No common primary clock between related clocks) | 0         | 0       | OK     |
+#  | TIMING-7 (No common node between related clocks)          | 0         | 0       | OK     |
+#  | TIMING-8 (No common period between related clocks)        | 0         | 0       | OK     |
+#  | TIMING-14 (LUT on the clock tree)                         | 0         | 0       | OK     |
+#  | TIMING-35 (No common node in paths with the same clock)   | 0         | 0       | OK     |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | Number of paths above max LUT budgeting (0.575ns)         | 0         | 0       | OK     |
+#  | Number of paths above max Net budgeting (0.403ns)         | 0         | 0       | OK     |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+ -I- Generated file /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/report/case_4_failfast_synth.rpt
+ -I- Number of criteria to review: 3
+ -I- This report should be run before placing the design and uses conservative guidelines beyond which runtime and timing closure will likely be more challenging
+ -I- report_failfast completed in 31 seconds
+TIMESTAMP: HLS-REPORT: synthesis gen_data_dict_vivado: 2026-01-19 12:56:14 KST
+TIMESTAMP: HLS-REPORT: synth extract_util_hier: 2026-01-19 12:56:14 KST
+TIMESTAMP: HLS-REPORT: synth get_cell_hier_data: 2026-01-19 12:56:14 KST
+TIMESTAMP: HLS-REPORT: synth get_timing_paths: 2026-01-19 12:56:15 KST
+TIMESTAMP: HLS-REPORT: synth process timing paths: 2026-01-19 12:56:15 KST
+TIMESTAMP: HLS-REPORT: synth get_all_vv_rpt_files: 2026-01-19 12:56:15 KST
+TIMESTAMP: HLS-REPORT: synthesis write_reports_vivado: 2026-01-19 12:56:15 KST
+HLS EXTRACTION: synth area_totals:  0 53200 106400 220 280 0 0
+HLS EXTRACTION: synth area_current: 0 40631 25449 229 0 0 5 0 0 0
+HLS EXTRACTION: synth resources_dict: AVAIL_LUT 53200 LUT 40631 AVAIL_FF 106400 FF 25449 AVAIL_DSP 220 DSP 229 AVAIL_BRAM 280 BRAM 0 AVAIL_URAM 0 URAM 0 LATCH 0 SRL 5 AVAIL_CLB 0 CLB 0
+INFO: HLS-REPORT: generated /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/report/vivado_syn.xml
+INFO: HLS-REPORT: generated /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/report/verilog/case_4_export.rpt
+
+
+Implementation tool: Xilinx Vivado v.2025.1
+Project:             project_tmp
+Solution:            solution_tmp
+Device target:       xc7z020-clg484-1
+Report date:         Mon Jan 19 12:56:15 KST 2026
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:          40631
+FF:           25449
+DSP:            229
+BRAM:             0
+URAM:             0
+LATCH:            0
+SRL:              5
+CLB:              0
+
+#=== Final timing ===
+CP required:                     10.000
+CP achieved post-synthesis:      7.391
+Timing met
+
+TIMESTAMP: HLS-REPORT: synthesis end: 2026-01-19 12:56:15 KST
+# if { $has_impl } {
+#   # launch run impl
+#   if { [llength $impl_props] } {
+#     set_property -dict $impl_props [get_runs impl_1]
+#   }
+#   launch_runs impl_1
+#   wait_on_run impl_1
+#   # impl reports
+#   hls_vivado_reports_impl impl_1 $report_options
+# }
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 3402.105 ; gain = 0.000 ; free physical = 102844 ; free virtual = 118260
+WARNING: [Common 17-210] 'write_hwdef' is deprecated.
+[Mon Jan 19 12:56:20 2026] Launched impl_1...
+Run output will be captured here: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/impl_1/runme.log
+[Mon Jan 19 12:56:20 2026] Waiting for impl_1 to finish...
+
+*** Running vivado
+    with args -log bd_0_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source bd_0_wrapper.tcl -notrace
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Mon Jan 19 12:56:24 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_0_wrapper.tcl -notrace
+Command: open_checkpoint /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/impl_1/bd_0_wrapper.dcp
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.52 ; elapsed = 00:00:00.52 . Memory (MB): peak = 1774.816 ; gain = 0.000 ; free physical = 102073 ; free virtual = 117481
+INFO: [Netlist 29-17] Analyzing 10141 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2025.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.28 . Memory (MB): peak = 1901.535 ; gain = 17.250 ; free physical = 101943 ; free virtual = 117352
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2562.082 ; gain = 0.000 ; free physical = 101341 ; free virtual = 116750
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2025.1 (64-bit) build 6140274
+open_checkpoint: Time (s): cpu = 00:00:38 ; elapsed = 00:00:27 . Memory (MB): peak = 2562.117 ; gain = 1131.062 ; free physical = 101341 ; free virtual = 116750
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.93 . Memory (MB): peak = 2643.426 ; gain = 81.309 ; free physical = 101293 ; free virtual = 116702
+
+Starting Cache Timing Information Task
+Ending Cache Timing Information Task | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2643.426 ; gain = 0.000 ; free physical = 101293 ; free virtual = 116702
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100986 ; free virtual = 116395
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100986 ; free virtual = 116395
+Phase 1 Initialization | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100986 ; free virtual = 116395
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100986 ; free virtual = 116395
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100971 ; free virtual = 116380
+Phase 2 Timer Update And Timing Data Collection | Checksum: bd6f3a44
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100971 ; free virtual = 116380
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-1566] Pulled 4 inverters resulting in an inversion of 8 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: e6811e42
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100978 ; free virtual = 116386
+Retarget | Checksum: e6811e42
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 4 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: aec35218
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100977 ; free virtual = 116386
+Constant propagation | Checksum: aec35218
+INFO: [Opt 31-389] Phase Constant propagation created 487 cells and removed 956 cells
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100977 ; free virtual = 116386
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100977 ; free virtual = 116386
+Phase 5 Sweep | Checksum: cee8abe6
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2932.324 ; gain = 0.000 ; free physical = 100977 ; free virtual = 116386
+Sweep | Checksum: cee8abe6
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: cee8abe6
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2964.340 ; gain = 32.016 ; free physical = 100977 ; free virtual = 116386
+BUFG optimization | Checksum: cee8abe6
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: cee8abe6
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2964.340 ; gain = 32.016 ; free physical = 100977 ; free virtual = 116386
+Shift Register Optimization | Checksum: cee8abe6
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: cee8abe6
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2964.340 ; gain = 32.016 ; free physical = 100977 ; free virtual = 116386
+Post Processing Netlist | Checksum: cee8abe6
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 14af06929
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2988.352 ; gain = 56.027 ; free physical = 100975 ; free virtual = 116384
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100975 ; free virtual = 116384
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 14af06929
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2988.352 ; gain = 56.027 ; free physical = 100975 ; free virtual = 116384
+Phase 9 Finalization | Checksum: 14af06929
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2988.352 ; gain = 56.027 ; free physical = 100975 ; free virtual = 116384
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               4  |                                              0  |
+|  Constant propagation         |             487  |             956  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 14af06929
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:13 . Memory (MB): peak = 2988.352 ; gain = 56.027 ; free physical = 100975 ; free virtual = 116384
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 14af06929
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100975 ; free virtual = 116384
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 14af06929
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100975 ; free virtual = 116384
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100975 ; free virtual = 116384
+Ending Netlist Obfuscation Task | Checksum: 14af06929
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100975 ; free virtual = 116384
+INFO: [Common 17-83] Releasing license: Implementation
+35 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 2988.352 ; gain = 426.234 ; free physical = 100975 ; free virtual = 116384
+INFO: [Vivado 12-24828] Executing command : report_drc -file bd_0_wrapper_drc_opted.rpt -pb bd_0_wrapper_drc_opted.pb -rpx bd_0_wrapper_drc_opted.rpx
+Command: report_drc -file bd_0_wrapper_drc_opted.rpt -pb bd_0_wrapper_drc_opted.pb -rpx bd_0_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/impl_1/bd_0_wrapper_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100972 ; free virtual = 116382
+generate_parallel_reports: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2988.352 ; gain = 0.000 ; free physical = 100972 ; free virtual = 116382
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.27 . Memory (MB): peak = 3020.367 ; gain = 0.000 ; free physical = 100935 ; free virtual = 116366
+INFO: [Common 17-1381] The checkpoint '/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/verilog/project.runs/impl_1/bd_0_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 3020.367 ; gain = 32.016 ; free physical = 100908 ; free virtual = 116331
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-814] Not all possible (connectivity based) DRCs may have been run because this design is seen as Out of Context.
+ERROR: [DRC UTLZ-1] Resource utilization: DSP48E1 over-utilized in Top Level Design (This design requires more DSP48E1 cells than are available in the target device. This design requires 229 of such cell types but only 220 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.)
+ERROR: [DRC UTLZ-1] Resource utilization: DSPs over-utilized in Top Level Design (This design requires more DSPs cells than are available in the target device. This design requires 229 of such cell types but only 220 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.)
+INFO: [Vivado_Tcl 4-198] DRC finished with 2 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+50 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+place_design failed
+place_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 3081.461 ; gain = 61.094 ; free physical = 100910 ; free virtual = 116333
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 19 12:57:31 2026...
+[Mon Jan 19 12:57:56 2026] impl_1 finished
+ERROR: [Vivado 12-13638] Failed runs(s) : 'impl_1'
+wait_on_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:01:36 . Memory (MB): peak = 3402.141 ; gain = 0.000 ; free physical = 102850 ; free virtual = 118273
+ERROR: [Common 17-39] 'wait_on_runs' failed due to earlier errors.
+
+    while executing
+"wait_on_run impl_1"
+    invoked from within
+"if { $has_impl } {
+  # launch run impl
+  if { [llength $impl_props] } {
+    set_property -dict $impl_props [get_runs impl_1]
+  }
+  launch_runs impl_1
+..."
+    (file "run_vivado.tcl" line 177)
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 19 12:57:56 2026...
+ERROR: [HLS 200-478] vivado returned an error 
+INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:11:02; Allocated memory: 15.195 MB.
+command 'ap_source' returned error code
+    while executing
+"source /home/jjh/RL_test/for_ironman/synthesis/./script_tmp.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 3437.09 seconds. Total CPU system time: 24.83 seconds. Total elapsed time: 3479.01 seconds; peak allocated memory: 868.328 MB.
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.
