@@ -1,0 +1,1040 @@
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3165:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3165:5: note: FIX-IT applied suggested code changes
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3179:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3179:5: note: FIX-IT applied suggested code changes
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3193:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high+1; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:3193:5: note: FIX-IT applied suggested code changes
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:5161:7: warning: Added loop label VITIS_LOOP_1248_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1248_1: 
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:5161:7: note: FIX-IT applied suggested code changes
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7139:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m21
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7147:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m25
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7151:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m25
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7157:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m27
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7161:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m27
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7165:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m27
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7169:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m27
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7174:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m28
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7178:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m28
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7182:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m28
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7187:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m29
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7194:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m32
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7198:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m32
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7202:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m32
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7206:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m32
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7210:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m32
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7215:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m35
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7219:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m35
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7223:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m35
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7227:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m35
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7231:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m35
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7236:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m39
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7240:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m39
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7244:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m39
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7250:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m41
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7255:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m43
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7259:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m43
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7265:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m45
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7269:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m45
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7273:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m45
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7278:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m46
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7282:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m46
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7290:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m53
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7294:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m53
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7300:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m57
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7304:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m57
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7313:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m62
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7317:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m62
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7321:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m62
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7325:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m62
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7333:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7337:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7341:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7345:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7349:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7353:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7357:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7361:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7365:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7369:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m68
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7378:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7382:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7386:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7390:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7394:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7398:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7402:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7406:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7410:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7414:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m76
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7419:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7423:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7427:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7431:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7435:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7439:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7443:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7447:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7451:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7455:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m78
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7460:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7464:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7468:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7472:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7476:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7480:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7484:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7488:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7492:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7496:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m79
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7501:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7505:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7509:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7513:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7517:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7521:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7525:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7529:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7533:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7537:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m81
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7542:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7546:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7550:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7554:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7558:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7562:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7566:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7570:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7574:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7578:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m83
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7585:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7589:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7593:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7597:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7601:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7605:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7609:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7613:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7617:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7621:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m88
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7630:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7634:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7638:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7642:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7646:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7650:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7654:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7658:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7662:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7666:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m96
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7671:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7675:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7679:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7683:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7687:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7691:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7695:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7699:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7703:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7707:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m97
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7714:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7718:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7722:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7726:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7730:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7734:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7738:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7742:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7746:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7750:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m100
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7755:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7759:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7763:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7767:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7771:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7775:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7779:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7783:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7787:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7791:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m101
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7796:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7800:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7804:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7808:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7812:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7816:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7820:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7824:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7828:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7832:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m102
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7840:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7844:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7848:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7852:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7856:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7860:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7864:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7868:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7872:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7876:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m106
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7882:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7886:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7890:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7894:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7898:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7902:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7906:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7910:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7914:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7918:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m108
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7923:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7927:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7931:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7935:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7939:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7943:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7947:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7951:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7955:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7959:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m109
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7964:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7968:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7972:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7976:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7980:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7984:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7988:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7992:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:7996:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8000:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m110
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8005:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8009:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8013:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8017:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8021:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8025:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8029:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8033:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8037:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8041:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m111
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8047:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8051:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8055:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8059:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8063:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8067:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8071:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8075:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8079:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8083:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m115
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8092:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8096:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8100:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8104:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8108:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8112:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8116:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8120:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8124:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8128:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m124
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8133:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8137:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8141:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8145:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8149:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8153:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8157:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8161:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8165:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8169:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m127
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8178:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8182:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8186:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8190:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8194:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8198:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8202:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8206:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8210:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8214:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m132
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8221:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8225:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8229:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8233:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8237:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8241:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8245:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8249:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8253:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8257:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m135
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8262:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8266:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8270:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8274:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8278:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8282:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8286:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8290:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8294:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8298:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m136
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8303:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8307:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8311:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8315:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8319:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8323:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8327:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8331:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8335:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8339:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m138
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8344:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8348:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8352:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8356:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8360:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8364:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8368:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8372:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8376:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8380:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m139
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8386:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8390:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8394:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8398:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8402:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8406:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8410:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8414:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8418:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8422:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m141
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8427:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8431:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8435:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8439:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8443:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8447:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8451:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8455:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8459:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8463:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m144
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8468:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8472:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8476:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8480:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8484:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8488:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8492:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8496:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8500:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8504:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m145
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8509:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8513:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8517:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8521:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8525:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8529:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8533:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8537:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8541:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8545:9: error: Invalid Directive: for current device, add + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=add variable=m149
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8551:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8555:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8559:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8563:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8567:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8571:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8575:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8579:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8583:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^
+/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc:8587:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=fabric op=mul variable=m152
+        ^

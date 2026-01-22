@@ -1,7 +1,7 @@
 [
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 0,
     "ifcond": "",
     "insert_position": "",
@@ -22,19 +22,13 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 1,
     "ifcond": "",
     "insert_position": "",
     "label": "L_n1_2",
     "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
+      "name": "PIPELINE"
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -43,11 +37,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 2,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n2_1",
+    "label": "L_s1_1",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -64,11 +58,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 3,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n2_2",
+    "label": "L_n2_1",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -85,11 +79,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 4,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n3_1",
+    "label": "L_n2_2",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -106,11 +100,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 5,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n3_2",
+    "label": "L_n3_1",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -127,13 +121,19 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 6,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n3_3",
+    "label": "L_n3_2",
     "pragma": {
-      "name": "PIPELINE"
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "off",
+          "value": "true"
+        }
+      ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -142,7 +142,7 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 7,
     "ifcond": "",
     "insert_position": "",
@@ -163,19 +163,13 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 8,
     "ifcond": "",
     "insert_position": "",
     "label": "L_n4_2",
     "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
+      "name": "PIPELINE"
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -184,19 +178,13 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 9,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n4_3",
+    "label": "L_n5_1",
     "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
+      "name": "PIPELINE"
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -205,11 +193,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 10,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n5_1",
+    "label": "L_n5_2",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -226,11 +214,11 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 11,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n5_2",
+    "label": "L_n6_1",
     "pragma": {
       "name": "PIPELINE"
     },
@@ -241,50 +229,8 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 12,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n5_3",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 13,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 13,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n6_1",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 14,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 14,
     "ifcond": "",
     "insert_position": "",
     "label": "L_n6_2",
@@ -293,16 +239,52 @@
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 13,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 13,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "L_n6_3",
+    "pragma": {
+      "name": "PIPELINE"
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 14,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 14,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "L_s2_1",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "off",
+          "value": "true"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
     "sourceLine": 15,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 15,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n6_3",
+    "label": "L_s3_1",
     "pragma": {
       "name": "PIPELINE",
       "option": [
@@ -319,19 +301,13 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 16,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n7_1",
+    "label": "L_s4_1",
     "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
+      "name": "PIPELINE"
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -340,95 +316,25 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 17,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n7_2",
+    "label": "",
     "pragma": {
-      "name": "PIPELINE",
+      "name": "BIND_OP",
       "option": [
         {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 18,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 18,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n8_1",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
+          "name": "impl",
+          "value": "fabric"
+        },
         {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 19,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 19,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n8_2",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 20,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 20,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n9_1",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
+          "name": "op",
+          "value": "mul"
+        },
         {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 21,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 21,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n9_2",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
+          "name": "variable",
+          "value": "m23"
         }
       ]
     },
@@ -439,49 +345,27 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 22,
+    "functionName": "case_9",
+    "id": 18,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_n10_1",
+    "label": "",
     "pragma": {
-      "name": "PIPELINE",
+      "name": "BIND_OP",
       "option": [
         {
-          "name": "off",
-          "value": "true"
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m26"
         }
       ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 23,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 23,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n10_2",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 24,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 24,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n10_3",
-    "pragma": {
-      "name": "PIPELINE"
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
@@ -490,47 +374,25 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 25,
+    "functionName": "case_9",
+    "id": 19,
     "ifcond": "",
     "insert_position": "",
-    "label": "L_s1_1",
+    "label": "",
     "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 26,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 26,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n11_1",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 27,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 27,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n11_2",
-    "pragma": {
-      "name": "PIPELINE",
+      "name": "BIND_OP",
       "option": [
         {
-          "name": "off",
-          "value": "true"
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m29"
         }
       ]
     },
@@ -541,133 +403,8 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 28,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n12_1",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 29,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 29,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n12_2",
-    "pragma": {
-      "name": "PIPELINE",
-      "option": [
-        {
-          "name": "off",
-          "value": "true"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 30,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 30,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_s2_1",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 31,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 31,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n13_1",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 32,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 32,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n13_2",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 33,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 33,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "L_n13_3",
-    "pragma": {
-      "name": "PIPELINE"
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 34,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 34,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m32"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 35,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 35,
+    "functionName": "case_9",
+    "id": 20,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -684,19 +421,19 @@
         },
         {
           "name": "variable",
-          "value": "m33"
+          "value": "m30"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 36,
+    "sourceLine": 29,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 36,
+    "functionName": "case_9",
+    "id": 21,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -713,7 +450,65 @@
         },
         {
           "name": "variable",
-          "value": "m36"
+          "value": "m34"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 33,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 22,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m35"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 34,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 23,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m38"
         }
       ]
     },
@@ -724,37 +519,8 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 37,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m37"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 38,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 38,
+    "functionName": "case_9",
+    "id": 24,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -771,48 +537,19 @@
         },
         {
           "name": "variable",
-          "value": "m45"
+          "value": "m40"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 43,
+    "sourceLine": 39,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 39,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m47"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 45,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 40,
+    "functionName": "case_9",
+    "id": 25,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -829,19 +566,77 @@
         },
         {
           "name": "variable",
-          "value": "m55"
+          "value": "m43"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 50,
+    "sourceLine": 41,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 41,
+    "functionName": "case_9",
+    "id": 26,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m44"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 42,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 27,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m46"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 44,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 28,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -864,13 +659,13 @@
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 51,
+    "sourceLine": 50,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 42,
+    "functionName": "case_9",
+    "id": 29,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -887,19 +682,19 @@
         },
         {
           "name": "variable",
-          "value": "m58"
+          "value": "m57"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 53,
+    "sourceLine": 51,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 43,
+    "functionName": "case_9",
+    "id": 30,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -916,7 +711,7 @@
         },
         {
           "name": "variable",
-          "value": "m62"
+          "value": "m60"
         }
       ]
     },
@@ -927,8 +722,8 @@
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 44,
+    "functionName": "case_9",
+    "id": 31,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -945,19 +740,19 @@
         },
         {
           "name": "variable",
-          "value": "m64"
+          "value": "m61"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 56,
+    "sourceLine": 55,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
-    "id": 45,
+    "functionName": "case_9",
+    "id": 32,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -980,12 +775,389 @@
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 57,
+    "sourceLine": 60,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
+    "id": 33,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m70"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 62,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 34,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m74"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 66,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 35,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m75"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 67,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 36,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m79"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 71,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 37,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m81"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 73,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 38,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m82"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 74,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 39,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m84"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 76,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 40,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m87"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 79,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 41,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m89"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 81,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 42,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m98"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 85,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 43,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m99"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 86,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 44,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "add"
+        },
+        {
+          "name": "variable",
+          "value": "m101"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 87,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
+    "id": 45,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "BIND_OP",
+      "option": [
+        {
+          "name": "impl",
+          "value": "fabric"
+        },
+        {
+          "name": "op",
+          "value": "mul"
+        },
+        {
+          "name": "variable",
+          "value": "m106"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
+    "sourceLine": 92,
+    "success": true
+  },
+  {
+    "functionLabel": "",
+    "functionName": "case_9",
     "id": 46,
     "ifcond": "",
     "insert_position": "",
@@ -1003,18 +1175,18 @@
         },
         {
           "name": "variable",
-          "value": "m76"
+          "value": "m113"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 63,
+    "sourceLine": 98,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 47,
     "ifcond": "",
     "insert_position": "",
@@ -1032,18 +1204,18 @@
         },
         {
           "name": "variable",
-          "value": "m82"
+          "value": "m115"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 67,
+    "sourceLine": 100,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 48,
     "ifcond": "",
     "insert_position": "",
@@ -1057,371 +1229,23 @@
         },
         {
           "name": "op",
-          "value": "mul"
+          "value": "add"
         },
         {
           "name": "variable",
-          "value": "m87"
+          "value": "m120"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 72,
+    "sourceLine": 104,
     "success": true
   },
   {
     "functionLabel": "",
-    "functionName": "case_3",
+    "functionName": "case_9",
     "id": 49,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m88"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 73,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 50,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "mul"
-        },
-        {
-          "name": "variable",
-          "value": "m89"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 74,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 51,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m92"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 75,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 52,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m93"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 76,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 53,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m98"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 78,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 54,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m99"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 79,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 55,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "mul"
-        },
-        {
-          "name": "variable",
-          "value": "m101"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 80,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 56,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m103"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 82,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 57,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "mul"
-        },
-        {
-          "name": "variable",
-          "value": "m104"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 83,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 58,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m109"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 86,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 59,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "mul"
-        },
-        {
-          "name": "variable",
-          "value": "m110"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 87,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 60,
-    "ifcond": "",
-    "insert_position": "",
-    "label": "",
-    "pragma": {
-      "name": "BIND_OP",
-      "option": [
-        {
-          "name": "impl",
-          "value": "fabric"
-        },
-        {
-          "name": "op",
-          "value": "add"
-        },
-        {
-          "name": "variable",
-          "value": "m112"
-        }
-      ]
-    },
-    "slx": false,
-    "sourceFile": "/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl",
-    "sourceLine": 89,
-    "success": true
-  },
-  {
-    "functionLabel": "",
-    "functionName": "case_3",
-    "id": 61,
     "ifcond": "",
     "insert_position": "",
     "label": "",
@@ -1430,7 +1254,7 @@
       "option": [
         {
           "name": "name",
-          "value": "case_3"
+          "value": "case_9"
         }
       ]
     },

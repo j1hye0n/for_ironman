@@ -3,8 +3,8 @@
 # SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Tue Jan 20 10:11:52 2026
-# Process ID         : 3568397
+# Start of session at: Wed Jan 21 17:33:43 2026
+# Process ID         : 2224933
 # Current directory  : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip
 # Command line       : vivado -notrace -mode batch -source run_ippack.tcl
 # Log file           : /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/vivado.log
@@ -13,20 +13,20 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.3 LTS
 # Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
-# CPU Frequency      : 3766.350 MHz
+# CPU Frequency      : 3799.997 MHz
 # CPU Physical cores : 12
 # CPU Logical cores  : 24
 # Host memory        : 201168 MB
 # Swap memory        : 16000 MB
 # Total Virtual      : 217169 MB
-# Available Virtual  : 126743 MB
+# Available Virtual  : 126624 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/solution_tmp_data.json outdir=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip srcdir=/home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp ippack_options_dict= ippack_options_dict=
 INFO: Copied 1 ipmisc file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/misc
-INFO: Copied 10 verilog file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/verilog
-INFO: Copied 10 vhdl file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl
-INFO: Import ports from HDL: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl/case_3.vhd (case_3)
+INFO: Copied 39 verilog file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/verilog
+INFO: Copied 39 vhdl file(s) to /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl
+INFO: Import ports from HDL: /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/hdl/vhdl/case_9.vhd (case_9)
 INFO: Add clock interface ap_clk
 INFO: Add reset interface ap_rst
 INFO: Add ap_ctrl interface ap_ctrl
@@ -59,8 +59,6 @@ INFO: Add data interface in_data_5_d1
 INFO: Add data interface in_data_5_q1
 INFO: Add data interface in_data_6_address0
 INFO: Add data interface in_data_6_q0
-INFO: Add data interface in_data_6_address1
-INFO: Add data interface in_data_6_q1
 INFO: Add data interface in_data_7_address0
 INFO: Add data interface in_data_7_d0
 INFO: Add data interface in_data_7_q0
@@ -68,10 +66,8 @@ INFO: Add data interface in_data_7_address1
 INFO: Add data interface in_data_7_d1
 INFO: Add data interface in_data_7_q1
 INFO: Add data interface in_data_8_address0
-INFO: Add data interface in_data_8_d0
 INFO: Add data interface in_data_8_q0
 INFO: Add data interface in_data_8_address1
-INFO: Add data interface in_data_8_d1
 INFO: Add data interface in_data_8_q1
 INFO: Add data interface in_data_9_address0
 INFO: Add data interface in_data_9_d0
@@ -91,8 +87,6 @@ INFO: Add data interface in_data_11_d1
 INFO: Add data interface in_data_11_q1
 INFO: Add data interface in_data_12_address0
 INFO: Add data interface in_data_12_q0
-INFO: Add data interface in_data_12_address1
-INFO: Add data interface in_data_12_q1
 INFO: Add data interface in_data_13_address0
 INFO: Add data interface in_data_13_d0
 INFO: Add data interface in_data_13_q0
@@ -121,5 +115,5 @@ INFO: Calling post_process_vitis to specialize IP
 INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/component.xml
-INFO: Created IP archive /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/xilinx_com_hls_case_3_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Tue Jan 20 10:11:59 2026...
+INFO: Created IP archive /home/jjh/RL_test/for_ironman/synthesis/project_tmp/solution_tmp/impl/ip/xilinx_com_hls_case_9_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 21 17:33:50 2026...

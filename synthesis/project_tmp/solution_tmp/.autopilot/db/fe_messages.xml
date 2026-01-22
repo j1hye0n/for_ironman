@@ -1,363 +1,300 @@
 <xilinx:hls_fe_msgs>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/script_tmp.tcl:9:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=case_3" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=case_9" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:13:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_data complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=in_data complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:14:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=out_data complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=out_data complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:15:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=in_data" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=in_data" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:16:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=in_scalar" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=in_scalar" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:17:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=out_data" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=out_data" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_3.cc:18:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:35:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m32" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:36:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m33" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:37:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m36" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:38:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m37" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:43:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m45" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:45:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m47" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:50:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m55" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:51:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m56" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:53:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m58" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:54:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m62" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:56:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m64" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:57:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m68" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:63:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m76" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:67:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m82" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:72:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m87" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:73:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m88" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:74:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m89" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:75:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m92" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:76:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m93" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:78:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m98" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:79:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m99" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:80:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m101" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:82:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m103" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:83:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m104" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:86:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m109" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:87:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m110" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:89:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m112" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:1:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:2:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:3:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:4:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:5:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:6:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:7:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:8:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:9:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:10:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:11:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:12:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:13:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:14:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:15:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:16:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:17:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:18:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:19:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:20:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:21:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="case_9.cc:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_hs port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:22:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:23:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:24:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m23" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:25:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:26:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:27:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m26" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:28:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m29" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:29:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:30:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:31:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:32:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m30" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:33:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m34" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:34:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_3" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m35" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_15' since this interface mode only supports scalar types">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:37:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m38" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m40" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:41:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m43" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m44" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:44:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m46" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m56" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m57" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m60" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:55:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m61" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:60:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m68" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m70" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:66:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m74" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m75" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:71:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m79" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:73:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m81" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m82" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m84" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m87" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:81:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m89" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:85:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m98" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:86:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m99" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:87:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m101" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:92:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m106" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:98:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m113" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:100:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=mul variable=m115" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:104:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="impl=fabric op=add variable=m120" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:2:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:3:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:4:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:5:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:15:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaOptions="off=true" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="case_9" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_15' since this interface mode only supports scalar types">
         <args Name="in_data_15"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_14' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_14' since this interface mode only supports scalar types">
         <args Name="in_data_14"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_13' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_13' since this interface mode only supports scalar types">
         <args Name="in_data_13"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_12' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_12' since this interface mode only supports scalar types">
         <args Name="in_data_12"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_11' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_11' since this interface mode only supports scalar types">
         <args Name="in_data_11"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_10' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_10' since this interface mode only supports scalar types">
         <args Name="in_data_10"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_9' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_9' since this interface mode only supports scalar types">
         <args Name="in_data_9"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_8' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_8' since this interface mode only supports scalar types">
         <args Name="in_data_8"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_7' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_7' since this interface mode only supports scalar types">
         <args Name="in_data_7"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_6' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_6' since this interface mode only supports scalar types">
         <args Name="in_data_6"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_5' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_5' since this interface mode only supports scalar types">
         <args Name="in_data_5"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_4' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_4' since this interface mode only supports scalar types">
         <args Name="in_data_4"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_3' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_3' since this interface mode only supports scalar types">
         <args Name="in_data_3"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_2' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_2' since this interface mode only supports scalar types">
         <args Name="in_data_2"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_1' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_1' since this interface mode only supports scalar types">
         <args Name="in_data_1"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_0' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_data_0' since this interface mode only supports scalar types">
         <args Name="in_data_0"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_scalar' since this interface mode only supports scalar types">
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'in_scalar' since this interface mode only supports scalar types">
         <args Name="in_scalar"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:235:18" msg_body="Loop 'L_n13_2' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n13_2"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_9.cc:232:17" msg_body="Loop 'L_n6_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="L_n6_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:236:22" msg_body="Loop 'L_n13_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n13_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:224:18" msg_body="Loop 'L_n12_2' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n12_2"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:211:18" msg_body="Loop 'L_n11_2' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n11_2"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:192:22" msg_body="Loop 'L_n10_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n10_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:145:21" msg_body="Loop 'L_n6_3' is marked as complete unroll implied by the pipeline pragma">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_9.cc:233:21" msg_body="Loop 'L_n6_3' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="L_n6_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_3.cc:134:21" msg_body="Loop 'L_n5_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="L_n5_3"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="case_9.cc:226:17" msg_body="Loop 'L_n5_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="L_n5_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n13_2' (case_3.cc:235:18) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:235:18" LoopName="L_n13_2"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Unrolling loop 'L_n6_2' (case_9.cc:232:17) in function 'case_9' completely with a factor of 8">
+        <args Factor="8" LoopLoc="case_9.cc:232:17" LoopName="L_n6_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Pipeline directive for loop 'L_n13_2' (case_3.cc:235:18) in function 'case_3' has been removed because the loop is unrolled completely">
-        <args LoopLoc="case_3.cc:235:18" LoopName="L_n13_2"/>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Pipeline directive for loop 'L_n6_2' (case_9.cc:232:17) in function 'case_9' has been removed because the loop is unrolled completely">
+        <args LoopLoc="case_9.cc:232:17" LoopName="L_n6_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n13_3' (case_3.cc:236:22) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:236:22" LoopName="L_n13_3"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Unrolling loop 'L_n6_3' (case_9.cc:233:21) in function 'case_9' completely with a factor of 8">
+        <args Factor="8" LoopLoc="case_9.cc:233:21" LoopName="L_n6_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Pipeline directive for loop 'L_n13_3' (case_3.cc:236:22) in function 'case_3' has been removed because the loop is unrolled completely">
-        <args LoopLoc="case_3.cc:236:22" LoopName="L_n13_3"/>
+    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="case_9.cc:12:0" msg_body="Pipeline directive for loop 'L_n6_3' (case_9.cc:233:21) in function 'case_9' has been removed because the loop is unrolled completely">
+        <args LoopLoc="case_9.cc:233:21" LoopName="L_n6_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n12_2' (case_3.cc:224:18) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:224:18" LoopName="L_n12_2"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Unrolling loop 'L_n5_2' (case_9.cc:226:17) in function 'case_9' completely with a factor of 8">
+        <args Factor="8" LoopLoc="case_9.cc:226:17" LoopName="L_n5_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n11_2' (case_3.cc:211:18) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:211:18" LoopName="L_n11_2"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n10_3' (case_3.cc:192:22) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:192:22" LoopName="L_n10_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_PIPELINE" msg_id="214-189" msg_severity="WARNING" msg_loc="case_3.cc:12:0" msg_body="Pipeline directive for loop 'L_n10_3' (case_3.cc:192:22) in function 'case_3' has been removed because the loop is unrolled completely">
-        <args LoopLoc="case_3.cc:192:22" LoopName="L_n10_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n6_3' (case_3.cc:145:21) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:145:21" LoopName="L_n6_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Unrolling loop 'L_n5_3' (case_3.cc:134:21) in function 'case_3' completely with a factor of 8">
-        <args Factor="8" LoopLoc="case_3.cc:134:21" LoopName="L_n5_3"/>
-    </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Applying array_partition to 'in_data': Complete partitioning on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Applying array_partition to 'in_data': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="in_data"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Applying array_partition to 'out_data': Complete partitioning on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Applying array_partition to 'out_data': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="out_data"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_15' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_15"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_15' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_15"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_14' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_14"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_14' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_14"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_13' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_13"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_13' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_13"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_12' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_12"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_12' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_12"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_11' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_11"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_11' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_11"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_10' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_10"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_10' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_10"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_9' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_9"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_9' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_9"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_8' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_8"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_8' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_8"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_7' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_7"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_7' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_7"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_6' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_6"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_6' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_6"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_5' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_5"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_5' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_5"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_4' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_4"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_4' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_4"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_3' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_3"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_3' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_2' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_2"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_2' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_1' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_1"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_1' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_1"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_3.cc:12:0" msg_body="Aggregating scalar variable 'in_data_0' with compact=bit mode in 2-bits">
-        <args AggregateTypeName="compact=bit" Bitwidth="2" HwTyName="scalar" Name="in_data_0"/>
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="case_9.cc:12:0" msg_body="Aggregating scalar variable 'in_data_0' with compact=bit mode in 3-bits">
+        <args AggregateTypeName="compact=bit" Bitwidth="3" HwTyName="scalar" Name="in_data_0"/>
     </msg>
 </xilinx:hls_fe_msgs>
 

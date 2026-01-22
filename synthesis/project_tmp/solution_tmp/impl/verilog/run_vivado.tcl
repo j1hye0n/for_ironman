@@ -14,7 +14,7 @@ set target_device "${device}${package}${speed}"
 set target_clk_period_ns "12.000"
 set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
 set other_clks_freq_hz {}
-set ip_vlnv xilinx.com:hls:case_3:1.0
+set ip_vlnv xilinx.com:hls:case_9:1.0
 set ip_repo_path ../ip
 set bd_design_name bd_0
 set bd_inst_name hls_inst
@@ -47,10 +47,10 @@ dict set report_options target_device $target_device
 dict set report_options language $language
 dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
-dict set report_options topmodule "case_3"
-dict set report_options funcmodules {}
-dict set report_options bindmodules {case_3_mul_6s_4s_10_1_1 case_3_mul_6s_2s_8_1_1 case_3_mul_5s_5s_5_1_1 case_3_mul_4s_4s_8_1_1 case_3_mul_3s_2s_3_1_1 case_3_mul_5s_4s_9_1_1 case_3_mul_4s_2s_6_1_1 case_3_mul_5s_2s_7_1_1 case_3_mac_muladd_5s_2s_7s_8_4_1}
-dict set report_options max_module_depth 5
+dict set report_options topmodule "case_9"
+dict set report_options funcmodules case_9_case_9_Pipeline_L_s4_1
+dict set report_options bindmodules {case_9_flow_control_loop_pipe_sequential_init case_9_mul_3s_3s_3_1_1 case_9_mul_8s_3s_11_1_1 case_9_mul_3s_3s_6_1_1 case_9_mul_8s_8s_8_1_1 case_9_mul_4s_3s_7_1_1 case_9_mul_2s_2s_4_1_1 case_9_mul_3s_2s_4_1_1 case_9_mul_9s_4s_10_1_1 case_9_mul_8s_5s_13_1_1 case_9_mul_6s_3s_9_1_1 case_9_mul_4s_3s_4_1_1 case_9_mul_2s_2s_2_1_1 case_9_mul_6s_2s_8_1_1 case_9_mul_8s_4s_12_1_1 case_9_mul_6s_6s_12_1_1 case_9_mul_8s_2s_10_1_1 case_9_mul_5s_3s_8_1_1 case_9_mul_12s_3s_15_1_1 case_9_mul_8s_7s_15_1_1 case_9_mul_9s_3s_9_1_1 case_9_mul_7s_3s_7_1_1 case_9_mul_5s_3s_5_1_1 case_9_mul_4s_5s_5_1_1 case_9_mul_15s_4s_16_1_1 case_9_mul_6s_6s_6_1_1 case_9_mul_7s_7s_7_1_1 case_9_mul_5s_3s_6_1_1 case_9_mac_muladd_4s_3s_9s_9_4_1 case_9_mac_muladd_3s_3s_5s_6_4_1 case_9_mac_muladd_9s_3s_9s_12_4_1 case_9_mac_muladd_8s_3s_14s_14_4_1 case_9_mac_muladd_3s_3s_6s_7_4_1 case_9_mac_muladd_4s_3s_4s_7_4_1 case_9_mac_muladd_3s_3s_16s_17_4_1 case_9_mac_muladd_4s_3s_12s_12_4_1 case_9_mac_muladd_8s_3s_12s_12_4_1}
+dict set report_options max_module_depth 6
 
 
 create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force

@@ -1,58 +1,18 @@
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 235, Column: 18 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 232, Column: 17 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Loop '''
-  - LoopName:        L_n13_2
+  - LoopName:        L_n6_2
   - String:          ''' is marked as complete unroll implied by the pipeline pragma'
 ...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 236, Column: 22 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 224, Column: 18 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Loop '''
-  - LoopName:        L_n12_2
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 211, Column: 18 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Loop '''
-  - LoopName:        L_n11_2
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 192, Column: 22 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Loop '''
-  - LoopName:        L_n10_3
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 145, Column: 21 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 233, Column: 21 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Loop '''
   - LoopName:        L_n6_3
@@ -61,403 +21,324 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: case_3.cc, Line: 134, Column: 21 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 226, Column: 17 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Loop '''
-  - LoopName:        L_n5_3
+  - LoopName:        L_n5_2
   - String:          ''' is marked as complete unroll implied by the pipeline pragma'
 ...
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        L_n13_2
+  - LoopName:        L_n6_2
   - String:          ''' ('
-  - LoopLoc:         'case_3.cc:235:18'
+  - LoopLoc:         'case_9.cc:232:17'
   - String:          ') '
   - String:          'in function '''
-  - String:          case_3
+  - String:          case_9
   - String:          ''' completely with a factor of '
   - Factor:          '8'
 ...
 --- !Missed
 Pass:            reflow-pragma-loop-unroll
 Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_2
+  - LoopName:        L_n6_2
   - String:          ''' ('
-  - LoopLoc:         'case_3.cc:235:18'
+  - LoopLoc:         'case_9.cc:232:17'
   - String:          ') '
   - String:          'in function '''
-  - String:          case_3
+  - String:          case_9
   - String:          ''' has been removed because the loop is unrolled completely'
 ...
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n13_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:236:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n12_2
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:224:18'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n11_2
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:211:18'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        L_n10_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:192:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' completely with a factor of '
-  - Factor:          '8'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PipelineRemovedByUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
-Args:            
-  - String:          'Pipeline directive for loop '''
-  - LoopName:        L_n10_3
-  - String:          ''' ('
-  - LoopLoc:         'case_3.cc:192:22'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          case_3
-  - String:          ''' has been removed because the loop is unrolled completely'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        L_n6_3
   - String:          ''' ('
-  - LoopLoc:         'case_3.cc:145:21'
+  - LoopLoc:         'case_9.cc:233:21'
   - String:          ') '
   - String:          'in function '''
-  - String:          case_3
+  - String:          case_9
   - String:          ''' completely with a factor of '
   - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
 ...
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        L_n5_3
+  - LoopName:        L_n6_3
   - String:          ''' ('
-  - LoopLoc:         'case_3.cc:134:21'
+  - LoopLoc:         'case_9.cc:233:21'
   - String:          ') '
   - String:          'in function '''
-  - String:          case_3
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n6_3
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:233:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n5_2
+  - String:          ''' ('
+  - LoopLoc:         'case_9.cc:226:17'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_9
   - String:          ''' completely with a factor of '
   - Factor:          '8'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-Function:        apatb_case_3_ir
+Function:        apatb_case_9_ir
 Args:            
-  - Callee:          'case_3(ap_int<2> (*) [16], ap_int<4>*, ap_int<8>*)'
-    DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
+  - Callee:          'case_9(ap_int<3> (*) [16], ap_int<8>*, ap_int<8>*)'
+    DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
   - String:          ' not inlined into '
-  - Caller:          apatb_case_3_ir
+  - Caller:          apatb_case_9_ir
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Applying '
   - String:          array_partition
@@ -474,8 +355,8 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Applying '
   - String:          array_partition
@@ -492,8 +373,8 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -502,14 +383,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -518,14 +399,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -534,14 +415,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -550,14 +431,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -566,14 +447,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -582,14 +463,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -598,14 +479,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -614,14 +495,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -630,14 +511,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -646,14 +527,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -662,14 +543,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -678,14 +559,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -694,14 +575,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -710,14 +591,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -726,14 +607,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Aggregating '
   - HwTyName:        scalar
@@ -742,14 +623,14 @@ Args:
   - String:          ''' with '
   - AggregateTypeName: 'compact=bit'
   - String:          ' mode in '
-  - Bitwidth:        '2'
+  - Bitwidth:        '3'
   - String:          '-bits'
 ...
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -761,8 +642,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -774,8 +655,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -787,8 +668,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -800,8 +681,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -813,8 +694,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -826,8 +707,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -839,8 +720,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -852,8 +733,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -865,8 +746,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -878,8 +759,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -891,8 +772,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -904,8 +785,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -917,8 +798,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -930,8 +811,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -943,8 +824,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none
@@ -956,8 +837,8 @@ Args:
 --- !Failure
 Pass:            reflow-interface-check
 Name:            UnspportedNonScalarType
-DebugLoc:        { File: case_3.cc, Line: 12, Column: 0 }
-Function:        _Z6case_3PA16_6ap_intILi2EEPS_ILi4EEPS_ILi8EE
+DebugLoc:        { File: case_9.cc, Line: 12, Column: 0 }
+Function:        _Z6case_9PA16_6ap_intILi3EEPS_ILi8EES4_
 Args:            
   - String:          'Cannot apply interface mode '''
   - String:          ap_none

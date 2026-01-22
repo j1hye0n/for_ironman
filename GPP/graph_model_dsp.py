@@ -10,7 +10,7 @@ from sklearn import model_selection
 
 from tensorflow.keras import Model
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Dense,LeakyReLU,Dropout
+from tensorflow.keras.layers import Dense,LeakyReLU,Dropout, ReLU
 from tensorflow.keras import initializers
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -23,8 +23,10 @@ import argparse
 import pprint as pp
 
 import pickle
+
 fp = open('graphs_dataset','rb')
 graphs = pickle.load(fp)
+fp.close()
 
 graph_labels_dsp = pd.read_csv('graph_target_dsp.csv')
 graph_labels_dsp = pd.get_dummies(graph_labels_dsp, drop_first=True)
@@ -42,9 +44,9 @@ def create_graph_model(generator):
 
     predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(x_out)
     predictions1 = Dropout(0.1)(predictions1)
-    predictions1 = LeakyReLU(alpha=0.2)(predictions1)
+    predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
-    predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(x_out)
+    predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(predictions1)
     predictions1 = Dropout(0.1)(predictions1)
     predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
@@ -59,21 +61,18 @@ def create_graph_model(generator):
     model0 = Model(inputs=x_inp, outputs=predictions2)
     lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=0.01,decay_steps=100000,decay_rate=0.9)
     opt = Adam(learning_rate=lr_schedule)
-    model.compile(optimizer=opt, loss='mean_squared_logarithmic_error',metrics=["mse"])
     
-    return model,model0
-
-
+    model.compile(optimizer=opt, loss='mean_squared_logarithmic_error', metrics=["mse"])
+    
+    return model, model0
 
 def train_fold(model, train_gen, test_gen, epochs):
-    history = model.fit(train_gen, epochs=epochs, validation_data=test_gen,verbose=1, shuffle=True)
+    history = model.fit(train_gen, epochs=epochs, validation_data=test_gen, verbose=1, shuffle=True)
     # calculate performance on the test data and return along with history
     test_metrics = model.evaluate(test_gen, verbose=1)
     test_mse = test_metrics[model.metrics_names.index("mse")]
 
     return history, test_mse
-
-
 
 def get_generators(train_index, test_index, graph_labels, batch_size):
     train_gen = generator.flow(train_index, targets=graph_labels.iloc[train_index].values, batch_size=batch_size)
@@ -81,32 +80,43 @@ def get_generators(train_index, test_index, graph_labels, batch_size):
 
     return train_gen, test_gen
 
-
-
 def main(args):
     epochs = int(args['epoch']) # maximum number of training epochs
     folds = int(args['fold'])
     batch_size = int(args['batch_size'])
     seed(int(args['random_seed']))
+    #tf.random.set_seed(int(args['random_seed']))
 
     model, model0 = create_graph_model(generator)
-    test_mse=[]
+
+    test_mse = []
+    
+    all_histories = []
 
     for i in range(folds):
         print(f"Training and evaluating on fold {i+1} out of {folds}...")
         train, test = model_selection.train_test_split(graph_labels_dsp, train_size=0.9, test_size=None)
         train_gen, test_gen = get_generators(np.array(train.index), np.array(test.index), graph_labels_dsp, batch_size=32)
+        
         history, mse = train_fold(model, train_gen, test_gen, epochs)
         test_mse.append(mse)
+
+        fold_df = pd.DataFrame(history.history)
+        fold_df['fold'] = i + 1
+        fold_df['epoch'] = range(1, len(fold_df) + 1) 
+        all_histories.append(fold_df)
 
     model.save('model_proxy_dsp.h5')
     model0.save('model_embedding_dsp.h5')
 
+    final_history_df = pd.concat(all_histories, ignore_index=True)
+    final_history_df.to_csv('training_history_dsp.csv', index=False)
+    print("Training history saved to 'training_history_dsp.csv'")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='provide arguments for the graph embedding model with DSP predictions')
 
-    parser.add_argument('--epoch', help='the number of epochs per fold', default=50)
+    parser.add_argument('--epoch', help='the number of epochs per fold', default=200)
     parser.add_argument('--fold', help='the number of folds', default=10)
     parser.add_argument('--batch-size', help='the size of batch', default=32)
     parser.add_argument('--random-seed', help='random seed for repeatability', default=42)

@@ -3,11 +3,11 @@ import numpy as np
 
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 import stellargraph as sg
 from stellargraph.mapper import PaddedGraphGenerator
-from stellargraph.layer import GCNSupervisedGraphClassification
+#from stellargraph.layer import GCNSupervisedGraphClassification
 from stellargraph import StellarGraph
 from stellargraph.layer import GraphConvolution
 
@@ -83,30 +83,31 @@ class hls_env():
             terminal=1
 
         if terminal==1:
-            lut=np.round(self.model_proxy_lut.predict(self.generator.flow([0]))[0][0])
+            log_lut=self.model_proxy_lut.predict(self.generator.flow([0]))[0][0]
+            lut=np.expm1(log_lut)
+            lut=np.round(lut)
             dsp=np.round(self.model_proxy_dsp.predict(self.generator.flow([0]))[0][0])
             cp=self.model_proxy_cp.predict(self.generator.flow([0]))[0][0]
 
-            #if (self.graph_index,self.target_dsp) not in self.history:
-            #    self.history[self.graph_index,self.target_dsp]=[5000,15]
-            if self.graph_index not in [0,48,49,50,51,52,53,54]:
-                if dsp>self.target_dsp-3:
-                    r=-self.alpha*lut-10*np.abs(self.target_dsp-dsp-3)-cp*self.lambda0
-                else:
-                    r=-self.alpha*lut-5*np.abs(self.target_dsp-dsp-3)-cp*self.lambda0+int(self.target_dsp==dsp)*15
-                r=r/10
+            # rewrite the reward formular
+
+            diff_dsp = np.abs(self.target_dsp -dsp)
+            bonus = 15.0/(1.0+diff_dsp)
+
+            if dsp>self.target_dsp:
+                penalty_dsp = 10 * diff_dsp
             else:
-                if dsp>self.target_dsp-10:
-                    r=-self.alpha*lut/5-10*np.abs(self.target_dsp-dsp-10)-cp*self.lambda0
-                else:
-                    r=-self.alpha*lut/5-5*np.abs(self.target_dsp-dsp-10)-cp*self.lambda0+int(self.target_dsp==dsp)*15
-                r=r/12
+                penalty_dsp = 5 * diff_dsp
+
+
+            r = -self.alpha * lut - penalty_dsp - cp * self.lambda0+bonus
+            r=r/2
 
 
             lut_embedding=self.model_embedding_lut.predict(self.generator.flow([0]))
             dsp_embedding=self.model_embedding_dsp.predict(self.generator.flow([0]))
             cp_embedding=self.model_embedding_cp.predict(self.generator.flow([0]))
-            s2=list(np.divide(lut_embedding[0],50))+list(np.divide(dsp_embedding[0],1))+list(np.divide(cp_embedding[0],1)) \
+            s2=list(np.divide(lut_embedding[0],300))+list(np.divide(dsp_embedding[0],300))+list(np.divide(cp_embedding[0],300)) \
                 + list(np.divide(self.metadata[self.graph_index],100)) \
                 + [self.target_dsp/50 for i in range(10)]+[self.current_multiplications[self.timestep]/80 for i in range(3)]
         else:

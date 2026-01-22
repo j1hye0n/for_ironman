@@ -10,7 +10,7 @@ from sklearn import model_selection
 
 from tensorflow.keras import Model
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Dense,LeakyReLU,Dropout
+from tensorflow.keras.layers import Dense,LeakyReLU,Dropout,ReLU
 from tensorflow.keras import initializers
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -23,8 +23,10 @@ import argparse
 import pprint as pp
 
 import pickle
+
 fp = open('graphs_dataset','rb')
 graphs = pickle.load(fp)
+fp.close()
 
 graph_labels_cp = pd.read_csv('graph_target_cp.csv')
 graph_labels_cp = pd.get_dummies(graph_labels_cp, drop_first=True)
@@ -42,9 +44,9 @@ def create_graph_model(generator):
 
     predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(x_out)
     predictions1 = Dropout(0.1)(predictions1)
-    predictions1 = LeakyReLU(alpha=0.2)(predictions1)
+    predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
-    predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(x_out)
+    predictions1 = Dense(units=64, kernel_initializer=initializers.Constant(value=0.05))(predictions1)
     predictions1 = Dropout(0.1)(predictions1)
     predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
@@ -88,25 +90,39 @@ def main(args):
     folds = int(args['fold'])
     batch_size = int(args['batch_size'])
     seed(int(args['random_seed']))
+    #tf.random.set_seed(int(args['random_seed']))
 
     model, model0 = create_graph_model(generator)
+
     test_mse=[]
+    
+    all_histories = []
 
     for i in range(folds):
         print(f"Training and evaluating on fold {i+1} out of {folds}...")
         train, test = model_selection.train_test_split(graph_labels_cp, train_size=0.9, test_size=None)
         train_gen, test_gen = get_generators(np.array(train.index), np.array(test.index), graph_labels_cp, batch_size=32)
+        
         history, mse = train_fold(model, train_gen, test_gen, epochs)
         test_mse.append(mse)
 
+        fold_df = pd.DataFrame(history.history)
+        fold_df['fold'] = i + 1         
+        fold_df['epoch'] = range(1, len(fold_df) + 1)
+        all_histories.append(fold_df)
+
     model.save('model_proxy_cp.h5')
     model0.save('model_embedding_cp.h5')
+
+    final_history_df = pd.concat(all_histories, ignore_index=True)
+    final_history_df.to_csv('training_history_cp.csv', index=False)
+    print("Training history saved to 'training_history_cp.csv'")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='provide arguments for the graph embedding model with CP predictions')
 
-    parser.add_argument('--epoch', help='the number of epochs per fold', default=50)
+    parser.add_argument('--epoch', help='the number of epochs per fold', default=200)
     parser.add_argument('--fold', help='the number of folds', default=10)
     parser.add_argument('--batch-size', help='the size of batch', default=32)
     parser.add_argument('--random-seed', help='random seed for repeatability', default=42)

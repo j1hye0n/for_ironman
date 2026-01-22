@@ -1,0 +1,149 @@
+remark: cc/case_1.cc:322:18: Loop 'L_n11_2' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:323:22: Loop 'L_n11_3' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:315:18: Loop 'L_n10_2' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:286:17: Loop 'L_n9_2' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:279:21: Loop 'L_n8_3' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:266:17: Loop 'L_m3_2' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:268:21: Loop 'L_m3_3' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:228:21: Loop 'L_m2_3' is marked as complete unroll implied by the pipeline pragma
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_2' (cc/case_1.cc:322:18) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_2' (cc/case_1.cc:322:18) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n11_3' (cc/case_1.cc:323:22) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n10_2' (cc/case_1.cc:315:18) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n10_2' (cc/case_1.cc:315:18) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n9_2' (cc/case_1.cc:286:17) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n9_2' (cc/case_1.cc:286:17) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_n8_3' (cc/case_1.cc:279:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_n8_3' (cc/case_1.cc:279:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_2' (cc/case_1.cc:266:17) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_2' (cc/case_1.cc:266:17) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m3_3' (cc/case_1.cc:268:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: cc/case_1.cc:12:0: Unrolling loop 'L_m2_3' (cc/case_1.cc:228:21) in function 'case_1' completely with a factor of 32
+remark: cc/case_1.cc:12:0: Pipeline directive for loop 'L_m2_3' (cc/case_1.cc:228:21) in function 'case_1' has been removed because the loop is unrolled completely
+remark: <unknown>:0:0: case_1(ap_int<3> (*) [32], ap_int<6>*, ap_int<8>*) not inlined into apatb_case_1_ir because it should never be inlined (cost=never)

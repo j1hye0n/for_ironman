@@ -1,0 +1,195 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+Tool Version Limit: 2025.05
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg

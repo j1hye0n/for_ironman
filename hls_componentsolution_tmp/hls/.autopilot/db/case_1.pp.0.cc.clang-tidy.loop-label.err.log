@@ -1,0 +1,4 @@
+3 warnings and 340 errors generated.
+Error while processing /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc.
+clang-tidy applied 4 of 4 suggested fixes.
+Suppressed 3 warnings (3 with check filters).

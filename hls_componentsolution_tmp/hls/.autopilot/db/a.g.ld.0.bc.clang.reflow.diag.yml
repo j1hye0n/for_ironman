@@ -1,0 +1,2152 @@
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 322, Column: 18 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_n11_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 323, Column: 22 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 315, Column: 18 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_n10_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 286, Column: 17 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_n9_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 279, Column: 21 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_n8_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 266, Column: 17 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_m3_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 268, Column: 21 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 228, Column: 21 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Loop '''
+  - LoopName:        L_m2_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:322:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:322:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n11_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:323:22'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n10_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:315:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n10_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:315:18'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n9_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:286:17'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n9_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:286:17'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_n8_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:279:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_n8_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:279:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:266:17'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_2
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:266:17'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' has been removed because the loop is unrolled completely'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLoc:         'cc/case_1.cc:268:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          case_1
+  - String:          ''' completely with a factor of '
+  - Factor:          '32'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PipelineRemovedByUnroll
+DebugLoc:        { File: cc/case_1.cc, Line: 12, Column: 0 }
+Function:        _Z6case_1PA32_6ap_intILi3EEPS_ILi6EEPS_ILi8EE
+Args:            
+  - String:          'Pipeline directive for loop '''
+  - LoopName:        L_m3_3
+  - String:          ''' ('
+  - LoopLo

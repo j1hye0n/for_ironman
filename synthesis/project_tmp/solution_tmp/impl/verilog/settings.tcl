@@ -8,7 +8,7 @@
 #
 # Settings for Vivado implementation flow
 #
-set top_module case_3
+set top_module case_9
 set language verilog
 set family zynq
 set device xc7z020

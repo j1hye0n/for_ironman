@@ -1,0 +1,1740 @@
+---
+MainSourceFile:  /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc
+        Offset:          302074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc
+        Offset:          302540
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc
+        Offset:          303007
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1248_1:  '
+    FileOffset:      1248
+    FilePath:        /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/.autopilot/db/case_1.pp.0.cc
+        Offset:          597585
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1248_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      247
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      3
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      8
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      149
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      181
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      248
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      42
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      111
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      215
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      280
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      150
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      112
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      182
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      281
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      43
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      77
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      113
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      282
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      44
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      6
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      9
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      183
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      249
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      78
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      184
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      114
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      216
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      10
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      11
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      115
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      79
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      117
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      45
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      118
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      283
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      11
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      17
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      46
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      80
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      119
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      12
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      151
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      185
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      21
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      217
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      250
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      284
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      47
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      81
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      120
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      13
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      152
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      186
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      218
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      24
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      251
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      285
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      48
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      82
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      121
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      14
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      153
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      187
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      219
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      252
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      26
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      286
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      49
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      83
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      122
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      15
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      154
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      188
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      220
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      253
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      27
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      287
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      50
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      84
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      123
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      155
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      16
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      189
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      221
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      254
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      288
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      29
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      51
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      85
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      124
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      156
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      17
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      190
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      222
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      255
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      289
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      31
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      52
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      86
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      125
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      157
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      18
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      191
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      223
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      256
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      290
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      35
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      53
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      87
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      126
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      158
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      19
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      192
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      224
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      257
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      291
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      38
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      54
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      88
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      127
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      159
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      193
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      20
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      225
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      258
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      292
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      39
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      55
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      89
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      128
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      160
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      194
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      21
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      226
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      259
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      293
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      40
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      56
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      90
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      129
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      161
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      195
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      22
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      227
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      260
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      294
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      41
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      57
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      91
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      130
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      162
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      196
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      228
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      23
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      261
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      295
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      42
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      58
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      92
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      131
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      163
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      197
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      229
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      24
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      262
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      296
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      43
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      59
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      93
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      132
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      164
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      198
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      230
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      25
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      263
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      297
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      44
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      60
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      94
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      133
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      165
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      199
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      231
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      26
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      264
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      298
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      45
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      61
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      95
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      134
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      166
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      200
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      232
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      265
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      27
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      299
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      46
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      62
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      96
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      135
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      167
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      201
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      233
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      266
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      28
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      300
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      47
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      63
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      97
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      136
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      168
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      202
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      234
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      267
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      29
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      301
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      51
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      64
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      98
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      137
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      169
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      203
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      235
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      268
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      30
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      302
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      55
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      65
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      99
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      100
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      138
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      170
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      204
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      236
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      269
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      303
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      31
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      58
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      66
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      101
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      139
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      171
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      205
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      237
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      270
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      304
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      32
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      59
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      67
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      102
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      140
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      172
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      206
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      238
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      271
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      305
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      33
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      60
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      68
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      103
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      141
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      173
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      207
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      239
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      272
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      306
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      34
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      61
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      69
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      104
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      174
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      208
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      240
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      273
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      307
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      35
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      63
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      70
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      105
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      143
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      175
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      209
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      241
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      274
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      308
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      36
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      64
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      71
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      106
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      144
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      176
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      210
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      242
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      275
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      309
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      37
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      65
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      72
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      107
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      145
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      177
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      211
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      243
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      276
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      310
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      38
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      68
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      73
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      108
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      146
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      178
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      212
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      244
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      277
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      311
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      39
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      69
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      74
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      109
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      147
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      179
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      213
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      245
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      278
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      312
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      40
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      73
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, add + fabric is invalid combination for bind_op'
+    FileOffset:      75
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      110
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      148
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      180
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      214
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      246
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      279
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      313
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      41
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      75
+    FilePath:        /home/jjh/RL_test/for_ironman/directive.tcl
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      76
+    FilePath:        /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+    Replacements:    
+...

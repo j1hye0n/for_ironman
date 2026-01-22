@@ -1,0 +1,23 @@
+
+
+Implementation tool: Xilinx Vivado v.2025.1
+Project:             project_tmp
+Solution:            solution_tmp
+Device target:       xc7z020-clg484-1
+Report date:         Wed Jan 21 17:37:34 KST 2026
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:           2257
+FF:            1833
+DSP:              0
+BRAM:             0
+URAM:             0
+LATCH:            0
+SRL:              0
+CLB:              0
+
+#=== Final timing ===
+CP required:                     12.000
+CP achieved post-synthesis:      8.674
+Timing met

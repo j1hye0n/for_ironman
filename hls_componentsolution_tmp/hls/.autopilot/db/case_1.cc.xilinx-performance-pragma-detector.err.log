@@ -1,0 +1,9 @@
+/home/jjh/RL_test/for_ironman/cc/case_1.cc:206:33: warning: address of array 'm68' will always evaluate to 'true' [-Wpointer-bool-conversion]
+            m18 += ((ap_int<32>)m68 + (ap_int<32>)m76);
+                    ~           ^~~
+/home/jjh/RL_test/for_ironman/cc/case_1.cc:242:33: warning: address of array 'm88' will always evaluate to 'true' [-Wpointer-bool-conversion]
+            m18 += ((ap_int<32>)m88 + (ap_int<32>)m96 + (ap_int<32>)m97 + (ap_int<32>)m98);
+                    ~           ^~~
+/home/jjh/RL_test/for_ironman/cc/case_1.cc:281:37: warning: address of array 'm115' will always evaluate to 'true' [-Wpointer-bool-conversion]
+                m18 += ((ap_int<32>)m115 + (ap_int<32>)m124);
+                        ~           ^~~~

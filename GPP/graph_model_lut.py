@@ -10,7 +10,8 @@ from sklearn import model_selection
 
 from tensorflow.keras import Model
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.layers import Dense,LeakyReLU,Dropout
+from tensorflow.keras.layers import Dense,LeakyReLU,Dropout, ReLU
+from tensorflow.keras.initializers import HeNormal
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
@@ -22,10 +23,13 @@ import argparse
 import pprint as pp
 
 import pickle
+
 fp = open('graphs_dataset','rb')
 graphs = pickle.load(fp)
+fp.close()
 
 graph_labels_lut = pd.read_csv('graph_target_lut.csv')
+graph_labels_lut = np.log1p(graph_labels_lut)
 graph_labels_lut = pd.get_dummies(graph_labels_lut, drop_first=True)
 
 generator = PaddedGraphGenerator(graphs=graphs)
@@ -35,28 +39,28 @@ def create_graph_model(generator):
         layer_sizes=[64,128],
         activations=["relu","relu"],
         generator=generator,
-        dropout=0.1
+        dropout=0.2
     )
     x_inp, x_out = gc_model.in_out_tensors()
 
-    predictions1 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.5))(x_out)
-    predictions1 = Dropout(0.1)(predictions1)
-    predictions1 = LeakyReLU(alpha=0.2)(predictions1)
-
-    predictions1 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.5))(x_out)
+    predictions1 = Dense(units=64, kernel_initializer=HeNormal())(x_out)
     predictions1 = Dropout(0.1)(predictions1)
     predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
-    predictions2 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.25))(predictions1)
+    predictions1 = Dense(units=64, kernel_initializer=HeNormal())(predictions1)
+    predictions1 = Dropout(0.1)(predictions1)
+    predictions1 = LeakyReLU(alpha=0.1)(predictions1)
+
+    predictions2 = Dense(units=64, kernel_initializer=HeNormal())(predictions1)
     predictions2 = Dropout(0.1)(predictions2)
     predictions2 = LeakyReLU(alpha=0.1)(predictions2)
 
-    predictions = Dense(units=1,activation='relu')(predictions2)
+    predictions = Dense(units=1,activation='linear')(predictions2)
 
     # Let's create the Keras model and prepare it for training
     model = Model(inputs=x_inp, outputs=predictions)
     model0 = Model(inputs=x_inp, outputs=predictions2)
-    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=0.02,decay_steps=100000,decay_rate=0.9)
+    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=0.001,decay_steps=100000,decay_rate=0.9)
     opt = Adam(learning_rate=lr_schedule)
     model.compile(optimizer=opt, loss=tf.keras.losses.MeanAbsoluteError(),metrics=["mae"])
 
@@ -91,21 +95,35 @@ def main(args):
     model, model0 = create_graph_model(generator)
     test_mae = []
 
+    all_histories = []
+
     for i in range(folds):
         print(f"Training and evaluating on fold {i+1} out of {folds}...")
+        #model, model0 = create_graph_model(generator)
+
         train, test = model_selection.train_test_split(graph_labels_lut, train_size=0.9, test_size=None)
         train_gen, test_gen = get_generators(np.array(train.index), np.array(test.index), graph_labels_lut, batch_size=batch_size)
+        
         history, mae = train_fold(model, train_gen, test_gen, epochs)
         test_mae.append(mae)
 
+        fold_df = pd.DataFrame(history.history)
+        fold_df['fold'] = i + 1     
+        fold_df['epoch'] = range(1, len(fold_df) + 1)
+        all_histories.append(fold_df)
+
     model.save('model_proxy_lut.h5')
     model0.save('model_embedding_lut.h5')
+
+    final_history_df = pd.concat(all_histories, ignore_index=True)
+    final_history_df.to_csv('training_history_lut.csv', index=False)
+    print("Training history saved to 'training_history_lut.csv'")
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='provide arguments for the graph embedding model with LUT predictions')
 
-    parser.add_argument('--epoch', help='the number of epochs per fold', default=50)
+    parser.add_argument('--epoch', help='the number of epochs per fold', default=200)
     parser.add_argument('--fold', help='the number of folds', default=10)
     parser.add_argument('--batch-size', help='the size of batch', default=32)
     parser.add_argument('--random-seed', help='random seed for repeatability', default=42)

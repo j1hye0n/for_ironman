@@ -1,0 +1,515 @@
+  **** HLS Build v2025.1 6135595
+Sourcing Tcl script '/home/jjh/RL_test/for_ironman/script.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset project_tmp 
+WARNING: [HLS 200-2182] The 'project_tmp' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/project_tmp'.
+INFO: [HLS 200-1510] Running: open_component hls_component -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening component '/home/jjh/RL_test/for_ironman/hls_component'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+INFO: [HLS 200-1510] Running: set_top case_1 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+INFO: [HLS 200-10] Opening solution '/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying solution config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-2001] file not found 'cc/case_1.cc' see [hls] from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(6)
+INFO: [HLS 200-1465] Applying config ini 'syn.file=cc/case_1.cc' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(6)
+WARNING: [HLS 200-40] Cannot find design file 'cc/case_1.cc'
+INFO: [HLS 200-1465] Applying config ini 'syn.top=case_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(5)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020-clg400-1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(4)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m25' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(8)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m35' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m45' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(10)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m62' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(11)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m68' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m76' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(13)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m78' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m79' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m81' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(16)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m83' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m88' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m96' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(19)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m97' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(20)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m100' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(21)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m101' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(22)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m102' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(23)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m106' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(24)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m108' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(25)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m109' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(26)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m110' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(27)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m111' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(28)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m115' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(29)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m124' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(30)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m127' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(31)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m132' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(32)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m135' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(33)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m136' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(34)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m138' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(35)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m139' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(36)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m141' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(37)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m144' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(38)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m145' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(39)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m149' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(40)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m152' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(41)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m27' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(42)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m32' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(43)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m35' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(44)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m53' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(45)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m62' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(46)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m68' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(47)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m76' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(48)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m78' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(49)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m79' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(50)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m81' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(51)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m83' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(52)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m88' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(53)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m96' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(54)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m97' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(55)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m100' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(56)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m101' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(57)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m102' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(58)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m106' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(59)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m108' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(60)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m109' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(61)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m110' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(62)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m111' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(63)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m115' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(64)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m124' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(65)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m127' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(66)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m132' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(67)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m135' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(68)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m136' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(69)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m138' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(70)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m139' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(71)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m141' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(72)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m144' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(73)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m145' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(74)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=add m149' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(75)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.bind_op=case_1 impl=fabric op=mul m152' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(76)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(77)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n1_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(78)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n2_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(79)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n2_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(80)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(81)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(82)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_3 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(83)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(84)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(85)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(86)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_3 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(87)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n5_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(88)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n5_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(89)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(90)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(91)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(92)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n6_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(93)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n6_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(94)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s2_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(95)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s3_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(96)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s4_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(97)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(98)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(99)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(100)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n7_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(101)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n7_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(102)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(103)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(104)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(105)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(106)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(107)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(108)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n9_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(109)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n9_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(110)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s5_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(111)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n10_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(112)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n10_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(113)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(114)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(115)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(116)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s6_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(117)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(118)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n1_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(119)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n2_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(120)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n2_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(121)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(122)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(123)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n3_3 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(124)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(125)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(126)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(127)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n4_3 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(128)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n5_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(129)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n5_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(130)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(131)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_2 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(132)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m1_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(133)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n6_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(134)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n6_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(135)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s2_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(136)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s3_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(137)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s4_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(138)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(139)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(140)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m2_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(141)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n7_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(142)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n7_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(143)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(144)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(145)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_m3_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(146)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(147)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(148)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n8_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(149)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n9_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(150)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n9_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(151)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s5_1 off=true' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(152)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n10_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(153)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n10_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(154)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(155)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_2' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(156)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_n11_3' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(157)
+INFO: [HLS 200-1465] Applying config ini 'syn.directive.pipeline=case_1/L_s6_1' from /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg(158)
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/vitis-comp.json
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: source ./directive.tcl
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n1_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m32 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n3_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m39 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_s1_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m46 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n4_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n4_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n4_3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n5_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n5_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m62 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_m1_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_m1_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m1_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m68 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n6_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n6_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m76 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_s2_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m78 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m79 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_s3_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m81 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_s4_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m83 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_m2_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m2_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m2_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m88 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n7_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n7_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m96 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m97 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m100 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m101 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m102 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m106 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m108 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m109 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m110 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m111 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m3_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m3_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_m3_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m115 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_n8_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n8_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n8_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m124 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n9_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n9_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m127 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m132 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m135 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m136 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_1/L_s5_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m138 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m139 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m141 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n10_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n10_2 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m144 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m145 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n11_1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n11_2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_n11_3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op add -impl fabric case_1 m149 
+INFO: [HLS 200-1510] Running: set_directive_pipeline case_1/L_s6_1 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl fabric case_1 m152 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+WARNING: [HLS 200-1998] cannot find relative file path 'cc/case_1.cc' in directory(s): /home/jjh/RL_test/for_ironman /home/jjh/RL_test/for_ironman
+WARNING: [HLS 200-40] Cannot find source file cc/case_1.cc; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.58 seconds. CPU system time: 0.1 seconds. Elapsed time: 3.2 seconds; current allocated memory: 436.672 MB.
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:8)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:9)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:10)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:11)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:12)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:13)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:14)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:15)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:16)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:17)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:18)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:19)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:20)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:21)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:22)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:23)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:24)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:25)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:26)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:27)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:28)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:29)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:30)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:31)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:32)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:33)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:34)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:35)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:36)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:37)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:38)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:39)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:40)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:41)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:42)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:43)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:44)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:45)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:46)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:47)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:48)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:49)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:50)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:51)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:52)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:53)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:54)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:55)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:56)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:57)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:58)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:59)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:60)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:61)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:62)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:63)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:64)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:65)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:66)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:67)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:68)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:69)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:70)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:71)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:72)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:73)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:74)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:75)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:76)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:77)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:78)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:79)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:80)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:81)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:82)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:83)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:84)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:85)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:86)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:87)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:88)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:89)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:90)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:91)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:92)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:93)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:94)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:95)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:96)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:97)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:98)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:99)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:100)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:101)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:102)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:103)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:104)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:105)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:106)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:107)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:108)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:109)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:110)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:111)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:112)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:113)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:114)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:115)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:116)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:117)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:118)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:119)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:120)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:121)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:122)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:123)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:124)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:125)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:126)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:127)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:128)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:129)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:130)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:131)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:132)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:133)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:134)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:135)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:136)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:137)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:138)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:139)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:140)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:141)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:142)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:143)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:144)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:145)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:146)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:147)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:148)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:149)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:150)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:151)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:152)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:153)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:154)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:155)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:156)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:157)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:158)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:1)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:2)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:3)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:4)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:5)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:6)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:7)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:8)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:9)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:10)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:11)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:12)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:13)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:14)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:15)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:16)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:17)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:18)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:19)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:20)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:21)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:22)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:23)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:24)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:25)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:26)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:27)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:28)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:29)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:30)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:31)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:32)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:33)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:34)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:35)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:36)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:37)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:38)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:39)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:40)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:41)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:42)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:43)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:44)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:45)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:46)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:47)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:48)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:49)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:50)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:51)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:52)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:53)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:54)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:55)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:56)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:57)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:58)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:59)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:60)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:61)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:62)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:63)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:64)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:65)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:66)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:67)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:68)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:69)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:70)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:71)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:72)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:73)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:74)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/directive.tcl:75)
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/script.tcl:10)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.9 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.93 seconds; current allocated memory: 439.582 MB.
+ERROR: [HLS 200-70] Cannot find any design unit to elaborate.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:04; Allocated memory: 19.879 MB.
+Error in linking the design.
+    while executing
+"source /home/jjh/RL_test/for_ironman/script.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 6.77 seconds. Total CPU system time: 0.78 seconds. Total elapsed time: 9.95 seconds; peak allocated memory: 439.707 MB.
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

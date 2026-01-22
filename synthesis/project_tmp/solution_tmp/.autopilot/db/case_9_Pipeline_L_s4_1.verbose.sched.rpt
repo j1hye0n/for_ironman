@@ -1,0 +1,184 @@
+
+
+================================================================
+== Vitis HLS Report for 'case_9_Pipeline_L_s4_1'
+================================================================
+* Date:           Wed Jan 21 17:33:36 2026
+
+* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Project:        project_tmp
+* Solution:       solution_tmp (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  12.00 ns|  7.602 ns|     3.24 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |       11|       11|  0.132 us|  0.132 us|    9|    9|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- L_s4_1  |        9|        9|         3|          1|          1|     8|       yes|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 4.91>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%m16 = alloca i32 1" [case_9.cc:22]   --->   Operation 6 'alloca' 'm16' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_s4_0 = alloca i32 1" [case_9.cc:265]   --->   Operation 7 'alloca' 'i_s4_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%sext_ln22_3_read = read i5 @_ssdm_op_Read.ap_auto.i5, i5 %sext_ln22_3"   --->   Operation 8 'read' 'sext_ln22_3_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%phi_ln130_read = read i10 @_ssdm_op_Read.ap_auto.i10, i10 %phi_ln130"   --->   Operation 9 'read' 'phi_ln130_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%mul_i1148_phi_read = read i7 @_ssdm_op_Read.ap_auto.i7, i7 %mul_i1148_phi"   --->   Operation 10 'read' 'mul_i1148_phi_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%m16_17_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %m16_17"   --->   Operation 11 'read' 'm16_17_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%sext_ln22_3_cast = sext i5 %sext_ln22_3_read"   --->   Operation 12 'sext' 'sext_ln22_3_cast' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i3 %in_data_14, void @empty_27, i32 0, i32 0, void @empty_28, i32 4294967295, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i3 %in_data_4, void @empty_27, i32 0, i32 0, void @empty_28, i32 4294967295, i32 0, void @empty_28, void @empty_28, void @empty_28, i32 0, i32 0, i32 0, i32 0, void @empty_28, void @empty_28, i32 4294967295, i32 0, i32 0"   --->   Operation 14 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (1.58ns)   --->   "%store_ln265 = store i4 0, i4 %i_s4_0" [case_9.cc:265]   --->   Operation 15 'store' 'store_ln265' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 16 [1/1] (1.58ns)   --->   "%store_ln22 = store i32 %m16_17_read, i32 %m16" [case_9.cc:22]   --->   Operation 16 'store' 'store_ln22' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc913"   --->   Operation 17 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%i_s4_0_1 = load i4 %i_s4_0" [case_9.cc:265]   --->   Operation 18 'load' 'i_s4_0_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (1.73ns)   --->   "%icmp_ln265 = icmp_eq  i4 %i_s4_0_1, i4 8" [case_9.cc:265]   --->   Operation 19 'icmp' 'icmp_ln265' <Predicate = true> <Delay = 1.73> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (1.73ns)   --->   "%add_ln265 = add i4 %i_s4_0_1, i4 1" [case_9.cc:265]   --->   Operation 20 'add' 'add_ln265' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%br_ln265 = br i1 %icmp_ln265, void %fpga_resource_hint.for.inc913.0, void %for.end915.exitStub" [case_9.cc:265]   --->   Operation 21 'br' 'br_ln265' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%zext_ln265 = zext i4 %i_s4_0_1" [case_9.cc:265]   --->   Operation 22 'zext' 'zext_ln265' <Predicate = (!icmp_ln265)> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%in_data_4_addr = getelementptr i3 %in_data_4, i64 0, i64 %zext_ln265" [case_9.cc:267]   --->   Operation 23 'getelementptr' 'in_data_4_addr' <Predicate = (!icmp_ln265)> <Delay = 0.00>
+ST_1 : Operation 24 [2/2] (2.32ns)   --->   "%in_data_4_load = load i4 %in_data_4_addr" [case_9.cc:267]   --->   Operation 24 'load' 'in_data_4_load' <Predicate = (!icmp_ln265)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 16> <RAM>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%in_data_14_addr = getelementptr i3 %in_data_14, i64 0, i64 %zext_ln265" [case_9.cc:268]   --->   Operation 25 'getelementptr' 'in_data_14_addr' <Predicate = (!icmp_ln265)> <Delay = 0.00>
+ST_1 : Operation 26 [2/2] (2.32ns)   --->   "%in_data_14_load = load i4 %in_data_14_addr" [case_9.cc:268]   --->   Operation 26 'load' 'in_data_14_load' <Predicate = (!icmp_ln265)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 16> <RAM>
+ST_1 : Operation 27 [1/1] (1.58ns)   --->   "%store_ln265 = store i4 %add_ln265, i4 %i_s4_0" [case_9.cc:265]   --->   Operation 27 'store' 'store_ln265' <Predicate = (!icmp_ln265)> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 6.06>
+ST_2 : Operation 28 [1/2] ( I:2.32ns O:2.32ns )   --->   "%in_data_4_load = load i4 %in_data_4_addr" [case_9.cc:267]   --->   Operation 28 'load' 'in_data_4_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 16> <RAM>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%sext_ln267 = sext i3 %in_data_4_load" [case_9.cc:267]   --->   Operation 29 'sext' 'sext_ln267' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (1.87ns)   --->   "%m120 = add i7 %mul_i1148_phi_read, i7 %sext_ln267" [case_9.cc:267]   --->   Operation 30 'add' 'm120' <Predicate = true> <Delay = 1.87> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.87> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%specfucore_ln104 = specfucore void @_ssdm_op_SpecFUCore, i7 %m120, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:104]   --->   Operation 31 'specfucore' 'specfucore_ln104' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 32 [1/2] ( I:2.32ns O:2.32ns )   --->   "%in_data_14_load = load i4 %in_data_14_addr" [case_9.cc:268]   --->   Operation 32 'load' 'in_data_14_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 16> <RAM>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%sext_ln269 = sext i7 %m120" [case_9.cc:269]   --->   Operation 33 'sext' 'sext_ln269' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (1.87ns)   --->   "%add_ln269 = add i8 %sext_ln269, i8 %sext_ln22_3_cast" [case_9.cc:269]   --->   Operation 34 'add' 'add_ln269' <Predicate = true> <Delay = 1.87> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.87> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%m16_load = load i32 %m16"   --->   Operation 50 'load' 'm16_load' <Predicate = (icmp_ln265)> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.i32P0A, i32 %m16_19_out, i32 %m16_load"   --->   Operation 51 'write' 'write_ln0' <Predicate = (icmp_ln265)> <Delay = 0.00>
+ST_2 : Operation 52 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 52 'ret' 'ret_ln0' <Predicate = (icmp_ln265)> <Delay = 1.58>
+
+State 3 <SV = 2> <Delay = 7.60>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%m16_load_1 = load i32 %m16" [case_9.cc:269]   --->   Operation 35 'load' 'm16_load_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%specpipeline_ln17 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_28" [/home/jjh/RL_test/for_ironman/synthesis/directive_tmp.tcl:17]   --->   Operation 36 'specpipeline' 'specpipeline_ln17' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%speclooptripcount_ln108 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 8, i64 8, i64 8" [case_9.cc:108]   --->   Operation 37 'speclooptripcount' 'speclooptripcount_ln108' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%specloopname_ln265 = specloopname void @_ssdm_op_SpecLoopName, void @empty_41" [case_9.cc:265]   --->   Operation 38 'specloopname' 'specloopname_ln265' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%rbegin = specregionbegin i32 @_ssdm_op_SpecRegionBegin, void @empty_20" [case_9.cc:266]   --->   Operation 39 'specregionbegin' 'rbegin' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (0.00ns)   --->   "%rend314 = specregionend i32 @_ssdm_op_SpecRegionEnd, void @empty_20, i32 %rbegin" [case_9.cc:267]   --->   Operation 40 'specregionend' 'rend314' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%sext_ln268 = sext i3 %in_data_14_load" [case_9.cc:268]   --->   Operation 41 'sext' 'sext_ln268' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (1.73ns)   --->   "%m121 = add i10 %phi_ln130_read, i10 %sext_ln268" [case_9.cc:268]   --->   Operation 42 'add' 'm121' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%sext_ln269_1 = sext i10 %m121" [case_9.cc:269]   --->   Operation 43 'sext' 'sext_ln269_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "%sext_ln269_2 = sext i8 %add_ln269" [case_9.cc:269]   --->   Operation 44 'sext' 'sext_ln269_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (1.73ns)   --->   "%add_ln269_1 = add i11 %sext_ln269_2, i11 %sext_ln269_1" [case_9.cc:269]   --->   Operation 45 'add' 'add_ln269_1' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%sext_ln269_3 = sext i11 %add_ln269_1" [case_9.cc:269]   --->   Operation 46 'sext' 'sext_ln269_3' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 47 [1/1] (2.55ns)   --->   "%m16_1 = add i32 %m16_load_1, i32 %sext_ln269_3" [case_9.cc:269]   --->   Operation 47 'add' 'm16_1' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 48 [1/1] (1.58ns)   --->   "%store_ln22 = store i32 %m16_1, i32 %m16" [case_9.cc:22]   --->   Operation 48 'store' 'store_ln22' <Predicate = true> <Delay = 1.58>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%br_ln265 = br void %for.inc913" [case_9.cc:265]   --->   Operation 49 'br' 'br_ln265' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 12.000ns, clock uncertainty: 3.240ns.
+
+ <State 1>: 4.911ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln265', case_9.cc:265) of constant 0 on local variable 'i_s4_0', case_9.cc:265 [17]  (1.588 ns)
+	'load' operation 4 bit ('i_s4_0', case_9.cc:265) on local variable 'i_s4_0', case_9.cc:265 [21]  (0.000 ns)
+	'add' operation 4 bit ('add_ln265', case_9.cc:265) [23]  (1.735 ns)
+	'store' operation 0 bit ('store_ln265', case_9.cc:265) of variable 'add_ln265', case_9.cc:265 on local variable 'i_s4_0', case_9.cc:265 [49]  (1.588 ns)
+
+ <State 2>: 6.062ns
+The critical path consists of the following:
+	'load' operation 3 bit ('in_data_4_load', case_9.cc:267) on array 'in_data_4' [33]  (2.322 ns)
+	'add' operation 7 bit ('m120', case_9.cc:267) [35]  (1.870 ns)
+	'add' operation 8 bit ('add_ln269', case_9.cc:269) [44]  (1.870 ns)
+
+ <State 3>: 7.602ns
+The critical path consists of the following:
+	'add' operation 10 bit ('m121', case_9.cc:268) [41]  (1.731 ns)
+	'add' operation 11 bit ('add_ln269_1', case_9.cc:269) [46]  (1.731 ns)
+	'add' operation 32 bit ('m16', case_9.cc:269) [48]  (2.552 ns)
+	'store' operation 0 bit ('store_ln22', case_9.cc:22) of variable 'm16', case_9.cc:269 on local variable 'm16', case_9.cc:22 [50]  (1.588 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
