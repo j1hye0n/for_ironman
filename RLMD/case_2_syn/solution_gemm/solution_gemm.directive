@@ -1,0 +1,32 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="case_2" label="L1" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="off" value="true" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="case_2" label="L2" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="off" value="true" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="case_2" label="L3" functionLabel="">
+            <pragma name="PIPELINE">
+                <option name="off" value="true" positionalBoolean="1"/>
+            </pragma>
+        </directive>
+        <directive functionName="case_2" label="" functionLabel="">
+            <pragma name="BIND_OP">
+                <option name="dsp" value="" positionalBoolean="impl"/>
+                <option name="mul" value="" positionalBoolean="op"/>
+                <option name="variable" positionalBoolean="4" value="m_mult"/>
+            </pragma>
+        </directive>
+        <directive functionName="case_2" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="case_2"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

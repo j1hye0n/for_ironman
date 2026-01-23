@@ -6,17 +6,17 @@
     "def_use_depth": 4,
     "file": "case_1.cc",
     "fileloc": 7,
-    "instructions": 5678,
+    "instructions": 6420,
     "loads": {
       "L": 99,
       "T": 8
     },
-    "memory_accesses": 902,
+    "memory_accesses": 1412,
     "name": "case_1",
     "stores": {
       "L": 103,
       "T": 4
     },
-    "total_instructions": 31057
+    "total_instructions": 31799
   }
 }

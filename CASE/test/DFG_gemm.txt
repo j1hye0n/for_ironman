@@ -1,0 +1,29 @@
+# Primary Inputs:
+in_i INT32
+in_j INT32
+in_k INT32
+in_k_col INT32
+in_i_col INT32
+
+# Intermediate Operations:
+L1 LOOP outer
+L2 LOOP middle
+in_i_col * INT32 [Parent:L2]
+L3 LOOP inner
+in_k_col * INT32 [Parent:L3]
+m_mult * INT32 [Parent:L3]
+m_sum + INT32 [Parent:L3]
+
+# Edges:
+in_i in_i_col
+m_col_size in_i_col
+in_k in_k_col
+m_col_size in_k_col
+m_m1 m_mult
+m_m2 m_mult
+m_sum m_sum
+m_mult m_sum
+m_sum o_prod
+
+# Outputs:
+o_prod

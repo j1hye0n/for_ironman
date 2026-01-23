@@ -59,7 +59,7 @@ def create_graph_model(generator):
     # Let's create the Keras model and prepare it for training
     model = Model(inputs=x_inp, outputs=predictions)
     model0 = Model(inputs=x_inp, outputs=predictions2)
-    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=0.01,decay_steps=100000,decay_rate=0.9)
+    lr_schedule = tf.keras.optimizers.schedules.ExponentialDecay(initial_learning_rate=0.001,decay_steps=100000,decay_rate=0.9)
     opt = Adam(learning_rate=lr_schedule)
     
     model.compile(optimizer=opt, loss='mean_squared_logarithmic_error', metrics=["mse"])

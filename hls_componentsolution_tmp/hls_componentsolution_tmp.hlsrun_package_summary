@@ -1,0 +1,120 @@
+<ENTRY>
+{
+ "thisFile": "/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_componentsolution_tmp.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Jan 23 09:56:15 2026",
+ "timestampMillis": "1769129775758",
+ "buildStep": {
+  "cmdId": "236a9ca0-c097-4465-8df2-f41cb2c0cd6b",
+  "name": "vitis-run",
+  "logFile": "/home/jjh/RL_test/for_ironman/logs/hls_compile.log",
+  "commandLine": "vitis-run --mode hls --tcl /home/jjh/RL_test/for_ironman/script.tcl",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/jjh/RL_test/for_ironman"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jan 23 09:56:15 2026",
+ "timestampMillis": "1769129775758",
+ "status": {
+  "cmdId": "236a9ca0-c097-4465-8df2-f41cb2c0cd6b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Jan 23 09:56:15 2026",
+ "timestampMillis": "1769129775759",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "case_1",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/jjh/RL_test/for_ironman/cc/case_1.cc"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Jan 23 09:56:15 2026",
+ "timestampMillis": "1769129775759",
+ "buildStep": {
+  "cmdId": "e1df5d38-d230-4ea2-94a3-f44ae87d3feb",
+  "name": "export_design",
+  "logFile": "/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.log",
+  "commandLine": "export_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/jjh/RL_test/for_ironman"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jan 23 09:56:15 2026",
+ "timestampMillis": "1769129775759",
+ "status": {
+  "cmdId": "e1df5d38-d230-4ea2-94a3-f44ae87d3feb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jan 23 09:59:36 2026",
+ "timestampMillis": "1769129976893",
+ "status": {
+  "cmdId": "e1df5d38-d230-4ea2-94a3-f44ae87d3feb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Jan 23 09:59:37 2026",
+ "timestampMillis": "1769129977025",
+ "status": {
+  "cmdId": "236a9ca0-c097-4465-8df2-f41cb2c0cd6b",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>

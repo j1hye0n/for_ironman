@@ -399,3 +399,383 @@ INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/h
 Command       write_ini done; 0.8 sec.
 Execute       cleanup_all 
 Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Thu Jan 22 10:52:13 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.21 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 0.9 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Thu Jan 22 15:50:33 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.15 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.21 sec.
+Command     open_component done; 0.21 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 0.98 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Thu Jan 22 18:02:52 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.22 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.08 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Thu Jan 22 20:44:32 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.15 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.21 sec.
+Command     open_component done; 0.21 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.15 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Thu Jan 22 23:31:24 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.22 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.28 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Fri Jan 23 02:18:15 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.22 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.36 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Fri Jan 23 05:05:06 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.22 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.45 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Fri Jan 23 07:51:57 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.22 sec.
+Command     open_component done; 0.22 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.53 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Fri Jan 23 10:38:48 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.16 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.21 sec.
+Command     open_component done; 0.21 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.61 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 
+Execute         source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute           source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/hls_component/hls opened at Fri Jan 23 11:15:09 KST 2026
+Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+Execute         send_msg_by_id INFO @200-2174@%s%s component /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-2174] Applying component config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Execute         apply_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2) 
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg(2)
+Execute           send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Command         apply_ini done; 0.15 sec.
+Execute         write_component -config /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+Execute           send_msg_by_id INFO @200-2176@%s /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json 
+INFO: [HLS 200-2176] Writing Vitis IDE component file /home/jjh/RL_test/for_ironman/hls_component/vitis-comp.json
+Execute         write_ini /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_component/hls/hls.aps -filepaths relative 
+Execute           send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_component/hls_config.cfg
+Command       open_solution done; 0.21 sec.
+Command     open_component done; 0.21 sec.
+Execute     set_top case_1 
+INFO: [HLS 200-1510] Running: set_top case_1 
+Execute     add_files cc/case_1.cc 
+INFO: [HLS 200-1510] Running: add_files cc/case_1.cc 
+INFO: [HLS 200-10] Adding design file 'cc/case_1.cc' to the project
+Execute     open_solution solution_tmp 
+INFO: [HLS 200-1510] Running: open_solution solution_tmp 
+Execute       write_ini /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg -apsfile /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls.aps -filepaths relative 
+Execute         send_msg_by_id INFO @200-1915@%s /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg 
+INFO: [HLS 200-1915] Writing HLS config ini file /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg
+Command       write_ini done; 1.69 sec.
+Execute       cleanup_all 
+Execute       cleanup_all 

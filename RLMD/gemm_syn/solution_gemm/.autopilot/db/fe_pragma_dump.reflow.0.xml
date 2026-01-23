@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="../CASE/test/gemm.cc" line="10" pragmaType="pipeline" parentfunction="gemm" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../CASE/test/gemm.cc" line="11" pragmaType="pipeline" parentfunction="gemm" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../CASE/test/gemm.cc" line="12" pragmaType="pipeline" parentfunction="gemm" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../CASE/test/gemm.cc" line="13" pragmaType="bind_op" parentfunction="gemm" op="12" impl="3" latency="-1"/>
+</pragmas>

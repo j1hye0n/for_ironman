@@ -1,0 +1,9 @@
+---
+MainSourceFile:  /home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      13
+    FilePath:        /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl
+    Replacements:    
+...

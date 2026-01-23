@@ -1,0 +1,3 @@
+/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc:2760:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLSDIRECTIVE BIND_OP impl=dsp op=mul variable=mult
+        ^

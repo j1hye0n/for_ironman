@@ -1,0 +1,253 @@
+  **** HLS Build v2025.1 6135595
+Sourcing Tcl script '/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl'
+INFO: [HLS 200-1510] Running: open_project gemm_syn 
+WARNING: [HLS 200-2182] The 'gemm_syn' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/RLMD/gemm_syn'.
+INFO: [HLS 200-1510] Running: set_top gemm 
+INFO: [HLS 200-1510] Running: add_files ../CASE/test/gemm.cc 
+INFO: [HLS 200-10] Adding design file '../CASE/test/gemm.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution_gemm -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution '/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm'.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1510] Running: create_clock -period 16.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 16ns.
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off gemm/L1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off gemm/L2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off gemm/L3 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl dsp gemm m_mult 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.16 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.2 seconds; current allocated memory: 247.719 MB.
+INFO: [HLS 200-10] Analyzing design file '../CASE/test/gemm.cc' ... 
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:10)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:11)
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:12)
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:13)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.39 seconds. CPU system time: 0.35 seconds. Elapsed time: 0.75 seconds; current allocated memory: 249.359 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 165 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 137 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 129 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 117 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 121 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 121 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,097 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,097 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,097 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,619 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,648 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (/home/jjh/RL_test/for_ironman/RLMD/gemm_syn/solution_gemm/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< middle_1> at ../CASE/test/gemm.cc:12:18 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< middle_2> at ../CASE/test/gemm.cc:32:18 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< middle_3> at ../CASE/test/gemm.cc:52:18 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< middle_4> at ../CASE/test/gemm.cc:72:18 
+INFO: [HLS 214-291] Loop 'inner_4' is marked as complete unroll implied by the pipeline pragma (../CASE/test/gemm.cc:75:21)
+INFO: [HLS 214-291] Loop 'inner_3' is marked as complete unroll implied by the pipeline pragma (../CASE/test/gemm.cc:55:21)
+INFO: [HLS 214-291] Loop 'inner_2' is marked as complete unroll implied by the pipeline pragma (../CASE/test/gemm.cc:35:21)
+INFO: [HLS 214-291] Loop 'inner_1' is marked as complete unroll implied by the pipeline pragma (../CASE/test/gemm.cc:15:21)
+INFO: [HLS 214-186] Unrolling loop 'inner_4' (../CASE/test/gemm.cc:75:21) in function 'gemm' completely with a factor of 64 (../CASE/test/gemm.cc:3:0)
+INFO: [HLS 214-186] Unrolling loop 'inner_3' (../CASE/test/gemm.cc:55:21) in function 'gemm' completely with a factor of 64 (../CASE/test/gemm.cc:3:0)
+INFO: [HLS 214-186] Unrolling loop 'inner_2' (../CASE/test/gemm.cc:35:21) in function 'gemm' completely with a factor of 64 (../CASE/test/gemm.cc:3:0)
+INFO: [HLS 214-186] Unrolling loop 'inner_1' (../CASE/test/gemm.cc:15:21) in function 'gemm' completely with a factor of 64 (../CASE/test/gemm.cc:3:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 5.72 seconds. CPU system time: 0.44 seconds. Elapsed time: 8.44 seconds; current allocated memory: 259.250 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 259.250 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.2 seconds. CPU system time: 0 seconds. Elapsed time: 0.2 seconds; current allocated memory: 263.066 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 263.227 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.72 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.73 seconds; current allocated memory: 291.082 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'outer_1'(../CASE/test/gemm.cc:11:13) and 'middle_1'(../CASE/test/gemm.cc:12:18) in function 'gemm' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'outer_2'(../CASE/test/gemm.cc:31:13) and 'middle_2'(../CASE/test/gemm.cc:32:18) in function 'gemm' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'outer_3'(../CASE/test/gemm.cc:51:13) and 'middle_3'(../CASE/test/gemm.cc:52:18) in function 'gemm' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'outer_4'(../CASE/test/gemm.cc:71:13) and 'middle_4'(../CASE/test/gemm.cc:72:18) in function 'gemm' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'outer_1' (../CASE/test/gemm.cc:11:13) in function 'gemm'.
+INFO: [XFORM 203-541] Flattening a loop nest 'outer_2' (../CASE/test/gemm.cc:31:13) in function 'gemm'.
+INFO: [XFORM 203-541] Flattening a loop nest 'outer_3' (../CASE/test/gemm.cc:51:13) in function 'gemm'.
+INFO: [XFORM 203-541] Flattening a loop nest 'outer_4' (../CASE/test/gemm.cc:71:13) in function 'gemm'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.92 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.94 seconds; current allocated memory: 322.621 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'gemm' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gemm_Pipeline_outer_1_middle_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'outer_1_middle_1'.
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_1', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_3', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_5', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_7', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_37', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 19). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_53', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 27). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_1_middle_1' (loop 'outer_1_middle_1'): Unable to schedule 'load' operation 64 bit ('m1_load_61', ../CASE/test/gemm.cc:11) on array 'm1' due to limited memory ports (II = 31). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 32, Depth = 327, loop 'outer_1_middle_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.69 seconds. CPU system time: 0.03 seconds. Elapsed time: 1.72 seconds; current allocated memory: 330.066 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.35 seconds. CPU system time: 0 seconds. Elapsed time: 0.36 seconds; current allocated memory: 331.223 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gemm_Pipeline_outer_2_middle_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'outer_2_middle_2'.
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_65', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_67', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_69', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_71', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_101', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 19). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_117', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 27). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_2_middle_2' (loop 'outer_2_middle_2'): Unable to schedule 'load' operation 64 bit ('m1_load_125', ../CASE/test/gemm.cc:31) on array 'm1' due to limited memory ports (II = 31). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 32, Depth = 327, loop 'outer_2_middle_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.67 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.68 seconds; current allocated memory: 338.668 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.34 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.34 seconds; current allocated memory: 339.707 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gemm_Pipeline_outer_3_middle_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'outer_3_middle_3'.
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_64', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_66', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_68', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_70', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_100', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 19). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_116', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 27). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_3_middle_3' (loop 'outer_3_middle_3'): Unable to schedule 'load' operation 64 bit ('m1_load_124', ../CASE/test/gemm.cc:51) on array 'm1' due to limited memory ports (II = 31). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 32, Depth = 327, loop 'outer_3_middle_3'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.67 seconds. CPU system time: 0 seconds. Elapsed time: 1.67 seconds; current allocated memory: 347.102 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.34 seconds. CPU system time: 0 seconds. Elapsed time: 0.35 seconds; current allocated memory: 348.250 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gemm_Pipeline_outer_4_middle_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'outer_4_middle_4'.
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_1', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_3', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 2). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_5', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 3). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_7', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 4). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_37', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 19). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_53', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 27). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+WARNING: [HLS 200-885] The II Violation in module 'gemm_Pipeline_outer_4_middle_4' (loop 'outer_4_middle_4'): Unable to schedule 'load' operation 64 bit ('m1_load_61', ../CASE/test/gemm.cc:71) on array 'm1' due to limited memory ports (II = 31). Please consider using a memory core with more ports or partitioning the array 'm1'.
+Resolution: For help on HLS 200-885 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=200-885.html
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 32, Depth = 327, loop 'outer_4_middle_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.65 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.67 seconds; current allocated memory: 355.609 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.35 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.34 seconds; current allocated memory: 356.719 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'gemm' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 357.172 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 357.172 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gemm_Pipeline_outer_1_middle_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'gemm_Pipeline_outer_1_middle_1' pipeline 'outer_1_middle_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gemm_Pipeline_outer_1_middle_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.44 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.45 seconds; current allocated memory: 364.410 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gemm_Pipeline_outer_2_middle_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'gemm_Pipeline_outer_2_middle_2' pipeline 'outer_2_middle_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gemm_Pipeline_outer_2_middle_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.84 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.86 seconds; current allocated memory: 382.930 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gemm_Pipeline_outer_3_middle_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'gemm_Pipeline_outer_3_middle_3' pipeline 'outer_3_middle_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gemm_Pipeline_outer_3_middle_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.82 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.84 seconds; current allocated memory: 401.270 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gemm_Pipeline_outer_4_middle_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'gemm_Pipeline_outer_4_middle_4' pipeline 'outer_4_middle_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gemm_Pipeline_outer_4_middle_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.81 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.85 seconds; current allocated memory: 419.426 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'gemm' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'gemm/m1' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gemm/m2' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'gemm/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'gemm' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'dadd_64ns_64ns_64_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'gemm'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.49 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.53 seconds; current allocated memory: 437.617 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.47 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.49 seconds; current allocated memory: 437.617 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.5 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.55 seconds; current allocated memory: 438.062 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for gemm.
+INFO: [VLOG 209-307] Generating Verilog RTL for gemm.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 87.06 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:24; Allocated memory: 190.344 MB.
+INFO: [HLS 200-112] Total CPU user time: 22.83 seconds. Total CPU system time: 1.51 seconds. Total elapsed time: 26.49 seconds; peak allocated memory: 438.062 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 28s
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

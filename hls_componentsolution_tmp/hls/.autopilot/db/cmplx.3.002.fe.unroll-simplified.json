@@ -1,21 +1,21 @@
 {
   "0": {
-    "basicblocks": 67,
+    "basicblocks": 65,
     "calls": "",
     "control_depth": 0,
     "def_use_depth": 1027,
     "file": "case_1.cc",
     "fileloc": 7,
-    "instructions": 150669,
+    "instructions": 254231,
     "loads": {
-      "T": 6543
+      "T": 6638
     },
-    "memory_accesses": 53616,
+    "memory_accesses": 101274,
     "name": "case_1",
     "stores": {
       "L": 68,
       "T": 4
     },
-    "total_instructions": 150669
+    "total_instructions": 254231
   }
 }

@@ -1,0 +1,215 @@
+
+
+================================================================
+== Vitis HLS Report for 'case_1_Pipeline_L_s2_1'
+================================================================
+* Date:           Fri Jan 23 09:54:33 2026
+
+* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Project:        hls_componentsolution_tmp
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  12.00 ns|  7.418 ns|     3.24 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                      |
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    |       35|       35|  0.420 us|  0.420 us|   33|   33|  loop auto-rewind stp (delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- L_s2_1  |       33|       33|         3|          1|          1|    32|       yes|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%i_s2_0 = alloca i32 1" [cc/case_1.cc:209]   --->   Operation 6 'alloca' 'i_s2_0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i3 %in_data_16, void @empty_36, i32 0, i32 0, void @empty_29, i32 4294967295, i32 0, void @empty_29, void @empty_29, void @empty_29, i32 0, i32 0, i32 0, i32 0, void @empty_29, void @empty_29, i32 4294967295, i32 0, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i3 %in_data_14, void @empty_36, i32 0, i32 0, void @empty_29, i32 4294967295, i32 0, void @empty_29, void @empty_29, void @empty_29, i32 0, i32 0, i32 0, i32 0, void @empty_29, void @empty_29, i32 4294967295, i32 0, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i3 %in_data_12, void @empty_36, i32 0, i32 0, void @empty_29, i32 4294967295, i32 0, void @empty_29, void @empty_29, void @empty_29, i32 0, i32 0, i32 0, i32 0, void @empty_29, void @empty_29, i32 4294967295, i32 0, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%conv25_i3788_read = read i11 @_ssdm_op_Read.ap_auto.i11, i11 %conv25_i3788"   --->   Operation 10 'read' 'conv25_i3788_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%m18_14_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %m18_14"   --->   Operation 11 'read' 'm18_14_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (1.58ns)   --->   "%store_ln209 = store i6 0, i6 %i_s2_0" [cc/case_1.cc:209]   --->   Operation 12 'store' 'store_ln209' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 13 [1/1] (1.58ns)   --->   "%store_ln22 = store i32 %m18_14_read, i32 %m18_18_out" [cc/case_1.cc:22]   --->   Operation 13 'store' 'store_ln22' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc557"   --->   Operation 14 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%i_s2_0_1 = load i6 %i_s2_0" [cc/case_1.cc:209]   --->   Operation 15 'load' 'i_s2_0_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (1.82ns)   --->   "%icmp_ln209 = icmp_eq  i6 %i_s2_0_1, i6 32" [cc/case_1.cc:209]   --->   Operation 16 'icmp' 'icmp_ln209' <Predicate = true> <Delay = 1.82> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (1.82ns)   --->   "%add_ln209 = add i6 %i_s2_0_1, i6 1" [cc/case_1.cc:209]   --->   Operation 17 'add' 'add_ln209' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln209 = br i1 %icmp_ln209, void %fpga_resource_hint.for.inc557.40001, void %L_s3_1.exitStub" [cc/case_1.cc:209]   --->   Operation 18 'br' 'br_ln209' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%zext_ln209 = zext i6 %i_s2_0_1" [cc/case_1.cc:209]   --->   Operation 19 'zext' 'zext_ln209' <Predicate = (!icmp_ln209)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%in_data_16_addr = getelementptr i3 %in_data_16, i64 0, i64 %zext_ln209" [cc/case_1.cc:210]   --->   Operation 20 'getelementptr' 'in_data_16_addr' <Predicate = (!icmp_ln209)> <Delay = 0.00>
+ST_1 : Operation 21 [2/2] (2.32ns)   --->   "%in_data_16_load = load i5 %in_data_16_addr" [cc/case_1.cc:210]   --->   Operation 21 'load' 'in_data_16_load' <Predicate = (!icmp_ln209)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%in_data_12_addr = getelementptr i3 %in_data_12, i64 0, i64 %zext_ln209" [cc/case_1.cc:210]   --->   Operation 22 'getelementptr' 'in_data_12_addr' <Predicate = (!icmp_ln209)> <Delay = 0.00>
+ST_1 : Operation 23 [2/2] (2.32ns)   --->   "%in_data_12_load = load i5 %in_data_12_addr" [cc/case_1.cc:210]   --->   Operation 23 'load' 'in_data_12_load' <Predicate = (!icmp_ln209)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%in_data_14_addr = getelementptr i3 %in_data_14, i64 0, i64 %zext_ln209" [cc/case_1.cc:211]   --->   Operation 24 'getelementptr' 'in_data_14_addr' <Predicate = (!icmp_ln209)> <Delay = 0.00>
+ST_1 : Operation 25 [2/2] (2.32ns)   --->   "%in_data_14_load = load i5 %in_data_14_addr" [cc/case_1.cc:211]   --->   Operation 25 'load' 'in_data_14_load' <Predicate = (!icmp_ln209)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_1 : Operation 26 [1/1] (1.58ns)   --->   "%store_ln209 = store i6 %add_ln209, i6 %i_s2_0" [cc/case_1.cc:209]   --->   Operation 26 'store' 'store_ln209' <Predicate = (!icmp_ln209)> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 5.54>
+ST_2 : Operation 27 [1/2] ( I:2.32ns O:2.32ns )   --->   "%in_data_16_load = load i5 %in_data_16_addr" [cc/case_1.cc:210]   --->   Operation 27 'load' 'in_data_16_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_2 : Operation 28 [1/2] ( I:2.32ns O:2.32ns )   --->   "%in_data_12_load = load i5 %in_data_12_addr" [cc/case_1.cc:210]   --->   Operation 28 'load' 'in_data_12_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%sext_ln210 = sext i3 %in_data_16_load" [cc/case_1.cc:210]   --->   Operation 29 'sext' 'sext_ln210' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%sext_ln210_1 = sext i3 %in_data_12_load" [cc/case_1.cc:210]   --->   Operation 30 'sext' 'sext_ln210_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (3.22ns)   --->   "%m78 = mul i6 %sext_ln210_1, i6 %sext_ln210" [cc/case_1.cc:210]   --->   Operation 31 'mul' 'm78' <Predicate = true> <Delay = 3.22> <CoreInst = "Mul_LUT">   --->   Core 4 'Mul_LUT' <Latency = 0> <II = 1> <Delay = 3.22> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%specfucore_ln84 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:84]   --->   Operation 32 'specfucore' 'specfucore_ln84' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (0.00ns)   --->   "%specfucore_ln529 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:529]   --->   Operation 33 'specfucore' 'specfucore_ln529' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%specfucore_ln50 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:50]   --->   Operation 34 'specfucore' 'specfucore_ln50' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%specfucore_ln497 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:497]   --->   Operation 35 'specfucore' 'specfucore_ln497' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%specfucore_ln459 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:459]   --->   Operation 36 'specfucore' 'specfucore_ln459' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%specfucore_ln425 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:425]   --->   Operation 37 'specfucore' 'specfucore_ln425' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (0.00ns)   --->   "%specfucore_ln390 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:390]   --->   Operation 38 'specfucore' 'specfucore_ln390' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%specfucore_ln356 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:356]   --->   Operation 39 'specfucore' 'specfucore_ln356' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%specfucore_ln321 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:321]   --->   Operation 40 'specfucore' 'specfucore_ln321' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 41 [1/1] (0.00ns)   --->   "%specfucore_ln287 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:287]   --->   Operation 41 'specfucore' 'specfucore_ln287' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 42 [1/1] (0.00ns)   --->   "%specfucore_ln26 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/directive.tcl:26]   --->   Operation 42 'specfucore' 'specfucore_ln26' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 43 [1/1] (0.00ns)   --->   "%specfucore_ln253 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:253]   --->   Operation 43 'specfucore' 'specfucore_ln253' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 44 [1/1] (0.00ns)   --->   "%specfucore_ln220 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:220]   --->   Operation 44 'specfucore' 'specfucore_ln220' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%specfucore_ln188 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:188]   --->   Operation 45 'specfucore' 'specfucore_ln188' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%specfucore_ln154 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:154]   --->   Operation 46 'specfucore' 'specfucore_ln154' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 47 [1/1] (0.00ns)   --->   "%specfucore_ln15 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:15]   --->   Operation 47 'specfucore' 'specfucore_ln15' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 48 [1/1] (0.00ns)   --->   "%specfucore_ln122 = specfucore void @_ssdm_op_SpecFUCore, i6 %m78, i64 12, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:122]   --->   Operation 48 'specfucore' 'specfucore_ln122' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 49 [1/2] ( I:2.32ns O:2.32ns )   --->   "%in_data_14_load = load i5 %in_data_14_addr" [cc/case_1.cc:211]   --->   Operation 49 'load' 'in_data_14_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 32> <RAM>
+ST_2 : Operation 84 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 84 'ret' 'ret_ln0' <Predicate = (icmp_ln209)> <Delay = 1.58>
+
+State 3 <SV = 2> <Delay = 7.41>
+ST_3 : Operation 50 [1/1] (0.00ns)   --->   "%m18_18_out_load = load i32 %m18_18_out" [cc/case_1.cc:212]   --->   Operation 50 'load' 'm18_18_out_load' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 51 [1/1] (0.00ns)   --->   "%specpipeline_ln985 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_29" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:985]   --->   Operation 51 'specpipeline' 'specpipeline_ln985' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 52 [1/1] (0.00ns)   --->   "%speclooptripcount_ln22 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 32, i64 32, i64 32" [cc/case_1.cc:22]   --->   Operation 52 'speclooptripcount' 'speclooptripcount_ln22' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 53 [1/1] (0.00ns)   --->   "%specloopname_ln209 = specloopname void @_ssdm_op_SpecLoopName, void @empty_32" [cc/case_1.cc:209]   --->   Operation 53 'specloopname' 'specloopname_ln209' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 54 [1/1] (0.00ns)   --->   "%rbegin = specregionbegin i32 @_ssdm_op_SpecRegionBegin, void @empty_16" [cc/case_1.cc:209]   --->   Operation 54 'specregionbegin' 'rbegin' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 55 [1/1] (0.00ns)   --->   "%rend94864 = specregionend i32 @_ssdm_op_SpecRegionEnd, void @empty_16, i32 %rbegin" [cc/case_1.cc:210]   --->   Operation 55 'specregionend' 'rend94864' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 56 [1/1] (0.00ns)   --->   "%rbegin1 = specregionbegin i32 @_ssdm_op_SpecRegionBegin, void @empty_15" [cc/case_1.cc:210]   --->   Operation 56 'specregionbegin' 'rbegin1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln211 = sext i3 %in_data_14_load" [cc/case_1.cc:211]   --->   Operation 57 'sext' 'sext_ln211' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 58 [1/1] (1.63ns)   --->   "%m79 = add i11 %sext_ln211, i11 %conv25_i3788_read" [cc/case_1.cc:211]   --->   Operation 58 'add' 'm79' <Predicate = true> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 59 [1/1] (0.00ns)   --->   "%specfucore_ln85 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:85]   --->   Operation 59 'specfucore' 'specfucore_ln85' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 60 [1/1] (0.00ns)   --->   "%specfucore_ln530 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:530]   --->   Operation 60 'specfucore' 'specfucore_ln530' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 61 [1/1] (0.00ns)   --->   "%specfucore_ln51 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:51]   --->   Operation 61 'specfucore' 'specfucore_ln51' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 62 [1/1] (0.00ns)   --->   "%specfucore_ln498 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:498]   --->   Operation 62 'specfucore' 'specfucore_ln498' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 63 [1/1] (0.00ns)   --->   "%specfucore_ln460 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:460]   --->   Operation 63 'specfucore' 'specfucore_ln460' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 64 [1/1] (0.00ns)   --->   "%specfucore_ln426 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:426]   --->   Operation 64 'specfucore' 'specfucore_ln426' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 65 [1/1] (0.00ns)   --->   "%specfucore_ln391 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:391]   --->   Operation 65 'specfucore' 'specfucore_ln391' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 66 [1/1] (0.00ns)   --->   "%specfucore_ln357 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:357]   --->   Operation 66 'specfucore' 'specfucore_ln357' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 67 [1/1] (0.00ns)   --->   "%specfucore_ln322 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:322]   --->   Operation 67 'specfucore' 'specfucore_ln322' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 68 [1/1] (0.00ns)   --->   "%specfucore_ln288 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:288]   --->   Operation 68 'specfucore' 'specfucore_ln288' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 69 [1/1] (0.00ns)   --->   "%specfucore_ln27 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/directive.tcl:27]   --->   Operation 69 'specfucore' 'specfucore_ln27' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 70 [1/1] (0.00ns)   --->   "%specfucore_ln254 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:254]   --->   Operation 70 'specfucore' 'specfucore_ln254' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 71 [1/1] (0.00ns)   --->   "%specfucore_ln221 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:221]   --->   Operation 71 'specfucore' 'specfucore_ln221' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 72 [1/1] (0.00ns)   --->   "%specfucore_ln189 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:189]   --->   Operation 72 'specfucore' 'specfucore_ln189' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 73 [1/1] (0.00ns)   --->   "%specfucore_ln16 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:16]   --->   Operation 73 'specfucore' 'specfucore_ln16' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 74 [1/1] (0.00ns)   --->   "%specfucore_ln155 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:155]   --->   Operation 74 'specfucore' 'specfucore_ln155' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 75 [1/1] (0.00ns)   --->   "%specfucore_ln123 = specfucore void @_ssdm_op_SpecFUCore, i11 %m79, i64 8, i64 4, i64 18446744073709551615" [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls_config.cfg:123]   --->   Operation 75 'specfucore' 'specfucore_ln123' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 76 [1/1] (0.00ns)   --->   "%rend94830 = specregionend i32 @_ssdm_op_SpecRegionEnd, void @empty_15, i32 %rbegin1" [cc/case_1.cc:211]   --->   Operation 76 'specregionend' 'rend94830' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 77 [1/1] (0.00ns)   --->   "%sext_ln212 = sext i6 %m78" [cc/case_1.cc:212]   --->   Operation 77 'sext' 'sext_ln212' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 78 [1/1] (0.00ns)   --->   "%sext_ln212_1 = sext i11 %m79" [cc/case_1.cc:212]   --->   Operation 78 'sext' 'sext_ln212_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 79 [1/1] (1.63ns)   --->   "%add_ln212 = add i12 %sext_ln212_1, i12 %sext_ln212" [cc/case_1.cc:212]   --->   Operation 79 'add' 'add_ln212' <Predicate = true> <Delay = 1.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 80 [1/1] (0.00ns)   --->   "%sext_ln212_2 = sext i12 %add_ln212" [cc/case_1.cc:212]   --->   Operation 80 'sext' 'sext_ln212_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 81 [1/1] (2.55ns)   --->   "%m18 = add i32 %m18_18_out_load, i32 %sext_ln212_2" [cc/case_1.cc:212]   --->   Operation 81 'add' 'm18' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 82 [1/1] (1.58ns)   --->   "%store_ln22 = store i32 %m18, i32 %m18_18_out" [cc/case_1.cc:22]   --->   Operation 82 'store' 'store_ln22' <Predicate = true> <Delay = 1.58>
+ST_3 : Operation 83 [1/1] (0.00ns)   --->   "%br_ln209 = br void %for.inc557" [cc/case_1.cc:209]   --->   Operation 83 'br' 'br_ln209' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 12.000ns, clock uncertainty: 3.240ns.
+
+ <State 1>: 5.001ns
+The critical path consists of the following:
+	'store' operation 0 bit ('store_ln209', cc/case_1.cc:209) of constant 0 on local variable 'i_s2_0', cc/case_1.cc:209 [13]  (1.588 ns)
+	'load' operation 6 bit ('i_s2_0', cc/case_1.cc:209) on local variable 'i_s2_0', cc/case_1.cc:209 [17]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln209', cc/case_1.cc:209) [18]  (1.825 ns)
+	'store' operation 0 bit ('store_ln209', cc/case_1.cc:209) of variable 'add_ln209', cc/case_1.cc:209 on local variable 'i_s2_0', cc/case_1.cc:209 [81]  (1.588 ns)
+
+ <State 2>: 5.542ns
+The critical path consists of the following:
+	'load' operation 3 bit ('in_data_16_load', cc/case_1.cc:210) on array 'in_data_16' [29]  (2.322 ns)
+	'mul' operation 6 bit ('m78', cc/case_1.cc:210) [34]  (3.220 ns)
+
+ <State 3>: 7.418ns
+The critical path consists of the following:
+	'add' operation 11 bit ('m79', cc/case_1.cc:211) [57]  (1.639 ns)
+	'add' operation 12 bit ('add_ln212', cc/case_1.cc:212) [78]  (1.639 ns)
+	'add' operation 32 bit ('m18', cc/case_1.cc:212) [80]  (2.552 ns)
+	'store' operation 0 bit ('store_ln22', cc/case_1.cc:22) of variable 'm18', cc/case_1.cc:212 on local variable 'm18_18_out' [82]  (1.588 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

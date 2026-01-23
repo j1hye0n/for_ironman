@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 5,
+    "file": "gemm.cc",
+    "fileloc": 3,
+    "instructions": 37,
+    "loads": {
+      "T": 2
+    },
+    "memory_accesses": 0,
+    "name": "gemm",
+    "stores": {
+      "T": 1
+    },
+    "total_instructions": 37
+  }
+}

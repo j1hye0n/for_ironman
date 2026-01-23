@@ -1,0 +1,113 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan 23 09:58:36 2026
+# Process ID         : 1101238
+# Current directory  : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1
+# Command line       : vivado -log bd_0_hls_inst_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_hls_inst_0.tcl
+# Log file           : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.vds
+# Journal file       : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/vivado.jou
+# Running On         : woong-Super-Server
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
+# CPU Frequency      : 3800.010 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 201168 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 217169 MB
+# Available Virtual  : 120003 MB
+#-----------------------------------------------------------
+source bd_0_hls_inst_0.tcl -notrace
+INFO: Dispatch client connection id - 46563
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top bd_0_hls_inst_0 -part xc7z020clg400-1 -directive sdx_optimization_effort_high -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1101341
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2157.004 ; gain = 441.711 ; free physical = 93273 ; free virtual = 113223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'case_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1.v:9]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-6157] synthesizing module 'case_1_case_1_Pipeline_L_s2_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_case_1_Pipeline_L_s2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_3s_3s_6_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_6_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_3s_3s_6_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_6_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_flow_control_loop_pipe_sequential_init' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_flow_control_loop_pipe_sequential_init' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_case_1_Pipeline_L_s2_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_case_1_Pipeline_L_s2_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'case_1_case_1_Pipeline_L_s6_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_case_1_Pipeline_L_s6_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_case_1_Pipeline_L_s6_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_case_1_Pipeline_L_s6_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_3s_3s_3_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_3_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_3s_3s_3_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_3_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_6s_6s_8_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_8_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_6s_6s_8_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_8_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_5s_5s_10_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_5s_5s_10_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_5s_5s_10_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_5s_5s_10_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_6s_3s_9_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_3s_9_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_6s_3s_9_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_3s_9_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_7s_3s_10_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_3s_10_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_7s_3s_10_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_3s_10_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_5s_3s_8_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_5s_3s_8_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_5s_3s_8_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_5s_3s_8_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_6s_6s_6_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_6_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_6s_6s_6_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_6_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_8s_3s_11_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_8s_3s_11_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_8s_3s_11_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_8s_3s_11_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_7s_5s_7_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_5s_7_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_7s_5s_7_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_5s_7_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_14s_4s_16_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_14s_4s_16_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_14s_4s_16_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_14s_4s_16_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_6s_6s_12_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_12_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_6s_6s_12_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_6s_12_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_6s_3s_6_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_3s_6_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_6s_3s_6_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_6s_3s_6_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_7s_9s_16_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_9s_16_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_7s_9s_16_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_9s_16_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_4s_4s_4_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_4s_4_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_4s_4s_4_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_4s_4_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_3s_3s_4_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_4_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_3s_3s_4_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_3s_3s_4_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_4s_3s_4_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_3s_4_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_4s_3s_4_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_3s_4_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_10s_3s_13_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_10s_3s_13_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_10s_3s_13_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_10s_3s_13_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_7s_3s_7_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_3s_7_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_7s_3s_7_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_3s_7_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_4s_5s_5_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_5s_5_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_4s_5s_5_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_5s_5_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_7s_4s_7_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_4s_7_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_7s_4s_7_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_7s_4s_7_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mul_4s_3s_7_1_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_3s_7_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mul_4s_3s_7_1_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mul_4s_3s_7_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mac_muladd_3s_3s_6s_7_4_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_6s_7_4_1.v:45]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mac_muladd_3s_3s_6s_7_4_1_DSP48_0' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_6s_7_4_1.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mac_muladd_3s_3s_6s_7_4_1_DSP48_0' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_6s_7_4_1.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mac_muladd_3s_3s_6s_7_4_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_6s_7_4_1.v:45]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mac_muladd_3s_3s_7s_7_4_1' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_7s_7_4_1.v:45]
+INFO: [Synth 8-6157] synthesizing module 'case_1_mac_muladd_3s_3s_7s_7_4_1_DSP48_0' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_7s_7_4_1.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mac_muladd_3s_3s_7s_7_4_1_DSP48_0' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_7s_7_4_1.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'case_1_mac_muladd_3s_3s_7s_7_4_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1_mac_muladd_3s_3s_7s_7_4_1.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'case_1' (0#1) [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1.v:9]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'case_1' declared at '/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1.v:9', named port connection 'in_data_4_address1' does not exist [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:1347]
+ERROR: [Synth 8-11365] for the instance 'inst' of module 'case_1' declared at '/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/d7d8/hdl/verilog/case_1.v:9', named port connection 'in_data_4_q1' does not exist [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:1348]
+ERROR: [Synth 8-6156] failed synthesizing module 'bd_0_hls_inst_0' [/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2249.941 ; gain = 534.648 ; free physical = 93194 ; free virtual = 113145
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+70 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 23 09:58:55 2026...

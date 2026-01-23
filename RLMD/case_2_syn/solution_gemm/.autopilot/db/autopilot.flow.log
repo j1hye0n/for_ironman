@@ -1,0 +1,135 @@
+Execute       source -notrace -encoding utf-8 /tools/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
+Execute         source -encoding utf-8 /tools/Xilinx/2025.1/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
+INFO-FLOW: Workspace /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm opened at Sat Jan 24 00:48:28 KST 2026
+Execute       send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+Execute       create_platform xc7z020clg484-1 -board  
+DBG:HLSDevice: Trying to load device library: /tools/Xilinx/2025.1/Vitis/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /tools/Xilinx/2025.1/Vivado/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+Command       create_platform done; 0.71 sec.
+Execute       source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.11 sec.
+Execute         source /tools/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.14 sec.
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.87 sec.
+Execute     create_clock -period 16.0 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 16.0 -name default 
+Execute       ap_set_clock -name default -period 16 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 16ns.
+Execute     set_directive_pipeline -off case_2/L1 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_2/L1 
+Execute     set_directive_pipeline -off case_2/L2 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_2/L2 
+Execute     set_directive_pipeline -off case_2/L3 
+INFO: [HLS 200-1510] Running: set_directive_pipeline -off case_2/L3 
+Execute     set_directive_bind_op -op mul -impl dsp case_2 m_mult 
+INFO: [HLS 200-1510] Running: set_directive_bind_op -op mul -impl dsp case_2 m_mult 
+Execute     csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute       ::AP::init_summary_file csynth 
+Execute       ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/xilinx-performance-pragma-detector ../CASE/test/gemm.cc -- -fhls -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.cc.xilinx-performance-pragma-detector.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.cc.xilinx-performance-pragma-detector.err.log
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.17 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.21 seconds; current allocated memory: 247.750 MB.
+Execute         set_directive_top case_2 -name=case_2 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/tps/tcl/tcllib2.0/yaml/huddle_types.tcl 
+Execute         source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/json2huddle.tcl 
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/try.tcl 
+INFO: [HLS 200-10] Analyzing design file '../CASE/test/gemm.cc' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling ../CASE/test/gemm.cc as C++
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang ../CASE/test/gemm.cc -foptimization-record-file=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.cc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --gcc-toolchain=/tools/Xilinx/2025.1/Vitis/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -insert-hls-directive=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=16 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.cc.clang.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.cc.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/clang.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/clang.err.log
+Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc  -target fpga  -directive=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/.systemc_flag -fix-errors /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -- - -target fpga -fhls -ferror-limit=0
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc  -target fpga  -directive=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/all.directive.json -fix-errors /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -- - -target fpga -fhls -ferror-limit=0
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc  -target fpga  
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -- - -target fpga -fhls -ferror-limit=0 > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang-tidy.loop-label.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang-tidy.loop-label.err.log
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.xilinx-dataflow-lawyer.diag.yml /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -- - -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.xilinx-dataflow-lawyer.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.xilinx-dataflow-lawyer.err.log
+Execute         ap_part_info -name xc7z020-clg484-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=16 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot -I /tools/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.bc -hls-platform-db-name=/tools/Xilinx/2025.1/Vitis/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg484-1 > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.pp.0.cc.clang.err.log
+Execute         send_msg_by_id WARNING @200-1986@%s%s PIPELINE /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:10 
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:10)
+Execute         send_msg_by_id WARNING @200-1986@%s%s PIPELINE /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:11 
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:11)
+Execute         send_msg_by_id WARNING @200-1986@%s%s PIPELINE /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:12 
+WARNING: [HLS 200-1986] Could not apply PIPELINE directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:12)
+Execute         send_msg_by_id WARNING @200-1986@%s%s BIND_OP /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:13 
+WARNING: [HLS 200-1986] Could not apply BIND_OP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:13)
+Execute         send_msg_by_id WARNING @200-1986@%s%s TOP /home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:16 
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (/home/jjh/RL_test/for_ironman/RLMD/verify_hls.tcl:16)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0.34 seconds. CPU system time: 0.35 seconds. Elapsed time: 0.7 seconds; current allocated memory: 248.191 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute         run_link_or_opt -out /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc -args  "/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.g.bc"  
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/gemm.g.bc -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+Execute         run_link_or_opt -opt -out /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc -args /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Linking math bc lib
+Execute         run_link_or_opt -out /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc -args /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsm_39.bc /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/llvm-link /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.1.lower.bc -only-needed /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsm_39.bc /tools/Xilinx/2025.1/Vitis/lnx64/lib/libhlsmc++_39.bc -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+Command         run_link_or_opt done; 2.21 sec.
+Execute         run_link_or_opt -opt -out /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.3.fpc.bc -args /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=case_2 -reflow-float-conversion 
+INFO-FLOW: run_clang exec: /tools/Xilinx/2025.1/Vitis/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=case_2 -reflow-float-conversion -o /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.3.fpc.bc > /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /home/jjh/RL_test/for_ironman/RLMD/case_2_syn/solution_gemm/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+Execute           source /tools/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/yaml.tcl 
+ERROR: [HLS 214-157] Top function not found: there is no function named 'case_2'
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Caught error in run_link_or_opt: Error in opt
+    while executing
+"ap_internal_run_link_or_opt "
+Command         run_link_or_opt done; error code: 2; 0.78 sec.
+INFO-FLOW: Caught error in elaborate: Error in opt
+    while executing
+"::AP::ap_link_math_libs $link39 $output_name"
+    (procedure "AP::ap_link_39" line 37)
+    invoked from within
+"AP::ap_link_39 [::AP::get_bc_list  $dbgInfo] $skip_transform $LLVMFlags $dbgInfo"
+    (procedure "AP::compile_dut_files_39" line 60)
+    invoked from within
+"AP::compile_dut_files_39 $dut_files $dbgInfo $skip_cdt $skip_transform"
+    (procedure "AP::compile" line 112)
+    invoked from within
+"AP::compile 1 $skip_cdt $skip_transform"
+    (procedure "ap_internal_elaborate" line 81)
+    invoked from within
+"ap_internal_elaborate "
+Command       elaborate done; error code: 2; 3.75 sec.
+INFO-FLOW: Caught error in csynth_design: Error in opt
+    while executing
+"ap_internal_csynth_design "
+Command     csynth_design done; error code: 2; 3.96 sec.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:03; Allocated memory: 2.352 MB.
+Command   ap_source done; error code: 1; 4.89 sec.
+Execute   cleanup_all 

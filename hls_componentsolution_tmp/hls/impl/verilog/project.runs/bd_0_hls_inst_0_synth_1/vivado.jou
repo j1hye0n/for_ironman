@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan 23 09:58:36 2026
+# Process ID         : 1101238
+# Current directory  : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1
+# Command line       : vivado -log bd_0_hls_inst_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_hls_inst_0.tcl
+# Log file           : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.vds
+# Journal file       : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/vivado.jou
+# Running On         : woong-Super-Server
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
+# CPU Frequency      : 3800.010 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 201168 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 217169 MB
+# Available Virtual  : 120003 MB
+#-----------------------------------------------------------
+source bd_0_hls_inst_0.tcl -notrace

@@ -1,0 +1,221 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan 23 09:57:44 2026
+# Process ID         : 1100476
+# Current directory  : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip
+# Command line       : vivado -notrace -mode batch -source run_ippack.tcl
+# Log file           : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/vivado.log
+# Journal file       : /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/vivado.jou
+# Running On         : woong-Super-Server
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.3 LTS
+# Processor Detail   : Intel(R) Xeon(R) W-3235 CPU @ 3.30GHz
+# CPU Frequency      : 3799.995 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 201168 MB
+# Swap memory        : 16000 MB
+# Total Virtual      : 217169 MB
+# Available Virtual  : 120448 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/hls_data.json outdir=/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip srcdir=/home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/misc
+INFO: Copied 29 verilog file(s) to /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/hdl/verilog
+INFO: Copied 28 vhdl file(s) to /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/hdl/vhdl
+INFO: Import ports from HDL: /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/hdl/vhdl/case_1.vhd (case_1)
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst
+INFO: Add ap_ctrl interface ap_ctrl
+INFO: Add data interface in_data_0_address0
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/2025.1/Vivado/data/ip'.
+INFO: Add data interface in_data_0_q0
+INFO: Add data interface in_data_0_address1
+INFO: Add data interface in_data_0_q1
+INFO: Add data interface in_data_1_address0
+INFO: Add data interface in_data_1_d0
+INFO: Add data interface in_data_1_q0
+INFO: Add data interface in_data_1_address1
+INFO: Add data interface in_data_1_d1
+INFO: Add data interface in_data_1_q1
+INFO: Add data interface in_data_2_address0
+INFO: Add data interface in_data_2_q0
+INFO: Add data interface in_data_2_address1
+INFO: Add data interface in_data_2_q1
+INFO: Add data interface in_data_3_address0
+INFO: Add data interface in_data_3_d0
+INFO: Add data interface in_data_3_q0
+INFO: Add data interface in_data_3_address1
+INFO: Add data interface in_data_3_d1
+INFO: Add data interface in_data_3_q1
+INFO: Add data interface in_data_4_address0
+INFO: Add data interface in_data_4_q0
+INFO: Add data interface in_data_4_address1
+INFO: Add data interface in_data_4_q1
+INFO: Add data interface in_data_5_address0
+INFO: Add data interface in_data_5_d0
+INFO: Add data interface in_data_5_q0
+INFO: Add data interface in_data_5_address1
+INFO: Add data interface in_data_5_d1
+INFO: Add data interface in_data_5_q1
+INFO: Add data interface in_data_6_address0
+INFO: Add data interface in_data_6_q0
+INFO: Add data interface in_data_6_address1
+INFO: Add data interface in_data_6_q1
+INFO: Add data interface in_data_7_address0
+INFO: Add data interface in_data_7_d0
+INFO: Add data interface in_data_7_q0
+INFO: Add data interface in_data_7_address1
+INFO: Add data interface in_data_7_d1
+INFO: Add data interface in_data_7_q1
+INFO: Add data interface in_data_8_address0
+INFO: Add data interface in_data_8_q0
+INFO: Add data interface in_data_8_address1
+INFO: Add data interface in_data_8_q1
+INFO: Add data interface in_data_9_address0
+INFO: Add data interface in_data_9_d0
+INFO: Add data interface in_data_9_q0
+INFO: Add data interface in_data_9_address1
+INFO: Add data interface in_data_9_d1
+INFO: Add data interface in_data_9_q1
+INFO: Add data interface in_data_10_address0
+INFO: Add data interface in_data_10_q0
+INFO: Add data interface in_data_10_address1
+INFO: Add data interface in_data_10_q1
+INFO: Add data interface in_data_11_address0
+INFO: Add data interface in_data_11_d0
+INFO: Add data interface in_data_11_q0
+INFO: Add data interface in_data_11_address1
+INFO: Add data interface in_data_11_d1
+INFO: Add data interface in_data_11_q1
+INFO: Add data interface in_data_12_address0
+INFO: Add data interface in_data_12_q0
+INFO: Add data interface in_data_12_address1
+INFO: Add data interface in_data_12_q1
+INFO: Add data interface in_data_13_address0
+INFO: Add data interface in_data_13_d0
+INFO: Add data interface in_data_13_q0
+INFO: Add data interface in_data_13_address1
+INFO: Add data interface in_data_13_d1
+INFO: Add data interface in_data_13_q1
+INFO: Add data interface in_data_14_address0
+INFO: Add data interface in_data_14_q0
+INFO: Add data interface in_data_14_address1
+INFO: Add data interface in_data_14_q1
+INFO: Add data interface in_data_15_address0
+INFO: Add data interface in_data_15_d0
+INFO: Add data interface in_data_15_q0
+INFO: Add data interface in_data_15_address1
+INFO: Add data interface in_data_15_d1
+INFO: Add data interface in_data_15_q1
+INFO: Add data interface in_data_16_address0
+INFO: Add data interface in_data_16_q0
+INFO: Add data interface in_data_17_address0
+INFO: Add data interface in_data_17_d0
+INFO: Add data interface in_data_17_q0
+INFO: Add data interface in_data_17_address1
+INFO: Add data interface in_data_17_d1
+INFO: Add data interface in_data_17_q1
+INFO: Add data interface in_data_18_address0
+INFO: Add data interface in_data_18_d0
+INFO: Add data interface in_data_18_q0
+INFO: Add data interface in_data_18_address1
+INFO: Add data interface in_data_18_d1
+INFO: Add data interface in_data_18_q1
+INFO: Add data interface in_data_19_address0
+INFO: Add data interface in_data_19_d0
+INFO: Add data interface in_data_19_q0
+INFO: Add data interface in_data_19_address1
+INFO: Add data interface in_data_19_d1
+INFO: Add data interface in_data_19_q1
+INFO: Add data interface in_data_20_address0
+INFO: Add data interface in_data_20_d0
+INFO: Add data interface in_data_20_q0
+INFO: Add data interface in_data_20_address1
+INFO: Add data interface in_data_20_d1
+INFO: Add data interface in_data_20_q1
+INFO: Add data interface in_data_21_address0
+INFO: Add data interface in_data_21_d0
+INFO: Add data interface in_data_21_q0
+INFO: Add data interface in_data_21_address1
+INFO: Add data interface in_data_21_d1
+INFO: Add data interface in_data_21_q1
+INFO: Add data interface in_data_22_address0
+INFO: Add data interface in_data_22_d0
+INFO: Add data interface in_data_22_q0
+INFO: Add data interface in_data_22_address1
+INFO: Add data interface in_data_22_d1
+INFO: Add data interface in_data_22_q1
+INFO: Add data interface in_data_23_address0
+INFO: Add data interface in_data_23_d0
+INFO: Add data interface in_data_23_q0
+INFO: Add data interface in_data_23_address1
+INFO: Add data interface in_data_23_d1
+INFO: Add data interface in_data_23_q1
+INFO: Add data interface in_data_24_address0
+INFO: Add data interface in_data_24_d0
+INFO: Add data interface in_data_24_q0
+INFO: Add data interface in_data_24_address1
+INFO: Add data interface in_data_24_d1
+INFO: Add data interface in_data_24_q1
+INFO: Add data interface in_data_25_address0
+INFO: Add data interface in_data_25_d0
+INFO: Add data interface in_data_25_q0
+INFO: Add data interface in_data_25_address1
+INFO: Add data interface in_data_25_d1
+INFO: Add data interface in_data_25_q1
+INFO: Add data interface in_data_26_address0
+INFO: Add data interface in_data_26_d0
+INFO: Add data interface in_data_26_q0
+INFO: Add data interface in_data_26_address1
+INFO: Add data interface in_data_26_d1
+INFO: Add data interface in_data_26_q1
+INFO: Add data interface in_data_27_address0
+INFO: Add data interface in_data_27_d0
+INFO: Add data interface in_data_27_q0
+INFO: Add data interface in_data_27_address1
+INFO: Add data interface in_data_27_d1
+INFO: Add data interface in_data_27_q1
+INFO: Add data interface in_data_28_address0
+INFO: Add data interface in_data_28_d0
+INFO: Add data interface in_data_28_q0
+INFO: Add data interface in_data_28_address1
+INFO: Add data interface in_data_28_d1
+INFO: Add data interface in_data_28_q1
+INFO: Add data interface in_data_29_address0
+INFO: Add data interface in_data_29_d0
+INFO: Add data interface in_data_29_q0
+INFO: Add data interface in_data_29_address1
+INFO: Add data interface in_data_29_d1
+INFO: Add data interface in_data_29_q1
+INFO: Add data interface in_data_30_address0
+INFO: Add data interface in_data_30_d0
+INFO: Add data interface in_data_30_q0
+INFO: Add data interface in_data_30_address1
+INFO: Add data interface in_data_30_d1
+INFO: Add data interface in_data_30_q1
+INFO: Add data interface in_data_31_address0
+INFO: Add data interface in_data_31_d0
+INFO: Add data interface in_data_31_q0
+INFO: Add data interface in_data_31_address1
+INFO: Add data interface in_data_31_d1
+INFO: Add data interface in_data_31_q1
+INFO: Add data interface in_scalar_address0
+INFO: Add data interface in_scalar_q0
+INFO: Add data interface in_scalar_address1
+INFO: Add data interface in_scalar_q1
+INFO: Add data interface out_data_0
+INFO: Add data interface out_data_1
+INFO: Add data interface out_data_2
+INFO: Add data interface out_data_3
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/component.xml
+INFO: Created IP archive /home/jjh/RL_test/for_ironman/hls_componentsolution_tmp/hls/impl/ip/xilinx_com_hls_case_1_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 23 09:57:52 2026...

@@ -1,0 +1,16 @@
+{
+    "solution_1": {
+        "directives": [
+            "set_directive_pipeline -off \"gemm/outer\"",
+            "set_directive_pipeline -off \"gemm/middle\"",
+            "set_directive_pipeline -off \"gemm/inner\"",
+            "set_directive_bind_op -op mul -impl dsp \"gemm\" mult"
+        ],
+        "LUT_op": [],
+        "SLICE": 0,
+        "LUT": 587,
+        "FF": 0,
+        "DSP": 0,
+        "CP": 0.0
+    }
+}

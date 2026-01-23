@@ -29,7 +29,7 @@ graphs = pickle.load(fp)
 fp.close()
 
 graph_labels_lut = pd.read_csv('graph_target_lut.csv')
-graph_labels_lut = np.log1p(graph_labels_lut)
+graph_labels_lut = graph_labels_lut
 graph_labels_lut = pd.get_dummies(graph_labels_lut, drop_first=True)
 
 generator = PaddedGraphGenerator(graphs=graphs)
@@ -43,15 +43,15 @@ def create_graph_model(generator):
     )
     x_inp, x_out = gc_model.in_out_tensors()
 
-    predictions1 = Dense(units=64, kernel_initializer=HeNormal())(x_out)
+    predictions1 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.05))(x_out)
     predictions1 = Dropout(0.1)(predictions1)
     predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
-    predictions1 = Dense(units=64, kernel_initializer=HeNormal())(predictions1)
+    predictions1 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.05))(predictions1)
     predictions1 = Dropout(0.1)(predictions1)
     predictions1 = LeakyReLU(alpha=0.1)(predictions1)
 
-    predictions2 = Dense(units=64, kernel_initializer=HeNormal())(predictions1)
+    predictions2 = Dense(units=64, kernel_initializer=tf.keras.initializers.Constant(value=0.05))(predictions1)
     predictions2 = Dropout(0.1)(predictions2)
     predictions2 = LeakyReLU(alpha=0.1)(predictions2)
 
@@ -112,11 +112,11 @@ def main(args):
         fold_df['epoch'] = range(1, len(fold_df) + 1)
         all_histories.append(fold_df)
 
-    model.save('model_proxy_lut.h5')
-    model0.save('model_embedding_lut.h5')
+    model.save('model_proxy_lut_1.h5')
+    model0.save('model_embedding_lut_1.h5')
 
     final_history_df = pd.concat(all_histories, ignore_index=True)
-    final_history_df.to_csv('training_history_lut.csv', index=False)
+    final_history_df.to_csv('training_history_lut_4.csv', index=False)
     print("Training history saved to 'training_history_lut.csv'")
 
 

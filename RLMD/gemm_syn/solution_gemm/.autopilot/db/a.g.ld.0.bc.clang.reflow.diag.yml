@@ -1,0 +1,11 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_gemm_ir
+Args:            
+  - Callee:          'gemm(double*, double*, double*)'
+    DebugLoc:        { File: ../CASE/test/gemm.cc, Line: 3, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_gemm_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
