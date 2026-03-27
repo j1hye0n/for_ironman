@@ -18,4 +18,4 @@ algorithms.
 [Ironman-pro](https://github.com/lydiawunan/IronMan)
 
 ## Poster
-![poster](./KCS 2026 HLS 포스터.pdf)
+![poster](./2026KCS.pdf)
